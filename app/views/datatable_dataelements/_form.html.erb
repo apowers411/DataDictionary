@@ -1,0 +1,25 @@
+<%= form_for(@datatable_dataelement) do |f| %>
+  <% if @datatable_dataelement.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@datatable_dataelement.errors.count, "error") %> prohibited this datatable_dataelement from being saved:</h2>
+
+      <ul>
+      <% @datatable_dataelement.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :datatable_id %><br />
+    <%= f.number_field :datatable_id %>
+  </div>
+  <div class="field">
+    <%= f.label :dataelement_id %><br />
+    <%= f.number_field :dataelement_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

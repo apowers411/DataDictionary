@@ -1,0 +1,33 @@
+<%= form_for(@profilepage) do |f| %>
+  <% if @profilepage.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@profilepage.errors.count, "error") %> prohibited this profilepage from being saved:</h2>
+
+      <ul>
+      <% @profilepage.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :vertical %><br />
+    <%= f.text_field :vertical %>
+  </div>
+  <div class="field">
+    <%= f.label :url %><br />
+    <%= f.text_field :url %>
+  </div>
+  <div class="field">
+    <%= f.label :tab %><br />
+    <%= f.text_field :tab %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

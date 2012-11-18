@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  originalname: MyString
+  devname: MyString
+  datatype: MyString
+  description: MyText
+  devtable: MyString
+  analysistype: MyString
+  format: MyString
+  in_house_formula: MyText
+  recode: MyText
+  comments: MyText
+
+two:
+  originalname: MyString
+  devname: MyString
+  datatype: MyString
+  description: MyText
+  devtable: MyString
+  analysistype: MyString
+  format: MyString
+  in_house_formula: MyText
+  recode: MyText
+  comments: MyText

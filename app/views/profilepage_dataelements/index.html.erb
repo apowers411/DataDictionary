@@ -1,0 +1,31 @@
+<h1>Listing profilepage_dataelements</h1>
+
+<table>
+  <tr>
+    <th>Profilepage</th>
+    <th>Dataelement</th>
+    <th>Devformula</th>
+    <th>Lastupdated</th>
+    <th>Comments</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @profilepage_dataelements.each do |profilepage_dataelement| %>
+  <tr>
+    <td><%= profilepage_dataelement.profilepage_id %></td>
+    <td><%= profilepage_dataelement.dataelement_id %></td>
+    <td><%= profilepage_dataelement.devformula %></td>
+    <td><%= profilepage_dataelement.lastupdated %></td>
+    <td><%= profilepage_dataelement.comments %></td>
+    <td><%= link_to 'Show', profilepage_dataelement %></td>
+    <td><%= link_to 'Edit', edit_profilepage_dataelement_path(profilepage_dataelement) %></td>
+    <td><%= link_to 'Destroy', profilepage_dataelement, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Profilepage dataelement', new_profilepage_dataelement_path %>

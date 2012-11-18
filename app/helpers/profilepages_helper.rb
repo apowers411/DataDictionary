@@ -1,0 +1,2 @@
+module ProfilepagesHelper
+end

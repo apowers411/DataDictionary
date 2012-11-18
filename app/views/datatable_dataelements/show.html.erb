@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Datatable:</b>
+  <%= @datatable_dataelement.datatable_id %>
+</p>
+
+<p>
+  <b>Dataelement:</b>
+  <%= @datatable_dataelement.dataelement_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_datatable_dataelement_path(@datatable_dataelement) %> |
+<%= link_to 'Back', datatable_dataelements_path %>

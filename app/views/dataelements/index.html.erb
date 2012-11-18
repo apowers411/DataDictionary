@@ -1,0 +1,41 @@
+<h1>Listing dataelements</h1>
+
+<table>
+  <tr>
+    <th>Originalname</th>
+    <th>Devname</th>
+    <th>Datatype</th>
+    <th>Description</th>
+    <th>Devtable</th>
+    <th>Analysistype</th>
+    <th>Format</th>
+    <th>In house formula</th>
+    <th>Recode</th>
+    <th>Comments</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @dataelements.each do |dataelement| %>
+  <tr>
+    <td><%= dataelement.originalname %></td>
+    <td><%= dataelement.devname %></td>
+    <td><%= dataelement.datatype %></td>
+    <td><%= dataelement.description %></td>
+    <td><%= dataelement.devtable %></td>
+    <td><%= dataelement.analysistype %></td>
+    <td><%= dataelement.format %></td>
+    <td><%= dataelement.in_house_formula %></td>
+    <td><%= dataelement.recode %></td>
+    <td><%= dataelement.comments %></td>
+    <td><%= link_to 'Show', dataelement %></td>
+    <td><%= link_to 'Edit', edit_dataelement_path(dataelement) %></td>
+    <td><%= link_to 'Destroy', dataelement, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Dataelement', new_dataelement_path %>

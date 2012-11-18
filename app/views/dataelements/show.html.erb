@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Originalname:</b>
+  <%= @dataelement.originalname %>
+</p>
+
+<p>
+  <b>Devname:</b>
+  <%= @dataelement.devname %>
+</p>
+
+<p>
+  <b>Datatype:</b>
+  <%= @dataelement.datatype %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @dataelement.description %>
+</p>
+
+<p>
+  <b>Devtable:</b>
+  <%= @dataelement.devtable %>
+</p>
+
+<p>
+  <b>Analysistype:</b>
+  <%= @dataelement.analysistype %>
+</p>
+
+<p>
+  <b>Format:</b>
+  <%= @dataelement.format %>
+</p>
+
+<p>
+  <b>In house formula:</b>
+  <%= @dataelement.in_house_formula %>
+</p>
+
+<p>
+  <b>Recode:</b>
+  <%= @dataelement.recode %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%= @dataelement.comments %>
+</p>
+
+
+<%= link_to 'Edit', edit_dataelement_path(@dataelement) %> |
+<%= link_to 'Back', dataelements_path %>

@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Profilepage:</b>
+  <%= @profilepage_dataelement.profilepage_id %>
+</p>
+
+<p>
+  <b>Dataelement:</b>
+  <%= @profilepage_dataelement.dataelement_id %>
+</p>
+
+<p>
+  <b>Devformula:</b>
+  <%= @profilepage_dataelement.devformula %>
+</p>
+
+<p>
+  <b>Lastupdated:</b>
+  <%= @profilepage_dataelement.lastupdated %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%= @profilepage_dataelement.comments %>
+</p>
+
+
+<%= link_to 'Edit', edit_profilepage_dataelement_path(@profilepage_dataelement) %> |
+<%= link_to 'Back', profilepage_dataelements_path %>

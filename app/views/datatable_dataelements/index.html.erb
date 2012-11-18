@@ -1,0 +1,25 @@
+<h1>Listing datatable_dataelements</h1>
+
+<table>
+  <tr>
+    <th>Datatable</th>
+    <th>Dataelement</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @datatable_dataelements.each do |datatable_dataelement| %>
+  <tr>
+    <td><%= datatable_dataelement.datatable_id %></td>
+    <td><%= datatable_dataelement.dataelement_id %></td>
+    <td><%= link_to 'Show', datatable_dataelement %></td>
+    <td><%= link_to 'Edit', edit_datatable_dataelement_path(datatable_dataelement) %></td>
+    <td><%= link_to 'Destroy', datatable_dataelement, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Datatable dataelement', new_datatable_dataelement_path %>

@@ -1,0 +1,57 @@
+<%= form_for(@dataelement) do |f| %>
+  <% if @dataelement.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@dataelement.errors.count, "error") %> prohibited this dataelement from being saved:</h2>
+
+      <ul>
+      <% @dataelement.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :originalname %><br />
+    <%= f.text_field :originalname %>
+  </div>
+  <div class="field">
+    <%= f.label :devname %><br />
+    <%= f.text_field :devname %>
+  </div>
+  <div class="field">
+    <%= f.label :datatype %><br />
+    <%= f.text_field :datatype %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :devtable %><br />
+    <%= f.text_field :devtable %>
+  </div>
+  <div class="field">
+    <%= f.label :analysistype %><br />
+    <%= f.text_field :analysistype %>
+  </div>
+  <div class="field">
+    <%= f.label :format %><br />
+    <%= f.text_field :format %>
+  </div>
+  <div class="field">
+    <%= f.label :in_house_formula %><br />
+    <%= f.text_area :in_house_formula %>
+  </div>
+  <div class="field">
+    <%= f.label :recode %><br />
+    <%= f.text_area :recode %>
+  </div>
+  <div class="field">
+    <%= f.label :comments %><br />
+    <%= f.text_area :comments %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

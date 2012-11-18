@@ -1,4 +1,16 @@
 DataDictionary::Application.routes.draw do
+  resources :dataelements
+
+  resources :profilepage_dataelements
+
+  resources :datatable_dataelements
+
+  resources :profilepages
+
+  resources :datatables
+
+  resources :datasources
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

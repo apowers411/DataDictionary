@@ -7,8 +7,38 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div class="container">
+		  <div class="row">
+		    <div class="span9"><%= yield %></div>
+		    <div class="span3">
+		      <h2>About Metadata</h2>
+		      <ul><li>Enter Source first</li></ul>       
+		    </div>
+		  </div>
+		</div>
 
-<%= yield %>
+
+		<div class="navbar navbar-fixed-top">
+		  <div class="navbar-inner">
+		    <div class="container">
+		      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </a>
+		      <a class="brand" href="#">Data Dictionary</a>
+		      <div class="nav-collapse">
+		        <ul class="nav">
+		          <li><%= link_to "Sources", datasources_path %></li>
+		          <li><%= link_to "Data Tables", datatables_path %></li>
+		          <li><%= link_to "Profile Pages", profilepages_path %></li>
+		          <li><%= link_to "Data Elements", dataelements_path %></li>
+		        </ul>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
 
 </body>
 </html>

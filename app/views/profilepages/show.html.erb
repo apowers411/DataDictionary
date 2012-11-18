@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Vertical:</b>
+  <%= @profilepage.vertical %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @profilepage.url %>
+</p>
+
+<p>
+  <b>Tab:</b>
+  <%= @profilepage.tab %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @profilepage.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_profilepage_path(@profilepage) %> |
+<%= link_to 'Back', profilepages_path %>

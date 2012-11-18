@@ -1,0 +1,37 @@
+<%= form_for(@profilepage_dataelement) do |f| %>
+  <% if @profilepage_dataelement.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@profilepage_dataelement.errors.count, "error") %> prohibited this profilepage_dataelement from being saved:</h2>
+
+      <ul>
+      <% @profilepage_dataelement.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :profilepage_id %><br />
+    <%= f.number_field :profilepage_id %>
+  </div>
+  <div class="field">
+    <%= f.label :dataelement_id %><br />
+    <%= f.number_field :dataelement_id %>
+  </div>
+  <div class="field">
+    <%= f.label :devformula %><br />
+    <%= f.text_area :devformula %>
+  </div>
+  <div class="field">
+    <%= f.label :lastupdated %><br />
+    <%= f.date_select :lastupdated %>
+  </div>
+  <div class="field">
+    <%= f.label :comments %><br />
+    <%= f.text_area :comments %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

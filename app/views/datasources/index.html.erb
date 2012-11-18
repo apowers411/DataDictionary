@@ -1,0 +1,29 @@
+<h1>Listing datasources</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Website</th>
+    <th>Description</th>
+    <th>Comments</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @datasources.each do |datasource| %>
+  <tr>
+    <td><%= datasource.name %></td>
+    <td><%= datasource.website %></td>
+    <td><%= datasource.description %></td>
+    <td><%= datasource.comments %></td>
+    <td><%= link_to 'Show', datasource %></td>
+    <td><%= link_to 'Edit', edit_datasource_path(datasource) %></td>
+    <td><%= link_to 'Destroy', datasource, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Datasource', new_datasource_path %>

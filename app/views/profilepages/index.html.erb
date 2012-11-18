@@ -1,0 +1,29 @@
+<h1>Listing profilepages</h1>
+
+<table>
+  <tr>
+    <th>Vertical</th>
+    <th>Url</th>
+    <th>Tab</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @profilepages.each do |profilepage| %>
+  <tr>
+    <td><%= profilepage.vertical %></td>
+    <td><%= profilepage.url %></td>
+    <td><%= profilepage.tab %></td>
+    <td><%= profilepage.description %></td>
+    <td><%= link_to 'Show', profilepage %></td>
+    <td><%= link_to 'Edit', edit_profilepage_path(profilepage) %></td>
+    <td><%= link_to 'Destroy', profilepage, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Profilepage', new_profilepage_path %>

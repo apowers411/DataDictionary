@@ -1,25 +1,27 @@
-<p id="notice"><%= notice %></p>
+<%- model_class = Profilepage -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human %></h1>
+</div>
 
-<p>
-  <b>Vertical:</b>
-  <%= @profilepage.vertical %>
-</p>
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:vertical) %>:</strong></dt>
+  <dd><%= @profilepage.vertical %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:url) %>:</strong></dt>
+  <dd><%= @profilepage.url %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:tab) %>:</strong></dt>
+  <dd><%= @profilepage.tab %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:description) %>:</strong></dt>
+  <dd><%= @profilepage.description %></dd>
+</dl>
 
-<p>
-  <b>Url:</b>
-  <%= @profilepage.url %>
-</p>
-
-<p>
-  <b>Tab:</b>
-  <%= @profilepage.tab %>
-</p>
-
-<p>
-  <b>Description:</b>
-  <%= @profilepage.description %>
-</p>
-
-
-<%= link_to 'Edit', edit_profilepage_path(@profilepage) %> |
-<%= link_to 'Back', profilepages_path %>
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              profilepages_path, :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_profilepage_path(@profilepage), :class => 'btn' %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              profilepage_path(@profilepage),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>
+</div>

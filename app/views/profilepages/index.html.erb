@@ -1,29 +1,42 @@
-<h1>Listing profilepages</h1>
-
-<table>
-  <tr>
-    <th>Vertical</th>
-    <th>Url</th>
-    <th>Tab</th>
-    <th>Description</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @profilepages.each do |profilepage| %>
-  <tr>
-    <td><%= profilepage.vertical %></td>
-    <td><%= profilepage.url %></td>
-    <td><%= profilepage.tab %></td>
-    <td><%= profilepage.description %></td>
-    <td><%= link_to 'Show', profilepage %></td>
-    <td><%= link_to 'Edit', edit_profilepage_path(profilepage) %></td>
-    <td><%= link_to 'Destroy', profilepage, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
+<%- model_class = Profilepage -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:vertical) %></th>
+      <th><%= model_class.human_attribute_name(:url) %></th>
+      <th><%= model_class.human_attribute_name(:tab) %></th>
+      <th><%= model_class.human_attribute_name(:description) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @profilepages.each do |profilepage| %>
+      <tr>
+        <td><%= link_to profilepage.id, profilepage_path(profilepage) %></td>
+        <td><%= profilepage.vertical %></td>
+        <td><%= profilepage.url %></td>
+        <td><%= profilepage.tab %></td>
+        <td><%= profilepage.description %></td>
+        <td><%=l profilepage.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_profilepage_path(profilepage), :class => 'btn btn-mini' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      profilepage_path(profilepage),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-mini btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
 </table>
 
-<br />
-
-<%= link_to 'New Profilepage', new_profilepage_path %>
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_profilepage_path,
+            :class => 'btn btn-primary' %>

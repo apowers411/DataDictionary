@@ -1,33 +1,32 @@
-<%= form_for(@profilepage) do |f| %>
-  <% if @profilepage.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@profilepage.errors.count, "error") %> prohibited this profilepage from being saved:</h2>
-
-      <ul>
-      <% @profilepage.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
+<%= form_for @profilepage, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :vertical, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :vertical, :class => 'text_field' %>
     </div>
-  <% end %>
+  </div>
+  <div class="control-group">
+    <%= f.label :url, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :url, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :tab, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :tab, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :description, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_area :description, :class => 'text_area' %>
+    </div>
+  </div>
 
-  <div class="field">
-    <%= f.label :vertical %><br />
-    <%= f.text_field :vertical %>
-  </div>
-  <div class="field">
-    <%= f.label :url %><br />
-    <%= f.text_field :url %>
-  </div>
-  <div class="field">
-    <%= f.label :tab %><br />
-    <%= f.text_field :tab %>
-  </div>
-  <div class="field">
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                profilepages_path, :class => 'btn' %>
   </div>
 <% end %>

@@ -1,55 +1,39 @@
-<p id="notice"><%= notice %></p>
+<%- model_class = Dataelement -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human %></h1>
+</div>
 
-<p>
-  <b>Originalname:</b>
-  <%= @dataelement.originalname %>
-</p>
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:originalname) %>:</strong></dt>
+  <dd><%= @dataelement.originalname %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:devname) %>:</strong></dt>
+  <dd><%= @dataelement.devname %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:datatype) %>:</strong></dt>
+  <dd><%= @dataelement.datatype %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:description) %>:</strong></dt>
+  <dd><%= @dataelement.description %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:devtable) %>:</strong></dt>
+  <dd><%= @dataelement.devtable %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:analysistype) %>:</strong></dt>
+  <dd><%= @dataelement.analysistype %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:format) %>:</strong></dt>
+  <dd><%= @dataelement.format %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:in_house_formula) %>:</strong></dt>
+  <dd><%= @dataelement.in_house_formula %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:recode) %>:</strong></dt>
+  <dd><%= @dataelement.recode %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:comments) %>:</strong></dt>
+  <dd><%= @dataelement.comments %></dd>
+</dl>
 
-<p>
-  <b>Devname:</b>
-  <%= @dataelement.devname %>
-</p>
-
-<p>
-  <b>Datatype:</b>
-  <%= @dataelement.datatype %>
-</p>
-
-<p>
-  <b>Description:</b>
-  <%= @dataelement.description %>
-</p>
-
-<p>
-  <b>Devtable:</b>
-  <%= @dataelement.devtable %>
-</p>
-
-<p>
-  <b>Analysistype:</b>
-  <%= @dataelement.analysistype %>
-</p>
-
-<p>
-  <b>Format:</b>
-  <%= @dataelement.format %>
-</p>
-
-<p>
-  <b>In house formula:</b>
-  <%= @dataelement.in_house_formula %>
-</p>
-
-<p>
-  <b>Recode:</b>
-  <%= @dataelement.recode %>
-</p>
-
-<p>
-  <b>Comments:</b>
-  <%= @dataelement.comments %>
-</p>
-
-
-<%= link_to 'Edit', edit_dataelement_path(@dataelement) %> |
-<%= link_to 'Back', dataelements_path %>
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              dataelements_path, :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_dataelement_path(@dataelement), :class => 'btn' %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              dataelement_path(@dataelement),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>
+</div>

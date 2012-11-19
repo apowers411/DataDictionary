@@ -22,7 +22,7 @@
         <td><%= profilepage.url %></td>
         <td><%= profilepage.tab %></td>
         <td><%= profilepage.description %></td>
-        <td><%=l profilepage.created_at %></td>
+        <td><%= profilepage.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_profilepage_path(profilepage), :class => 'btn btn-mini' %>

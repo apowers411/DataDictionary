@@ -24,7 +24,7 @@
         <td><%= datatable.location %></td>
         <td><%= datatable.year %></td>
         <td><%= datatable.importdetail %></td>
-        <td><%=l datatable.created_at %></td>
+        <td><%= datatable.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_datatable_path(datatable), :class => 'btn btn-mini' %>

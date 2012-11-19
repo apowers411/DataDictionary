@@ -34,7 +34,7 @@
         <td><%= dataelement.in_house_formula %></td>
         <td><%= dataelement.recode %></td>
         <td><%= dataelement.comments %></td>
-        <td><%=l dataelement.created_at %></td>
+        <td><%= dataelement.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_dataelement_path(dataelement), :class => 'btn btn-mini' %>

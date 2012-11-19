@@ -1,0 +1,10 @@
+1|UNITID|unitid||Unique identification number of the institution||continuous||||Every table must have this variable||
+2|INSTNM|name||Institution (entity) name||other||||||
+3|ADDR|address||Street address or post office box||other||||||
+4|CITY|city||City location of institution||other||||||
+5|STABBR|province||State abbreviation||other||||||
+6|ZIP|postal||ZIP code||other||||||
+7|FIPS|fips||FIPS state code||categorical||||||
+8|OBEREG|region||Geographic region {0=US Service schools; 1=New England; 2=Mid East; 3=Great Lakes; 4=Plains; 5=Southeast; 6=Southwest; 7=Rocky Mountains; 8=Far West; 9=Outlying areas}||categorical||||||
+9|CHFNM|contact_head_name||Name of chief administrator||other||||||
+10|CHFTITLE|contact_head_title||Title of chief administrator||other||||||

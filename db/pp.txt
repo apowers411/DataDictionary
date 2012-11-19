@@ -1,0 +1,7 @@
+1|College|www.noodle.org/college/[name]#overview|Overview|Provides statements about the school and from leading professionals say about the school||
+2|College|www.noodle.org/college/[name]#academics|Academics|Provides information about areas of study, faculty, class sizes, and graduation rates||
+3|College|www.noodle.org/college/[name]#studentLife|Student Life|Provides information about the student body, activities and housing options||
+4|College|www.noodle.org/college/[name]#finance|Finance|Provides information about tuition, financial aid, and overall costs of each school||
+5|College|www.noodle.org/college/[name]#admissions|Admissions|Provides information about what the school is looking for when admitting first-time first-year students||
+6|College|www.noodle.org/college/[name]#applying|Applying|Provides deadlines and contact information for the application process||
+7|College|www.noodle.org/college/[name]#rankings|Rankings|Collection of rankings and reports from various sources||

@@ -1,0 +1,21 @@
+1|1|hd2011|Dropbox/College Update 2012/IPEDS Source data/|2011||||Directory information (name, address, website, etc..)
+2|1|ic2011|Dropbox/College Update 2012/IPEDS Source data/|2011||||Educational offerings, organization, admissions, services and athletic associations
+3|1|ic2011_ay|Dropbox/College Update 2012/IPEDS Source data/|2011||||Student charges for academic year programs
+4|1|ic2011_py|Dropbox/College Update 2012/IPEDS Source data/|2011||||Student charges by program (vocational programs)
+5|1|flags2011|Dropbox/College Update 2012/IPEDS Source data/|2011||||Response status for all survey components
+6|1|effy2011|Dropbox/College Update 2012/IPEDS Source data/|2011||||12-month unduplicated headcount: 2010-11
+7|1|efia2011|Dropbox/College Update 2012/IPEDS Source data/|2011||||12-month instructional activity: 2010-11
+8|1|c2011_a|Dropbox/College Update 2012/IPEDS Source data/|2011||||Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 2010-11
+9|1|sal2011_a|Dropbox/College Update 2012/IPEDS Source data/|2011||||Salaries of full-time instructional staff, by contract length, gender, and academic rank: Academic year 2011-12
+10|1|sal2011_faculty|Dropbox/College Update 2012/IPEDS Source data/|2011||||Faculty status of full-time instructional staff in 4-year institutions, by contract length, gender, and academic rank: Academic year 2011-12
+11|1|sal2011_a_lt9|Dropbox/College Update 2012/IPEDS Source data/|2011||||Number of full-time instructional faculty with less than 9-month contracts, by gender and academic rank: Academic year 2011-12
+12|1|s2011_abd|Dropbox/College Update 2012/IPEDS Source data/|2011||||Employees by primary occupation, salary categories, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2011
+13|1|s2011_f|Dropbox/College Update 2012/IPEDS Source data/|2011||||Full-time instruction/research/public service staff, by faculty status, academic rank, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2011
+14|1|s2011_g|Dropbox/College Update 2012/IPEDS Source data/|2011||||New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2011
+15|1|s2011_cn|Dropbox/College Update 2012/IPEDS Source data/|2011||||Employees by primary occupation, race/ethnicity, and gender (Degree-granting institutions with less than 15 full-time employees and all nondegree-granting institutions): Fall 2011
+16|1|eap2011|Dropbox/College Update 2012/IPEDS Source data/|2011||||Employees by faculty status, primary function/occupational activity: Fall 2011
+17|1|sfa1011|Dropbox/College Update 2012/IPEDS Source data/|2011||||Student financial aid and net price: 2010-11
+18|1|ef2010d|Dropbox/College Update 2012/IPEDS Source data/|2010||||Total entering class, retention rates, and student-to-faculty ratio: Fall 2010
+19|1|gr200_10|Dropbox/College Update 2012/IPEDS Source data/|2010||||Graduation rate data, 200% of normal time to complete - cohort year 2002 (4-year) and cohort year 2006 (less-than-4-year) institutions
+20|2|cdsdirect|Dropbox/College Update 2012/CDS Direct/|2011||||Relevent information taken from the CDS surveys provided by the specific college or university's website
+21|3|cbprofiledata|Dropbox/College Update 2012/College Board/|2011||||Relevent information taken from College Board profiles

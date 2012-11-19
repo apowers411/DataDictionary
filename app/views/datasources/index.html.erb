@@ -22,7 +22,7 @@
         <td><%= datasource.website %></td>
         <td><%= datasource.description %></td>
         <td><%= datasource.comments %></td>
-        <td><%=l datasource.created_at %></td>
+        <td><%= datasource.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_datasource_path(datasource), :class => 'btn btn-mini' %>

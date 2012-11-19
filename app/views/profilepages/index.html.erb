@@ -6,11 +6,10 @@
   <thead>
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:tab) %></th>
       <th><%= model_class.human_attribute_name(:vertical) %></th>
       <th><%= model_class.human_attribute_name(:url) %></th>
-      <th><%= model_class.human_attribute_name(:tab) %></th>
       <th><%= model_class.human_attribute_name(:description) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -18,11 +17,10 @@
     <% @profilepages.each do |profilepage| %>
       <tr>
         <td><%= link_to profilepage.id, profilepage_path(profilepage) %></td>
+        <td><%= link_to profilepage.tab, profilepage %></td>
         <td><%= profilepage.vertical %></td>
         <td><%= profilepage.url %></td>
-        <td><%= profilepage.tab %></td>
         <td><%= profilepage.description %></td>
-        <td><%= profilepage.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_profilepage_path(profilepage), :class => 'btn btn-mini' %>

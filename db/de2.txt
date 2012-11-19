@@ -1,0 +1,1323 @@
+11|GENTELE|gen_phone||General information telephone number||other||||||
+12|EIN|ein||Employer Identification Number||continuous||||||
+13|OPEID|opeid||Office of Postsecondary Education (OPE) ID Number||continuous||||||
+14|OPEFLAG|ope_titleiv||OPE Title IV eligibility indicator code {1=Participates in Title IV federal financial aid programs; 2=Branch campus of a main campus that participates in Title IV; 5=Not currently participating in Title IV, has an OPE ID number; 6=Not currently participating in Title IV, does not have OPE ID number; 7=Stopped participating during the survey year}||categorical||||||
+15|WEBADDR|website||Institution's internet website address||other||||||
+16|ADMINURL|admission_url||Admissions office web address||other||||||
+17|FAIDURL|financial_aid_url||Financial aid office web address||other||||||
+18|APPLURL|application_url||Online application web address||other||||||
+19|NPRICURL|netprice_url||Net price calculator web address||other||||||
+20|SECTOR|sector||Sector of institution {0=Administrative unit; 1=Public 4-year or above; 2=Private not-for-profit 4-year or above; 3=Private for-profit 4-year or above; 4=Public, 2-year; 5=Private not-for-profit 2-year; 6=Private for-profit 2-year; 7=Public less-than 2-year; 8=Private not-for-profit less-than 2-year; 9=Private for-profit less-than 2-year; 99=Sector unknown (not active)}||categorical||||||
+21|ICLEVEL|inst_level||Level of institution {1=4 or more years; 2=between 2 and 4; 3=less than 2 years; -3=Not available}||categorical||||||
+22|CONTROL|control||Control of institution {1=Public; 2=Private not-for-profit; 3=Private for-profit; -3=Not Available}||categorical||||||
+23|HLOFFER|level_postsec_highest||Highest level of offering {1=Award of less than one academic year; 2=At least 1 but less than 2 academic yrs; 3=Associate's degree; 4=At least 2 but less than 4 academic yrs; 5=Bachelor's degree; 6=Postbaccalaureate certificate; 7=Master's degree; 8=Post-master's certificate; 9=Doctor's degree; -3=Not available}||categorical||||||
+24|UGOFFER|undergrad_offer||Undergraduate offering||dichotomous||||||
+25|GROFFER|graduate_offer||Graduate offering||dichotomous||||||
+26|HDEGOFR1|level_postsec||Highest degree offered {11=Doctor's degree-research/scholarship and professional practice; 12=Doctor's degree - research/scholarship; 13=Doctor's degree - professional practice; 14=Doctor's degree - other; 20=Master's degree; 30=Bachelor's degree; 40=Associate's degree; 0=Non-degree granting; -3=Not available}||dichotomous||||||
+27|DEGGRANT|degree_granting||Degree-granting status||dichotomous||||||
+28|HBCU|character_historically_black||Historically Black College or University||dichotomous||||||
+29|HOSPITAL|hospital||Institution has hospital||dichotomous||||||
+30|MEDICAL|medical_granting||Institution grants a medical degree||dichotomous||||||
+31|TRIBAL|character_tribal||Tribal college||dichotomous||||||
+32|LOCALE|locale||Degree of urbanization (Urban-centric locale) {11=City-Large; 12=City-Midsize; 13=City-Small; 21=Suburb-Large; 22=Suburb-Midsize; 23=Suburb-Small; 31=Town-Fringe; 32=Town-Distant; 33=Town-Remote; 41=Rural-Fringe; 42=Rural-Distant; 43=Rural-Remote; -3=Not available}||categorical||||||
+33|OPENPUBL|admit_open||Institution open to the general public||dichotomous||||||
+34|ACT|active_last||Status of institution {A=Active-institution active; N=New (active)-added during the current year; R=Restore (active)-restored to the current universe; M=Closed in current year (active has data); C=Combined with other institution; D=Delete out of business; O=Out-of-scop of IPEDS-not postsecondary}||categorical||||||
+35|NEWID|mergedid||UNITID for merged schools||continuous||||||
+36|DEATHYR|delete_yr||Year institution was deleted from IPEDS||other||||||
+37|CLOSEDAT|closed||Date institution closed||other||||||
+38|CYACTIVE|active||Institution is active in current year||dichotomous||||||
+39|POSTSEC|postsec_primary||Primarily postsecondary indicator||dichotomous||||||
+40|PSEFLAG|postsec_active||Postsecondary institution indicator||dichotomous||||||
+41|PSET4FLG|finaid_titleiv||Postsecondary and Title IV institution indicator {1=Title IV postsecondary institution; 2=Non-Title IV postsecondary institution; 3=Title IV NOT primarily postsecondary institution; 4=Non-Title IV NOT primarily postsecondary institution; 6=Non-Title IV postsecondary institution that is NOT open to the public; 9=Institution is not active in current universe}||categorical||||||
+42|RPTMTH|report_method||Reporting method for student charges, graduation rates, retention rates and student financial aid {1=Student charges for full academic year and fall GR/SFA/retention rate cohort; 3=Student charges for full academic year and full-year GR/SFA/retention rate cohort; 2=Student charges by program and full-year GR/SFA/retention rate cohort; -2=Not applicable}||categorical||||||
+43|IALIAS|name_known_as_also||Institution name alias||other||||||
+44|INSTCAT|inst_category||Institutional category {1=Degree-granting graduate with no undergraduate degrees; 2=Degree-granting primarily baccalaureate or above; 3=Degree-granting not primarily baccalaureate or above; 4=Degree-granting associate's and certificates; 5=Nondegree-granting above the baccalaureate; 6=Nondegree-granting sub-baccalaureate; -1=Not reported; -2=Not applicable}||categorical||||||
+45|CCBASIC|carnegie_basic||Carnegie Classification 2010: Basic||categorical||||||
+46|CCIPUG|carnegie_undergrad_instruction||Carnegie Classification 2010: Undergraduate Instructional Program||categorical||||||
+47|CCIPGRAD|carnegie_grad_instruction||Carnegie Classification 2010: Graduate Instructional Program||categorical||||||
+48|CCUGPROF|carnegie_undergrad_profile||Carnegie Classification 2010: Undergraduate Profile||categorical||||||
+49|CCENRPRF|carnegie_enrollment_profile||Carnegie Classification 2010: Enrollment Profile||categorical||||||
+50|CCSIZSET|carnegie_size_setting||Carnegie Classification 2010: Size and Setting||categorical||||||
+51|CARNEGIE|carnegie_2000||Carnegie Classification 2000||categorical||||||
+52|TENURSYS|tenure||Does institution have a tenure system||dichotomous||||||
+53|LANDGRNT|land_grant||Land Grant Institution||dichotomous||||||
+54|INSTSIZE|inst_size||Institution size category {1=Under 1000; 2=1000-4999, 3=5000-9999; 4=10000-19999; 5=20000 and above; -1=Not reported; -2=Not applicable} ||categorical||||||
+55|CBSA|cbsa||Core Based Statistical Area (CBSA)||categorical||||||
+56|CBSATYPE|cbsa_type||CBSA Type Metropolitan or Micropolitan {1=Metropolitan Statistical Area; 2=Micropolitan Statistical Area; -2=Not applicable}||categorical||||||
+57|CSA|csa||Combined Statistical Area (CSA)||categorical||||||
+58|NECTA|necta||New England City and Town Area (NECTA)||categorical||||||
+59|F1SYSTYP|systype||System, Governing Board or Corporate Structure||dichotomous||||||
+60|F1SYSNAM|sysname||Name of system, governing board or corporate entity.||other||||||
+61|FAXTELE|fax||Fax number||other||||||
+62|COUNTYCD|county||Fips County code||categorical||||||
+63|COUNTYNM|county_name||County name||other||||||
+64|CNGDSTCD|district||Congressional district code||categorical||||||
+65|LONGITUD|longitude||Longitude location of institution||other||||||
+66|LATITUDE|latitude||Latitude location of institution||other||||||
+67|PEO1ISTR|offers_occupational||Occupational instructional/programs offered {1=Yes; 0=No}||dichotomous||||||
+68|PEO2ISTR|offers_academic||Academic instructional/programs offered {1=Yes; 0=No}||dichotomous||||||
+69|PEO3ISTR|offers_continuing||Continuing professional instructional/programs offered {1=Yes; 0=No}||dichotomous||||||
+70|PEO4ISTR|offers_recreation||Recreational or avocational instructional/programs offered{1=Yes; 0=No}||dichotomous||||||
+71|PEO5ISTR|offers_adult||Adult basic remedial or high school equivalent instructional/programs offered {1=Yes; 0=No}||dichotomous||||||
+72|PEO6ISTR|offers_secondary||Secondary (high school) instructional/programs offered {1=Yes; 0=No}||dichotomous||||||
+73|CNTLAFFI|control||Institutional control or affiliation {1=Public; 2=Private for-profit; 3=Private not-for-profit (no religious affiliation); 4=Private not-for-profit (religious affiliation)}||categorical||||||
+74|PUBPRIME|control_primary||Primary public control {1=Federal; 2=State; 3=Territorial; 4=School district; 5=County; 6=Township; 7=City; 8=Special District; 9=Other; -2=Not applicable}||categorical||||||
+75|PUBSECON|control_secondary||Secondary public control {1=Federal; 2=State; 3=Territorial; 4=School district; 5=County; 6=Township; 7=City; 8=Special District; 9=Other; 0=Implied no; -2=Not applicable}||categorical||||||
+76|RELAFFIL|religion||Religious affiliation||categorical||||||
+77|LEVEL1|level_postsec_1yrcert||Less than one year certificate awarded {1=Yes; 0=No}||dichotomous||||||
+78|LEVEL2|level_postsec_12yrcert||One but less than two years certificate awarded {1=Yes; 0=No}||dichotomous||||||
+79|LEVEL3|level_postsec_associates||Associate's degree awarded {1=Yes; 0=No}||dichotomous||||||
+80|LEVEL4|level_postsec_24yrcert||Two but less than 4 years certificate awarded {1=Yes; 0=No}||dichotomous||||||
+81|LEVEL5|level_postsec_bachelors||Bachelor's degree awarded {1=Yes; 0=No; -2=Not applicable}||dichotomous||||||
+82|LEVEL6|level_postsec_graduate_postbaccert||Postbaccalaureate certificate awarded {1=Yes; 0=No; -2=Not applicable}||dichotomous||||||
+83|LEVEL7|level_postsec_graduate_masters||Master's degree awarded {1=Yes; 0=No; -2=Not applicable}||dichotomous||||||
+84|LEVEL8|level_postsec_graduate_postmasterscert||Post-master's certificate awarded {1=Yes; 0=No; -2=Not applicable}||dichotomous||||||
+85|LEVEL12|level_postsec_other||Other degree awarded {1=Yes; 0=No; -2=Not applicable}||dichotomous||||||
+86|LEVEL17|level_postsec_graduate_doctoral_research||Doctor's degree - research/scholarship awarded {1=Yes; 0=No; -2=Not applicable}||dichotomous||||||
+87|LEVEL18|level_postsec_graduate_doctoral_professional||Doctor's degree - professional practice awarded {1=Yes; 0=No; -2=Not applicable}||dichotomous||||||
+88|LEVEL19|level_postsec_graduate_doctoral_other||Doctor's degree - other awarded {1=Yes; 0=No; -2=Not applicable}||dichotomous||||||
+89|OPENADMP|admit_open||Open admission policy (school will accept anybody who applies) {1=Yes; 2=No; -1=Not reported; -2=Not applicable}||categorical||||||
+90|ADMCON1|admit_gpa_considered||Secondary school GPA considered during selection process {1=Required; 2=Recommended; 3=Neither required nor recommended; 4=Do not know; -1=Not reported; -1=Not applicable}||categorical||||||
+91|ADMCON2|admit_rank_considered||Secondary school rank considered during selection process {1=Required; 2=Recommended; 3=Neither required nor recommended; 4=Do not know; -1=Not reported; -1=Not applicable}||categorical||||||
+92|ADMCON3|admit_record_considered||Secondary school record considered during selection process {1=Required; 2=Recommended; 3=Neither required nor recommended; 4=Do not know; -1=Not reported; -1=Not applicable}||categorical||||||
+93|ADMCON4|admit_collegeprep_considered||Completion of college-preparatory program considered during selection process {1=Required; 2=Recommended; 3=Neither required nor recommended; 4=Do not know; -1=Not reported; -1=Not applicable}||categorical||||||
+94|ADMCON5|admit_recommend_considered||Recommendations considered during selection process {1=Required; 2=Recommended; 3=Neither required nor recommended; 4=Do not know; -1=Not reported; -1=Not applicable}||categorical||||||
+95|ADMCON6|admit_competencies_considered||Formal demonstration of competencies considered during selection process {1=Required; 2=Recommended; 3=Neither required nor recommended; 4=Do not know; -1=Not reported; -1=Not applicable}||categorical||||||
+96|ADMCON7|admit_tests_considered||Admission test scores considered during selection process {1=Required; 2=Recommended; 3=Neither required nor recommended; 4=Do not know; -1=Not reported; -1=Not applicable}||categorical||||||
+97|ADMCON8|admit_toefl_considered||TOEFL (Test of English as a Foreign Language) considered during selection process {1=Required; 2=Recommended; 3=Neither required nor recommended; 4=Do not know; -1=Not reported; -1=Not applicable}||categorical||||||
+98|ADMCON9|admit_other_considered||Other Test (Wonderlic, WISC-III, etc.) considered during selection process {1=Required; 2=Recommended; 3=Neither required nor recommended; 4=Do not know; -1=Not reported; -1=Not applicable}||categorical||||||
+99|APPDATE|admit_deadline_date||Fall reporting period for applicant and admissions (not open admissions) {1=Fall 2010; 2=Fall 2011; -1=Not reported; -2=Not applicable}||other||||||
+100|APPLCNM|admit_applicants_male||Number of applicants men-freshmen||continuous||||||
+101|APPLCNW|admit_applicants_female||Number of applicants women-freshmen||continuous||||||
+102|ADMSSNM|admit_admittances_male||Number of admissions men-freshmen||continuous||||||
+103|ADMSSNW|admit_admittances_female||Number of admissions women-freshmen||continuous||||||
+104|ENRLFTM|admit_enrolled_fulltime_male||Number enrolled full time men-freshmen||continuous||||||
+105|ENRLFTW|admit_enrolled_fulltime_female||Number enrolled full time women-freshmen||continuous||||||
+106|ENRLPTM|admit_enrolled_parttime_male||Number enrolled part time men-freshmen||continuous||||||
+107|ENRLPTW|admit_enrolled_parttime_female||Number enrolled part time women-freshmen||continuous||||||
+108|SATACTDT|admit_sat_report||Fall reporting period for SAT/ACT test scores {1=Fall 2010; 2=Fall 2011; 3=Test scores not required; -1=Not reported; -2=Not applicable}||other||||||
+109|SATNUM|admit_sat_submitting||Number of first-time degree/certificate-seeking students submitting SAT scores||continuous||||||
+110|SATPCT|admit_sat_submitting_pc||Percent of first-time degree/certificate-seeking students submitting SAT scores||continuous||||||
+111|ACTNUM|admit_act_submitting||Number of first-time degree/certificate-seeking students submitting ACT scores||continuous||||||
+112|ACTPCT|admit_act_submitting_pc||Percent of first-time degree/certificate-seeking students submitting ACT scores||continuous||||||
+113|SATVR25|admit_sat_verbal_25||SAT Critical Reading 25th percentile score||continuous||||||
+114|SATVR75|admit_sat_verbal_75||SAT Critical Reading 75th percentile score||continuous||||||
+115|SATMT25|admit_sat_math_25||SAT Math 25th percentile score||continuous||||||
+116|SATMT75|admit_sat_math_75||SAT Math 75th percentile score||continuous||||||
+117|SATWR25|admit_sat_writing_25||SAT Writing 25th percentile score||continuous||||||
+118|SATWR75|admit_sat_writing_75||SAT Writing 75th percentile score||continuous||||||
+119|ACTCM25|admit_act_composite_25||ACT Composite 25th percentile score||continuous||||||
+120|ACTCM75|admit_act_composite_75||ACT Composite 75th percentile score||continuous||||||
+121|ACTEN25|admit_act_eng_25||ACT English 25th percentile score||continuous||||||
+122|ACTEN75|admit_act_eng_75||ACT English 75th percentile score||continuous||||||
+123|ACTMT25|admit_act_math_25||ACT Math 25th percentile score||continuous||||||
+124|ACTMT75|admit_act_math_75||ACT Math 75th percentile score||continuous||||||
+125|ACTWR25|admit_act_writing_25||ACT Writing 25th percentile score||continuous||||||
+126|ACTWR75|admit_act_writing_75||ACT Writing 75th percentile score||continuous||||||
+127|CREDITS1|credit_dual||Dual credit accepted {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+128|CREDITS2|credit_life||Credit for life experiences accepted {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+129|CREDITS3|credit_ap||Advanced placement (AP) credits accepted {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+130|CREDITS4|credit_none||Institution does not accept dual, credit for life, or AP credits {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+131|SLO3|offers_distance||Distance learning opportunities offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+132|SLO5|offers_rotc||ROTC offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+133|SLO51|offers_rotc_army||ROTC - Army offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+134|SLO52|offers_rotc_navy||ROTC - Navy offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+135|SLO53|offers_rotc_airforce||ROTC - Air Force offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+136|SLO6|offers_studyabroad||Study abroad offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+137|SLO7|offers_nonday||Weekend/evening college offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+138|SLO8|offers_teachercert||Teacher certification offered: (below the postsecondary level) {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+139|SLO81|offers_teachercert_specialized||Teacher certification offered: Students can complete their preparation in certain areas of specialization {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+140|SLO82|offers_teachercert_specialized_partnered||Teacher certification offered: Students must complete their preparation at another institution for certain areas of specialization {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+141|SLO83|offers_teachercert_initial||Teacher certification offered: Approved by the state for initial certifcation or licensure of teachers. {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+142|SLO9|offers_none||None of the above special learning opportunities are offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+143|YRSCOLL|years_college_entrance||Years of college-level work required for entrance: if institution grants bachelor's degrees but does not offer full 4-year program of undergraduate study {1=One; 2=Two; 3=Three; 4=Four; 5=Five; 6=Six; -1=Not reported; -2=Not applicable}||categorical||||||
+144|STUSRV1|services_remedial||Remedial services offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+145|STUSRV2|services_counseling_academic||Academic/career counseling service offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+146|STUSRV3|services_employment||Employment services for students offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+147|STUSRV4|services_placement||Placement services for completers offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+148|STUSRV8|services_daycare||On-campus day care for students' children offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+149|STUSRV9|services_none||None of the above selected services are offered {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+150|LIBFAC|library||Library facilities at institution {1=Has own library; 2=shared financial support for library; 3=None of the above; -1=Not reported; -2=Not apllicable}||categorical||||||
+151|ATHASSOC|athletics_member_naa||Member of National Athletic Association {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+152|ASSOC1|athletics_member_ncaa||Member of National Collegiate Athletic Association (NCAA) {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+153|ASSOC2|athletics_member_naia||Member of National Association of Intercollegiate Athletics (NAIA) {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+154|ASSOC3|athletics_member_njcaa||Member of National Junior College Athletic  Association (NJCAA) {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+155|ASSOC4|athletics_member_nscaa||Member of National Small College Athletic Association (NSCAA) {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+156|ASSOC5|athletics_member_nccaa||Member of National Christian College Athletic Association (NCCAA) {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+157|ASSOC6|athletics_member_other||Member of other national athletic association not listed above {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+158|SPORT1|athletics_football||NCAA/NAIA member for football {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+159|CONFNO1|athletics_football_conference||NCAA/NAIA conference number football||categorical||||||
+160|SPORT2|athletics_basketball||NCAA/NAIA member for basketball {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+161|CONFNO2|athletics_basketball_conference||NCAA/NAIA conference number basketball||categorical||||||
+162|SPORT3|athletics_baseball||NCAA/NAIA member for baseball {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+163|CONFNO3|athletics_baseball_conference||NCAA/NAIA conference number baseball||categorical||||||
+164|SPORT4|athletics_track||NCAA/NAIA member for cross country/track {1=Yes; 0=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+165|CONFNO4|athletics_track_conference||NCAA/NAIA conference number cross country/track||categorical||||||
+166|CALSYS|school_calendar||Calendar system {1=Semester; 2=Quarter; 3=Trimester; 4=Four-one-four plan; 5=Other academic year; 6=Differs by program; 7=Continuous; -2=Not applicable}||categorical||||||
+167|APPLFEEU|admit_fee||Undergraduate application fee||continuous||||||
+168|APPLFEEG|admit_fee_graduate||Graduate application fee||continuous||||||
+169|FT_UG|undergrad_enrolled_fulltime||Full-time undergraduate students are enrolled {1=Yes; 2=No; -2=Not applicable}||dichotomous||||||
+170|FT_FTUG|undergrad_enrolled_fresh_fulltime||Full time first-time degree/certificate-seeking undergraduate students enrolled {1=Yes; 2=No; -2=Not applicable}||dichotomous||||||
+171|FT_GD|grad_enrolled_fulltime||Full-time graduate students are enrolled {1=Yes; 2=No; -2=Not applicable}||dichotomous||||||
+172|PT_UG|undergrad_enrolled_parttime||Part-time undergraduate students are enrolled {1=Yes; 2=No; -2=Not applicable}||dichotomous||||||
+173|PT_FTUG|undergrad_enrolled_fresh_parttime||Part time first-time degree/certificate-seeking undergraduate students enrolled {1=Yes; 2=No; -2=Not applicable}||dichotomous||||||
+174|PT_GD|grad_enrolled_parttime||Part-time graduate students are enrolled {1=Yes; 2=No; -2=Not applicable}||dichotomous||||||
+175|TUITVARY|tuition_varies||Tuition charge varies for in-district, in-state, out-of-state students {1=Yes; 2=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+176|ROOM|housing_offers_room||Institution provides on-campus housing {1=Yes; 2=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+177|ROOMCAP|housing_room_capacity||Total dormitory capacity||continuous||||||
+178|BOARD|housing_meals||Institution provides board or meal plan {1=Yes number of meals in the maximum meal plan offered; 2=Yes number of meals per week can vary; 3=No; -1=Not reported; -2=Not applicable}||categorical||||||
+179|MEALSWK|housing_meals_perweek||Number of meals per week in board charge||continuous||||||
+180|ROOMAMT|cost_housing||Typical room charge for academic year||continuous||||||
+181|BOARDAMT|cost_meals||Typical board charge for academic year||continuous||||||
+182|RMBRDAMT|cost_housing_meals||Combined charge for room and board||continuous||||||
+183|ALLONCAM|housing_campus_mandatory||Full-time, first-time degree/certificate-seeking students required to live on campus {1=Yes; 2=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+184|ENRLM|admit_enrolled_male||Enrolled men-freshmen||continuous||||||
+185|ENRLW|admit_enrolled_female||Enrolled women-freshmen||continuous||||||
+186|ENRLT|admit_enrolled||Enrolled total-freshmen||continuous||||||
+187|APPLCN|admit_applicants||Applicants total||continuous||||||
+188|ADMSSN|admit_admittances||Admissions total||continuous||||||
+189|ENRLFT|admit_enrolled_fulltime||Enrolled full time total-freshmen||continuous||||||
+190|ENRLPT|admit_enrolled_parttime||Enrolled part time total-freshmen||continuous||||||
+191|TUITPL|tuition_alternate||Any alternative tuition plans offered by institution {1=Yes; 2=No; -1=Not reported; -0=Not applicable}||dichotomous||||||
+192|TUITPL1|tuition_guaranteed||Tuition guaranteed plan offered {1=Yes; 0=No; -1=Not reported; -0=Not applicable}||dichotomous||||||
+193|TUITPL2|tuition_prepaid||Prepaid tuition plan offered {1=Yes; 0=No; -1=Not reported; -0=Not applicable}||dichotomous||||||
+194|TUITPL3|tuition_paymentplan||Tuition payment plan offered {1=Yes; 0=No; -1=Not reported; -0=Not applicable}||dichotomous||||||
+195|TUITPL4|tuition_other||Other alternative tuition plan offered {1=Yes; 0=No; -1=Not reported; -0=Not applicable}||dichotomous||||||
+196|DISAB|enrollment_disabled_over3||Percent indicator of undergraduates formally registered as students with disabilities {1=3 percent or less; 2=More than 3 percent; -1=Not reported; -2=Not applicable}||categorical||||||
+197|DISABPCT|enrollment_disabled_over3_pc||Percent of undergraduates, who are formally registered as students with disabilities, when percentage is more than 3 percent||continuous||||||
+198|DISTNCED|offers_distance_all||All programs offered completely via distance education {1=Yes; 2=No; -1=Not reported; -2=Not applicable}||dichotomous||||||
+199|TUITION1|tuition_ft_indistrict||In-district average tuition for full-time undergraduates||continuous||||||
+200|FEE1|tuition_indistrict_fees||In-district required fees for full-time undergraduates||continuous||||||
+201|HRCHG1|tuition_pt_indistrict_credithr||In-district per credit hour charge for part-time undergraduates||continuous||||||
+202|CMPFEE1|tuition_ft_indistrict_comprehensive||In-district comprehensive fee for full-time undergraduates||continuous||||Covers tuition, fees, room, and board||
+203|TUITION2|tuition_ft_instate||In-state average tuition for full-time undergraduates||continuous||||||
+204|FEE2|tuition_instate_fees||In-state required fees for full-time undergraduates||continuous||||||
+205|HRCHG2|tuition_pt_instate_credithr||In-state per credit hour charge for part-time undergraduates||continuous||||||
+206|CMPFEE2|tuition_ft_instate_comprehensive||In-state comprehensive fee for full-time undergraduates||continuous||||Covers tuition, fees, room, and board||
+207|TUITION3|tuition_ft_outstate||Out-of-state average tuition for full-time undergraduates||continuous||||||
+208|FEE3|tuition_outstate_fees||Out-of-state required fees for full-time undergraduates||continuous||||||
+209|HRCHG3|tuition_pt_outstate_credithr||Out-of-state per credit hour charge for part-time undergraduates||continuous||||||
+210|CMPFEE3|tuition_ft_outstate_comprehensive||Out-of-state comprehensive fee for full-time undergraduates||continuous||||Covers tuition, fees, room, and board||
+211|TUITION5|tuition_ft_indistrict_grad||In-district average tuition full-time graduates||continuous||||||
+212|FEE5|tuition_indistrict_fees_grad||In-district required fees for full-time graduates||continuous||||||
+213|HRCHG5|tuition_pt_indistrict_credithr_grad||In-district per credit hour charge part-time graduates||continuous||||||
+214|TUITION6|tuition_ft_instate_grad||In-state average tuition full-time graduates||continuous||||||
+215|FEE6|tuition_instate_fees_grad||In-state required fees for full-time graduates||continuous||||||
+216|HRCHG6|tuition_pt_instate_credithr_grad||In-state per credit hour charge part-time graduates||continuous||||||
+217|TUITION7|tuition_ft_oustate_grad||Out-of-state average tuition full-time graduates||continuous||||||
+218|FEE7|tuition_outstate_fees_grad||Out-of-state required fees for full-time graduates||continuous||||||
+219|HRCHG7|tuition_pt_outstate_credithr_grad||Out-of-state per credit hour charge part-time graduates||continuous||||||
+220|ISPROF1|tuition_chiro_instate||Chiropractic: In-state tuition doctarate||continuous||||||
+221|ISPFEE1|tuition_chiro_instate_fees||Chiropractic: In-state required fees doctarate||continuous||||||
+222|OSPROF1|tuition_chiro_outstate||Chiropractic: Out-of-state tuition doctarate||continuous||||||
+223|OSPFEE1|tuition_chiro_outstate_fees||Chiropractic: Out-of-state required fees doctarate||continuous||||||
+224|ISPROF2|tuition_dentist_instate||Dentistry: In-state tuition doctarate||continuous||||||
+225|ISPFEE2|tuition_dentist_instate_fees||Dentistry: In-state required fees doctarate||continuous||||||
+226|OSPROF2|tuition_dentist_outstate||Dentistry: Out-of-state tuition doctarate||continuous||||||
+227|OSPFEE2|tuition_dentist_outstate_fees||Dentistry: Out-of-state required fees doctarate||continuous||||||
+228|ISPROF3|tuition_medicine_instate||Medicine: In-state tuition doctarate||continuous||||||
+229|ISPFEE3|tuition_medicine_instate_fees||Medicine: In-state required fees doctarate||continuous||||||
+230|OSPROF3|tuition_medicine_outstate||Medicine: Out-of-state tuition doctarate||continuous||||||
+231|OSPFEE3|tuition_medicine_outstate_fees||Medicine: Out-of-state required fees doctarate||continuous||||||
+232|ISPROF4|tuition_optometry_instate||Optometry: In-state tuition doctarate||continuous||||||
+233|ISPFEE4|tuition_optometry_instate_fees||Optometry: In-state required fees doctarate||continuous||||||
+234|OSPROF4|tuition_optometry_outstate||Optometry: Out-of-state tuition doctarate||continuous||||||
+235|OSPFEE4|tuition_optometry_outstate_fees||Optometry: Out-of-state required fees doctarate||continuous||||||
+236|ISPROF5|tuition_osteopath_instate||Osteopathic Medicine: In-state tuition doctarate||continuous||||||
+237|ISPFEE5|tuition_osteopath_instate_fees||Osteopathic Medicine: In-state required fees doctarate||continuous||||||
+238|OSPROF5|tuition_osteopath_outstate||Osteopathic Medicine: Out-of-state tuition doctarate||continuous||||||
+239|OSPFEE5|tuition_osteopath_outstate_fees||Osteopathic Medicine: Out-of-state required fees doctarate||continuous||||||
+240|ISPROF6|tuition_pharmacy_instate||Pharmacy: In-state tuition doctarate||continuous||||||
+241|ISPFEE6|tuition_pharmacy_instate_fees||Pharmacy: In-state required fees doctarate||continuous||||||
+242|OSPROF6|tuition_pharmacy_outstate||Pharmacy: Out-of-state tuition doctarate||continuous||||||
+243|OSPFEE6|tuition_pharmacy_outstate_fees||Pharmacy: Out-of-state required fees doctarate||continuous||||||
+244|ISPROF7|tuition_podiatry_instate||Podiatry: In-state tuition doctarate||continuous||||||
+245|ISPFEE7|tuition_podiatry_instate_fees||Podiatry: In-state required fees doctarate||continuous||||||
+246|OSPROF7|tuition_podiatry_outstate||Podiatry: Out-of-state tuition doctarate||continuous||||||
+247|OSPFEE7|tuition_podiatry_oustate_fees||Podiatry: Out-of-state required fees doctarate||continuous||||||
+248|ISPROF8|tuition_vet_instate||Veterinary Medicine: In-state tuition doctarate||continuous||||||
+249|ISPFEE8|tuition_vet_instate_fees||Veterinary Medicine: In-state required fees doctarate||continuous||||||
+250|OSPROF8|tuition_vet_outstate||Veterinary Medicine: Out-of-state tuition doctarate||continuous||||||
+251|OSPFEE8|tuition_vet_outstate_fees||Veterinary Medicine: Out-of-state required fees doctarate||continuous||||||
+252|ISPROF9|tuition_law_instate||Law: In-state tuition doctarate||continuous||||||
+253|ISPFEE9|tuition_law_instate_fees||Law: In-state required fees doctarate||continuous||||||
+254|OSPROF9|tuition_law_outstate||Law: Out-of-state tuition doctarate||continuous||||||
+255|OSPFEE9|tuition_law_outstate_fees||Law: Out-of-state required fees doctarate||continuous||||||
+256|CHG1AT0|tuition_ft_indistrict_4||Published in-district tuition 2008-09||continuous||||Published refers to what values the NCES has published on their website||
+257|CHG1AF0|tuition_indistrict_fees_4||Published in-district fees 2008-09||continuous||||Published refers to what values the NCES has published on their website||
+258|CHG1AY0|tuition_indistrict_tuition_fees_4||Published in-district tuition and fees 2008-09||continuous||||Published refers to what values the NCES has published on their website||
+259|CHG1AT1|tuition_ft_indistrict_3||Published in-district tuition 2009-10||continuous||||Published refers to what values the NCES has published on their website||
+260|CHG1AF1|tuition_indistrict_fees_3||Published in-district fees 2009-10||continuous||||Published refers to what values the NCES has published on their website||
+261|CHG1AY1|tuition_indistrict_tuition_fees_3||Published in-district tuition and fees 2009-10||continuous||||Published refers to what values the NCES has published on their website||
+262|CHG1AT2|tuition_ft_indistrict_2||Published in-district tuition 2010-11||continuous||||Published refers to what values the NCES has published on their website||
+263|CHG1AF2|tuition_indistrict_fees_2||Published in-district fees 2010-11||continuous||||Published refers to what values the NCES has published on their website||
+264|CHG1AY2|tuition_indistrict_tuition_fees_2||Published in-district tuition and fees 2010-11||continuous||||Published refers to what values the NCES has published on their website||
+265|CHG1AT3|tuition_ft_indistrict||Published in-district tuition 2011-12||continuous||||Published refers to what values the NCES has published on their website||
+266|CHG1AF3|tuition_indistrict_fees||Published in-district fees 2011-12||continuous||||Published refers to what values the NCES has published on their website||
+267|CHG1AY3|tuition_indistrict_tuition_fees||Published in-district tuition and fees 2011-12||continuous||||Published refers to what values the NCES has published on their website||
+268|CHG1TGTD|tuition_ft_indistrict_increase_pc||Published in-district tuition 2011-12 guaranteed percent increase (if applicable)||continuous||||Published refers to what values the NCES has published on their website||
+269|CHG1FGTD|tuition_indistrict_fees_increase_pc||Published in-district fees 2010-12 guaranteed percent increase (if applicable)||continuous||||Published refers to what values the NCES has published on their website||
+270|CHG2AT0|tuition_ft_instate_4||Published in-state tuition 2008-09||continuous||||Published refers to what values the NCES has published on their website||
+271|CHG2AF0|tuition_instate_fees_4||Published in-state fees 2008-09||continuous||||Published refers to what values the NCES has published on their website||
+272|CHG2AY0|tuition_instate_tuition_fees_4||Published in-state tuition and fees 2008-09||continuous||||Published refers to what values the NCES has published on their website||
+273|CHG2AT1|tuition_ft_instate_3||Published in-state tuition 2009-10||continuous||||Published refers to what values the NCES has published on their website||
+274|CHG2AF1|tuition_instate_fees_3||Published in-state fees 2009-10||continuous||||Published refers to what values the NCES has published on their website||
+275|CHG2AY1|tuition_instate_tuition_fees_3||Published in-state tuition and fees 2009-10||continuous||||Published refers to what values the NCES has published on their website||
+276|CHG2AT2|tuition_ft_instate_2||Published in-state tuition 2010-11||continuous||||Published refers to what values the NCES has published on their website||
+277|CHG2AF2|tuition_instate_fees_2||Published in-state fees 2010-11||continuous||||Published refers to what values the NCES has published on their website||
+278|CHG2AY2|tuition_instate_tuition_fees_2||Published in-state tuition and fees 2010-11||continuous||||Published refers to what values the NCES has published on their website||
+279|CHG2AT3|tuition_ft_instate||Published in-state tuition 2011-12||continuous||||Published refers to what values the NCES has published on their website||
+280|CHG2AF3|tuition_instate_fees||Published in-state fees 2011-12||continuous||||Published refers to what values the NCES has published on their website||
+281|CHG2AY3|tuition_instate_tuition_fees||Published in-state tuition and fees 2011-12||continuous||||Published refers to what values the NCES has published on their website||
+282|CHG2TGTD|tuition_ft_instate_increase_pc||Published in-state tuition 2010-12 guaranteed percent increase (if applicable)||continuous||||Published refers to what values the NCES has published on their website||
+283|CHG2FGTD|tuition_instate_fees_increase_pc||Published in-state fees 2010-12 guaranteed percent increase (if applicable)||continuous||||Published refers to what values the NCES has published on their website||
+284|CHG3AT0|tuition_ft_outstate_4||Published out-of-state tuition 2008-09||continuous||||Published refers to what values the NCES has published on their website||
+285|CHG3AF0|tuition_outstate_fees_4||Published out-of-state fees 2008-09||continuous||||Published refers to what values the NCES has published on their website||
+286|CHG3AY0|tuition_outstate_tuition_fees_4||Published out-of-state tuition and fees 2008-09||continuous||||Published refers to what values the NCES has published on their website||
+287|CHG3AT1|tuition_ft_outstate_3||Published out-of-state tuition 2009-10||continuous||||Published refers to what values the NCES has published on their website||
+288|CHG3AF1|tuition_outstate_fees_3||Published out-of-state fees 2009-10||continuous||||Published refers to what values the NCES has published on their website||
+289|CHG3AY1|tuition_outstate_tuition_fees_3||Published out-of-state tuition and fees 2009-10||continuous||||Published refers to what values the NCES has published on their website||
+290|CHG3AT2|tuition_ft_outstate_2||Published out-of-state tuition 2010-11||continuous||||Published refers to what values the NCES has published on their website||
+291|CHG3AF2|tuition_outstate_fees_2||Published out-of-state fees 2010-11||continuous||||Published refers to what values the NCES has published on their website||
+292|CHG3AY2|tuition_outstate_tuition_fees_2||Published out-of-state tuition and fees 2010-11||continuous||||Published refers to what values the NCES has published on their website||
+293|CHG3AT3|tuition_ft_outstate||Published out-of-state tuition 2011-12||continuous||||Published refers to what values the NCES has published on their website||
+294|CHG3AF3|tuition_outstate_fees||Published out-of-state fees 2011-12||continuous||||Published refers to what values the NCES has published on their website||
+295|CHG3AY3|tuition_outstate_tuition_fees||Published out-of-state tuition and fees 2011-12||continuous||||Published refers to what values the NCES has published on their website||
+296|CHG3TGTD|tuition_ft_outstate_increase_pc||Published out-of-state tuition 2011-12 guaranteed percent increase (if applicable)||continuous||||Published refers to what values the NCES has published on their website||
+297|CHG3FGTD|tuition_outstate_fees_increase_pc||Published out-of-state fees 2011-12 guaranteed percent increase (if applicable)||continuous||||Published refers to what values the NCES has published on their website||
+298|CHG4AY0|tuition_books_4||Books and supplies 2008-09||continuous||||||
+299|CHG4AY1|tuition_books_3||Books and supplies 2009-10||continuous||||||
+300|CHG4AY2|tuition_books_2||Books and supplies 2010-11||continuous||||||
+301|CHG4AY3|tuition_books||Books and supplies 2011-12||continuous||||||
+302|CHG5AY0|tuition_room_board_on_campus_4||On campus, room and board 2008-09||continuous||||||
+303|CHG5AY1|tuition_room_board_on_campus_3||On campus, room and board 2009-10||continuous||||||
+304|CHG5AY2|tuition_room_board_on_campus_2||On campus, room and board 2010-11||continuous||||||
+305|CHG5AY3|tuition_room_board_on_campus||On campus, room and board 2011-12||continuous||||||
+306|CHG6AY0|tuition_misc_on_campus_4||On campus, other expenses 2008-09||continuous||||||
+307|CHG6AY1|tuition_misc_on_campus_3||On campus, other expenses 2009-10||continuous||||||
+308|CHG6AY2|tuition_misc_on_campus_2||On campus, other expenses 2010-11||continuous||||||
+309|CHG6AY3|tuition_misc_on_campus||On campus, other expenses 2011-12||continuous||||||
+310|CHG7AY0|tuition_room_board_off_campus_4||Off campus (not with family), room and board 2008-09||continuous||||||
+311|CHG7AY1|tuition_room_board_off_campus_3||Off campus (not with family), room and board 2009-10||continuous||||||
+312|CHG7AY2|tuition_room_board_off_campus_2||Off campus (not with family), room and board 2010-11||continuous||||||
+313|CHG7AY3|tuition_room_board_off_campus||Off campus (not with family), room and board 2011-12||continuous||||||
+314|CHG8AY0|tuition_misc_off_campus_4||Off campus (not with family), other expenses 2008-09||continuous||||||
+315|CHG8AY1|tuition_misc_off_campus_3||Off campus (not with family), other expenses 2009-10||continuous||||||
+316|CHG8AY2|tuition_misc_off_campus_2||Off campus (not with family), other expenses 2010-11||continuous||||||
+317|CHG8AY3|tuition_misc_off_campus||Off campus (not with family), other expenses 2011-12||continuous||||||
+318|CHG9AY0|tuition_misc_off_campus_family_4||Off campus (with family), other expenses 2008-09||continuous||||||
+319|CHG9AY1|tuition_misc_off_campus_family_3||Off campus (with family), other expenses 2009-10||continuous||||||
+320|CHG9AY2|tuition_misc_off_campus_family_2||Off campus (with family), other expenses 2010-11||continuous||||||
+321|CHG9AY3|tuition_misc_off_campus_family||Off campus (with family), other expenses 2011-12||continuous||||||
+322|CMP1AY0|tuition_ft_indistrict_comprehensive_4||In-district comprehensive fee 2008-09||continuous||||Covers tuition, fees, room, and board||
+323|CMP1AY1|tuition_ft_indistrict_comprehensive_3||In-district comprehensive fee 2009-10||continuous||||Covers tuition, fees, room, and board||
+324|CMP1AY2|tuition_ft_indistrict_comprehensive_2||In-district comprehensive fee 2010-11||continuous||||Covers tuition, fees, room, and board||
+325|CMP1AY3|tuition_ft_indistrict_comprehensive||In-district comprehensive fee 2011-12||continuous||||Covers tuition, fees, room, and board||
+326|CMP1GTD|tuition_ft_indistrict_comprehensive_increase_pc||In-district comprehensive fee 2010-11 guaranteed percent increase||continuous||||Covers tuition, fees, room, and board||
+327|CMP2AY0|tuition_ft_instate_comprehensive_4||In-state comprehensive fee 2008-09||continuous||||Covers tuition, fees, room, and board||
+328|CMP2AY1|tuition_ft_instate_comprehensive_3||In-state comprehensive fee 2009-10||continuous||||Covers tuition, fees, room, and board||
+329|CMP2AY2|tuition_ft_instate_comprehensive_2||In-state comprehensive fee 2010-11||continuous||||Covers tuition, fees, room, and board||
+330|CMP2AY3|tuition_ft_instate_comprehensive||In-state comprehensive fee 2011-12||continuous||||Covers tuition, fees, room, and board||
+331|CMP2GTD|tuition_ft_instate_comprehensive_increase_pc||In-state comprehensive fee 2010-11 guaranteed percent increase||continuous||||Covers tuition, fees, room, and board||
+332|CMP3AY0|tuition_ft_outstate_comprehensive_4||Out-of-state comprehensive fee 2008-09||continuous||||Covers tuition, fees, room, and board||
+333|CMP3AY1|tuition_ft_outstate_comprehensive_3||Out-of-state comprehensive fee 2009-10||continuous||||Covers tuition, fees, room, and board||
+334|CMP3AY2|tuition_ft_outstate_comprehensive_2||Out-of-state comprehensive fee 2010-11||continuous||||Covers tuition, fees, room, and board||
+335|CMP3AY3|tuition_ft_outstate_comprehensive||Out-of-state comprehensive fee 2011-12||continuous||||Covers tuition, fees, room, and board||
+336|CMP3GTD|tuition_ft_outstate_comprehensive_increase_pc||Out-of-state comprehensive fee 2010-11 guaranteed percent increase||continuous||||Covers tuition, fees, room, and board||
+337|PRGMOFR|programs_total||Number of programs offered||continuous||||||
+338|CIPCODE1|cipcode_largest||CIP code of largest program||categorical||||||
+339|CIPTUIT1|tuition_fees_largest||Tuition and fees 2011-12 (institutions with no full-time, first-time, undergraduate students)||continuous||||||
+340|CIPSUPP1|tuition_books_largest||Books and supplies 2011-12 (institutions with no full-time, first-time, undergraduate students)||continuous||||||
+341|CIPLGTH1|length_largest||Total length of largest program||continuous||||||
+342|PRGMSR1|contact_credithrs_largest||Largest program measured in credit or contact hours {1=Contact hours; 2=Credit hours; -2=Not applicable}||categorical||||||
+343|MTHCMP1|length_ave_months_largest||Average number of months to complete largest program||continuous||||||
+344|WKCMP1|length_weeks_fulltime_largest||Total length of program in weeks, as completed by a student attending full-time||continuous||||||
+345|LNAYHR1|length_year_credithrs_largest||Total length of academic year (as used to calculate your Pell budget) in contact or credit hours||continuous||||||
+346|LNAYWK1|length_year_weeks_largest||Total length of academic year (as used to calculate your Pell budget) in weeks||continuous||||||
+347|CHG1PY0|tuition_instate_tuition_fees_largest_4||Published tuition and fees 2008-09 of largest program||continuous||||||
+348|CHG1PY1|tuition_instate_tuition_fees_largest_3||Published tuition and fees 2009-10 of largest program||continuous||||||
+349|CHG1PY2|tuition_instate_tuition_fees_largest_2||Published tuition and fees 2010-11 of largest program||continuous||||||
+350|CHG1PY3|tuition_instate_tuition_fees_largest||Published tuition and fees 2011-12 of largest program||continuous||||||
+351|CHG4PY0|tuition_books_largest_4||Books and supplies 2008-09 of largest program||continuous||||||
+352|CHG4PY1|tuition_books_largest_3||Books and supplies 2009-10 of largest program||continuous||||||
+353|CHG4PY2|tuition_books_largest_2||Books and supplies 2010-11 of largest program||continuous||||||
+354|CHG4PY3|tuition_books_largest||Books and supplies 2011-12 of largest program||continuous||||||
+355|CHG5PY0|tuition_room_board_on_campus_largest_4||On campus, room and board 2008-09 of largest program||continuous||||||
+356|CHG5PY1|tuition_room_board_on_campus_largest_3||On campus, room and board 2009-10 of largest program||continuous||||||
+357|CHG5PY2|tuition_room_board_on_campus_largest_2||On campus, room and board 2010-11 of largest program||continuous||||||
+358|CHG5PY3|tuition_room_board_on_campus_largest||On campus, room and board 2011-12 of largest program||continuous||||||
+359|CHG6PY0|tuition_misc_on_campus_largest_4||On campus, other expenses 2008-09 of largest program||continuous||||||
+360|CHG6PY1|tuition_misc_on_campus_largest_3||On campus, other expenses 2009-10 of largest program||continuous||||||
+361|CHG6PY2|tuition_misc_on_campus_largest_2||On campus, other expenses 2010-11 of largest program||continuous||||||
+362|CHG6PY3|tuition_misc_on_campus_largest||On campus, other expenses 2011-12 of largest program||continuous||||||
+363|CHG7PY0|tuition_room_board_off_campus_largest_4||Off campus (not with family), room and board 2008-09 of largest program||continuous||||||
+364|CHG7PY1|tuition_room_board_off_campus_largest_3||Off campus (not with family), room and board 2009-10 of largest program||continuous||||||
+365|CHG7PY2|tuition_room_board_off_campus_largest_2||Off campus (not with family), room and board 2010-11 of largest program||continuous||||||
+366|CHG7PY3|tuition_room_board_off_campus_largest||Off campus (not with family), room and board 2011-12 of largest program||continuous||||||
+367|CHG8PY0|tuition_misc_off_campus_largest_4||Off campus (not with family), other expenses 2008-09 of largest program||continuous||||||
+368|CHG8PY1|tuition_misc_off_campus_largest_3||Off campus (not with family), other expenses 2009-10 of largest program||continuous||||||
+369|CHG8PY2|tuition_misc_off_campus_largest_2||Off campus (not with family), other expenses 2010-11 of largest program||continuous||||||
+370|CHG8PY3|tuition_misc_off_campus_largest||Off campus (not with family), other expenses 2011-12 of largest program||continuous||||||
+371|CHG9PY0|tuition_misc_off_campus_largest_family_largest_4||Off campus (with family), other expenses 2008-09 of largest program||continuous||||||
+372|CHG9PY1|tuition_misc_off_campus_largest_family_largest_3||Off campus (with family), other expenses 2009-10 of largest program||continuous||||||
+373|CHG9PY2|tuition_misc_off_campus_largest_family_largest_2||Off campus (with family), other expenses 2010-11 of largest program||continuous||||||
+374|CHG9PY3|tuition_misc_off_campus_largest_family||Off campus (with family), other expenses 2011-12 of largest program||continuous||||||
+375|CMP1PY0|tuition_ft_instate_comprehensive_largest_4||Comprehensive fee 2008-09 of largest program||continuous||||||
+376|CMP1PY1|tuition_ft_instate_comprehensive_largest_3||Comprehensive fee 2009-10 of largest program||continuous||||||
+377|CMP1PY2|tuition_ft_instate_comprehensive_largest_2||Comprehensive fee 2010-11 of largest program||continuous||||||
+378|CMP1PY3|tuition_ft_instate_comprehensive_largest||Comprehensive fee 2011-12 of largest program||continuous||||||
+379|CIPCODE2|cipcode_largest_2||CIP code of 2nd largest program||categorical||||||
+380|CIPTUIT2|tuition_fees_largest_2||Tuition and fees of 2nd largest program||continuous||||||
+381|CIPSUPP2|tuition_books_largest_2||Cost of books and supplies of 2nd largest program||continuous||||||
+382|CIPLGTH2|length_largest_2||Length of 2nd largest program||continuous||||||
+383|PRGMSR2|contact_credithrs_largest_2||2nd largest program measured in credit or contact hours  {1=Contact hours; 2=Credit hours; -2=Not applicable}||categorical||||||
+384|MTHCMP2|length_ave_months_largest_2||Number of months to complete 2nd largest program||continuous||||||
+385|CIPCODE3|cipcode_largest_3||CIP code of 3rd largest program||categorical||||||
+386|CIPTUIT3|tuition_fees_largest_3||Tuition and fees of 3rd largest program||continuous||||||
+387|CIPSUPP3|tuition_books_largest_3||Cost of books and supplies of 3rd largest program||continuous||||||
+388|CIPLGTH3|length_largest_3||Length of 3rd largest program||continuous||||||
+389|PRGMSR3|contact_credithrs_largest_3||3rd largest program measured in credit or contact hours  {1=Contact hours; 2=Credit hours; -2=Not applicable}||categorical||||||
+390|MTHCMP3|length_ave_months_largest_3||Number of months to complete 3rd largest program||continuous||||||
+391|CIPCODE4|cipcode_largest_4||CIP code of 4th largest program||categorical||||||
+392|CIPTUIT4|tuition_fees_largest_4||Tuition and fees of 4th largest program||continuous||||||
+393|CIPSUPP4|tuition_books_largest_4||Cost of books and supplies of 4th largest program||continuous||||||
+394|CIPLGTH4|length_largest_4||Length of 4th largest program||continuous||||||
+395|PRGMSR4|credit_credithrs_largest_4||4th largest program measured in credit or contact hours  {1=Contact hours; 2=Credit hours; -2=Not applicable}||categorical||||||
+396|MTHCMP4|length_ave_months_largest_4||Number of months to complete 4th largest program||continuous||||||
+397|CIPCODE5|cipcode_largest_5||CIP code of 5th largest program||categorical||||||
+398|CIPTUIT5|tuition_fees_largest_5||Tuition and fees of 5th largest program||continuous||||||
+399|CIPSUPP5|tuition_books_largest_5||Cost of books and supplies of 5th largest program||continuous||||||
+400|CIPLGTH5|length_largest_5||Length of 5th largest program||continuous||||||
+401|PRGMSR5|length_credithrs_largest_5||5th largest program measured in credit or contact hours  {1=Contact hours; 2=Credit hours; -2=Not applicable}||categorical||||||
+402|MTHCMP5|length_ave_months_largest_5||Number of months to complete 5th largest program||continuous||||||
+403|CIPCODE6|cipcode_largest_6||CIP code of 6th largest program||categorical||||||
+404|CIPTUIT6|tuition_fees_largest_6||Tuition and fees of 6th largest program||continuous||||||
+405|CIPSUPP6|tuition_books_largest_6||Cost of books and supplies of 6th largest program||continuous||||||
+406|CIPLGTH6|length_largest_6||Length of 6th largest program||continuous||||||
+407|PRGMSR6|credit_credithrs_largest_6||6th largest program measured in credit or contact hours  {1=Contact hours; 2=Credit hours; -2=Not applicable}||categorical||||||
+408|MTHCMP6|length_ave_months_largest_6||Number of months to complete 6th largest program||continuous||||||
+409|EFFYLEV|student_level||Level of student {1=All students total; 2=Undergraduate; 4=Graduate}||categorical||||||
+410|LSTUDY|student_level_original||Original level of study on survey form {1=undergraduate; 3=Graduate; 999=Generated total}||categorical||||IPEDS do not explain further||
+411|EFYTOTLT|enrollment_12month||Grand total (male and female) enrolled during 12 month period||continuous||{student_level=1}||Can derive undergraduate and graduate enrollment numbers from enrollment and student_level||
+412|EFYTOTLT|enrollment_12month_undergrad||Male and female undergraduate students enrolled||continuous||{student_level=2}||This variable is used for the gender breakdown in the the student body tab||
+413|EFYTOTLT|enrollment_12month_graduate||Male and female graduate students enrolled||continuous||{student_level=4}||||
+414|EFYTOTLM|enrollment_12month_male||Grand total men enrolled||continuous||{student_level=1}||||
+415|EFYTOTLM|enrollment_12month_undergrad_male||Male undergraduate students enrolled||continuous||{student_level=2}||This variable is used for the gender breakdown in the the student body tab||
+416|EFYTOTLM|enrollment_12month_graduate_male||Male graduate students enrolled||continuous||{student_level=4}||||
+417|EFYTOTLW|enrollment_12month_female||Grand total women enrolled||continuous||{student_level=1}||||
+418|EFYTOTLW|enrollment_12month_undergrad_female||Female undergaduate students enrolled||continuous||{student_level=2}||This variable is used for the gender breakdown in the the student body tab||
+419|EFYTOTLW|enrollment_12month_graduate_female||Female graduate students enrolled||continuous||{student_level=4}||||
+420|EFYAIANT|enrollment_12month_native||American Indian or Alaska Native total enrolled||continuous||{student_level=1}||||
+421|EFYAIANT|enrollment_12month_undergrad_native||American Indian or Alaska Native total undergraduate enrolled||continuous||{student_level=2}||||
+422|EFYAIANT|enrollment_12month_graduate_native||American Indian or Alaska Native total graduate enrolled||continuous||{student_level=4}||||
+423|EFYAIANM|enrollment_12month_native_male||American Indian or Alaska Native men enrolled||continuous||{student_level=1}||||
+424|EFYAIANM|enrollment_12month_undergrad_native_male||American Indian or Alaska Native undergraduate men enrolled||continuous||{student_level=2}||||
+425|EFYAIANM|enrollment_12month_graduate_native_male||American Indian or Alaska Native graduate men enrolled||continuous||{student_level=4}||||
+426|EFYAIANW|enrollment_12month_native_female||American Indian or Alaska Native women enrolled||continuous||{student_level=1}||||
+427|EFYAIANW|enrollment_12month_undergrad_native_female||American Indian or Alaska Native undergraduate women enrolled||continuous||{student_level=2}||||
+428|EFYAIANW|enrollment_12month_graduate_native_female||American Indian or Alaska Native graduate women enrolled||continuous||{student_level=4}||||
+429|EFYASIAT|enrollment_12month_asian||Asian total enrolled||continuous||{student_level=1}||||
+430|EFYASIAT|enrollment_12month_undergrad_asian||Asian total undergraduate enrolled||continuous||{student_level=2}||||
+431|EFYASIAT|enrollment_12month_graduate_asian||Asian total graduate enrolled||continuous||{student_level=4}||||
+432|EFYASIAM|enrollment_12month_asian_male||Asian men enrolled||continuous||{student_level=1}||||
+433|EFYASIAM|enrollment_12month_undergrad_asian_male||Asian undergraduate men enrolled||continuous||{student_level=2}||||
+434|EFYASIAM|enrollment_12month_graduate_asian_male||Asian graduate men enrolled||continuous||{student_level=4}||||
+435|EFYASIAW|enrollment_12month_asian_female||Asian women enrolled||continuous||{student_level=1}||||
+436|EFYASIAW|enrollment_12month_undergrad_asian_female||Asian undergraduate women enrolled||continuous||{student_level=2}||||
+437|EFYASIAW|enrollment_12month_graduate_asian_female||Asian graduate women enrolled||continuous||{student_level=4}||||
+438|EFYBKAAT|enrollment_12month_black||Black or African American total enrolled||continuous||{student_level=1}||||
+439|EFYBKAAT|enrollment_12month_undergrad_black||Black or African American undergraduate total enrolled||continuous||{student_level=2}||||
+440|EFYBKAAT|enrollment_12month_graduate_black||Black or African American graduate total enrolled||continuous||{student_level=4}||||
+441|EFYBKAAM|enrollment_12month_black_male||Black or African American men enrolled||continuous||{student_level=1}||||
+442|EFYBKAAM|enrollment_12month_undergrad_black_male||Black or African American undergraduate men enrolled||continuous||{student_level=2}||||
+443|EFYBKAAM|enrollment_12month_graduate_black_male||Black or African American graduate men enrolled||continuous||{student_level=4}||||
+444|EFYBKAAW|enrollment_12month_black_female||Black or African American women enrolled||continuous||{student_level=1}||||
+445|EFYBKAAW|enrollment_12month_undergrad_black_female||Black or African American undergraduate women enrolled||continuous||{student_level=2}||||
+446|EFYBKAAW|enrollment_12month_graduate_black_female||Black or African American graduate women enrolled||continuous||{student_level=4}||||
+447|EFYHISPT|enrollment_12month_latino||Hispanic or Latino total enrolled||continuous||{student_level=1}||||
+448|EFYHISPT|enrollment_12month_undergrad_latino||Hispanic or Latino total undergraduate enrolled||continuous||{student_level=2}||||
+449|EFYHISPT|enrollment_12month_graduate_latino||Hispanic or Latino total graduate enrolled||continuous||{student_level=4}||||
+450|EFYHISPM|enrollment_12month_latino_male||Hispanic or Latino men enrolled||continuous||{student_level=1}||||
+451|EFYHISPM|enrollment_12month_undergrad_latino_male||Hispanic or Latino undergradute men enrolled||continuous||{student_level=2}||||
+452|EFYHISPM|enrollment_12month_graduate_latino_male||Hispanic or Latino graduate men enrolled||continuous||{student_level=4}||||
+453|EFYHISPW|enrollment_12month_latino_female||Hispanic or Latino women enrolled||continuous||{student_level=1}||||
+454|EFYHISPW|enrollment_12month_undergrad_latino_female||Hispanic or Latino undergraduate women enrolled||continuous||{student_level=2}||||
+455|EFYHISPW|enrollment_12month_graduate_latino_female||Hispanic or Latino graduate women enrolled||continuous||{student_level=4}||||
+456|EFYNHPIT|enrollment_12month_pacific||Native Hawaiian or Other Pacific Islander total enrolled||continuous||{student_level=1}||||
+457|EFYNHPIT|enrollment_12month_undergrad_pacific||Native Hawaiian or Other Pacific Islander total undergraduate enrolled||continuous||{student_level=2}||||
+458|EFYNHPIT|enrollment_12month_graduate_pacific||Native Hawaiian or Other Pacific Islander total graduate enrolled||continuous||{student_level=4}||||
+459|EFYNHPIM|enrollment_12month_pacific_male||Native Hawaiian or Other Pacific Islander men enrolled||continuous||{student_level=1}||||
+460|EFYNHPIM|enrollment_12month_undergrad_pacific_male||Native Hawaiian or Other Pacific Islander undergraduate men enrolled||continuous||{student_level=2}||||
+461|EFYNHPIM|enrollment_12month_graduate_pacific_male||Native Hawaiian or Other Pacific Islander graduate men enrolled||continuous||{student_level=4}||||
+462|EFYNHPIW|enrollment_12month_pacific_female||Native Hawaiian or Other Pacific Islander women enrolled||continuous||{student_level=1}||||
+463|EFYNHPIW|enrollment_12month_undergrad_pacific_female||Native Hawaiian or Other Pacific Islander undergraduate women enrolled||continuous||{student_level=2}||||
+464|EFYNHPIW|enrollment_12month_graduate_pacific_female||Native Hawaiian or Other Pacific Islander graduate women enrolled||continuous||{student_level=4}||||
+465|EFYWHITT|enrollment_12month_white||White total enrolled||continuous||{student_level=1}||||
+466|EFYWHITT|enrollment_12month_undergrad_white||White total undergraduate enrolled||continuous||{student_level=2}||||
+467|EFYWHITT|enrollment_12month_graduate_white||White total graduate enrolled||continuous||{student_level=4}||||
+468|EFYWHITM|enrollment_12month_white_male||White men enrolled||continuous||{student_level=1}||||
+469|EFYWHITM|enrollment_12month_undergrad_white_male||White undergraduate men enrolled||continuous||{student_level=2}||||
+470|EFYWHITM|enrollment_12month_graduate_white_male||White graduate men enrolled||continuous||{student_level=4}||||
+471|EFYWHITW|enrollment_12month_white_female||White women enrolled||continuous||{student_level=1}||||
+472|EFYWHITW|enrollment_12month_undergrad_white_female||White undergraduate women enrolled||continuous||{student_level=2}||||
+473|EFYWHITW|enrollment_12month_graduate_white_female||White graduate women enrolled||continuous||{student_level=4}||||
+474|EFY2MORT|enrollment_12month_tworaces||Two or more races total enrolled||continuous||{student_level=1}||||
+475|EFY2MORT|enrollment_12month_undergrad_tworaces||Two or more races total undergraduate enrolled||continuous||{student_level=2}||||
+476|EFY2MORT|enrollment_12month_graduate_tworaces||Two or more races total graduate enrolled||continuous||{student_level=4}||||
+477|EFY2MORM|enrollment_12month_tworaces_male||Two or more races men enrolled||continuous||{student_level=1}||||
+478|EFY2MORM|enrollment_12month_undergrad_tworaces_male||Two or more races undergraduate men enrolled||continuous||{student_level=2}||||
+479|EFY2MORM|enrollment_12month_graduate_tworaces_male||Two or more races graduate men enrolled||continuous||{student_level=4}||||
+480|EFY2MORW|enrollment_12month_tworaces_female||Two or more races women enrolled||continuous||{student_level=1}||||
+481|EFY2MORW|enrollment_12month_undergrad_tworaces_female||Two or more races undergraduate women enrolled||continuous||{student_level=2}||||
+482|EFY2MORW|enrollment_12month_graduate_tworaces_female||Two or more races graduate women enrolled||continuous||{student_level=4}||||
+483|EFYUNKNT|enrollment_12month_other||Race/ethnicity unknown total enrolled||continuous||{student_level=1}||||
+484|EFYUNKNT|enrollment_12month_undergrad_other||Race/ethnicity unknown total undergraduate enrolled||continuous||{student_level=2}||||
+485|EFYUNKNT|enrollment_12month_graduate_other||Race/ethnicity unknown total graduate enrolled||continuous||{student_level=4}||||
+486|EFYUNKNM|enrollment_12month_other_male||Race/ethnicity unknown men enrolled||continuous||{student_level=1}||||
+487|EFYUNKNM|enrollment_12month_undergrad_other_male||Race/ethnicity unknown undergraduate men enrolled||continuous||{student_level=2}||||
+488|EFYUNKNM|enrollment_12month_graduate_other_male||Race/ethnicity unknown graduate men enrolled||continuous||{student_level=4}||||
+489|EFYUNKNW|enrollment_12month_other_female||Race/ethnicity unknown women enrolled||continuous||{student_level=1}||||
+490|EFYUNKNW|enrollment_12month_undergrad_other_female||Race/ethnicity unknown undergraduate women enrolled||continuous||{student_level=2}||||
+491|EFYUNKNW|enrollment_12month_graduate_other_female||Race/ethnicity unknown graduate women enrolled||continuous||{student_level=4}||||
+492|EFYNRALT|enrollment_12month_international||Nonresident alien total enrolled||continuous||{student_level=1}||||
+493|EFYNRALT|enrollment_12month_undergrad_international||Nonresident alien total undergraduate enrolled||continuous||{student_level=2}||||
+494|EFYNRALT|enrollment_12month_graduate_international||Nonresident alien total graduate enrolled||continuous||{student_level=4}||||
+495|EFYNRALM|enrollment_12month_international_male||Nonresident alien men enrolled||continuous||{student_level=1}||||
+496|EFYNRALM|enrollment_12month_undergrad_international_male||Nonresident alien undergraduate men enrolled||continuous||{student_level=2}||||
+497|EFYNRALM|enrollment_12month_graduate_international_male||Nonresident alien graduate men enrolled||continuous||{student_level=4}||||
+498|EFYNRALW|enrollment_12month_international_female||Nonresident alien women enrolled||continuous||{student_level=1}||||
+499|EFYNRALW|enrollment_12month_undergrad_international_female||Nonresident alien undergraduate women enrolled||continuous||{student_level=2}||||
+500|EFYNRALW|enrollment_12month_graduate_international_female||Nonresident alien graduate women enrolled||continuous||{student_level=4}||||
+501|CDACTUA|instruction_activity_undergrad_credit||12-month instructional activity credit hours: undergraduates||continuous||||Sum of all credit hours (class credits multiplied by number of students)||
+502|CNACTUA|instruction_activity_undergrad_contact||12-month instructional activity contact hours: undergraduates||continuous||||Sum of all contact hours (hours of classroom instruction multiplied by number of students)||
+503|CDACTGA|instruction_activity_grad_credit||12-month instructional activity credit hours: graduates||continuous||||Same formula as undergrad||
+504|EFTEUG|estimated_fte_undergrad||Estimated full-time equivalent (FTE) undergraduate enrollment, 2010-11||continuous||||Sum of undergraduate credit hours divided by 30 and contact hours divided by 900 (credit hours divided by 45 and contact hours divided by 900 for schools with quarter calenders)||
+505|EFTEGD|estimated_fte_grad||Estimated full-time equivalent (FTE) graduate enrollment, 2010-11||continuous||||Same formula as undergrad||
+506|FTEUG|reported_fte_undergrad||Reported full-time equivalent (FTE) undergraduate enrollment, 2010-11||continuous||||||
+507|FTEGD|reported_fte_grad||Reported full-time equivalent (FTE) graduate enrollment, 2010-11||continuous||||||
+508|ACTTYPE|instruction_activity_type||Is instructional activity based on credit or contact hours {1=Contact hours; 2=Credit hours; 3=Both contact and credit hours; -2=Not applicable}||categorical||||||
+509|CIPCODE|cipcode||CIP Code -  2010 Classification||categorical||||||
+510|MAJORNUM|major_first_second||First or Second Major {1=First major; 2=Second major}||categorical||||||
+511|AWLEVEL|area_postsec||Award Level code {3=Associate's degree; 5=Bachelor's degree; 7=Master's degree; 17=Doctor's degree-research/scholarship; 18=Doctor's degree-professional practice; 19=Doctor's degree-other; 1=Award of less than 1 academic year; 2=Award of at least 1 but less than 2 academic years; 4=Award of at least 2 but less than 4 years; 6=Postbaccalaureate certificate; 8=Pos-master's certificate}||categorical||||||
+512|CTOTALT|graduation_total||Grand total graduated||continuous||||||
+513|CTOTALT|graduation_total_1yrcert||Total graduated with less than 1 year certification||continuous||{area_postsec=1}||||
+514|CTOTALT|graduation_total_12yrcert||Total graduated with 1-2 year certification||continuous||{area_postsec=2}||||
+515|CTOTALT|graduation_total_associates||Total graduated with associate's degree||continuous||{area_postsec=3}||||
+516|CTOTALT|graduation_total_bachelors||Total graduated with bachelor's degree||continuous||{area_postsec=5}||||
+517|CTOTALT|graduation_total_graduate||Total graduated with graduate degree||continuous||{area_postsec=7 or 17 or 18 or 19}||||
+518|CTOTALM|graduation_male||Grand total men graduated||continuous||||||
+519|CTOTALM|graduation_male_1yrcert||Men graduated with less than 1 year certification||continuous||{area_postsec=1}||||
+520|CTOTALM|graduation_male_12yrcert||Men graduated with 1-2 year certification||continuous||{area_postsec=2}||||
+521|CTOTALM|graduation_male_associates||Men graduated with associate's degree||continuous||{area_postsec=3}||||
+522|CTOTALM|graduation_male_bachelors||Men graduated with bachelor's degree||continuous||{area_postsec=5}||||
+523|CTOTALM|graduation_male_graduate||Men graduated with graduate degree||continuous||{area_postsec=7 or 17 or 18 or 19}||||
+524|CTOTALW|graduation_female||Grand total women graduated||continuous||||||
+525|CTOTALW|graduation_female_1yrcert||Women graduated with less than 1 year certification||continuous||{area_postsec=1}||||
+526|CTOTALW|graduation_female_12yrcert||Women graduated with 1-2 year certification||continuous||{area_postsec=2}||||
+527|CTOTALW|graduation_female_associates||Women graduated with associate's degree||continuous||{area_postsec=3}||||
+528|CTOTALW|graduation_female_bachelors||Women graduated with bachelor's degree||continuous||{area_postsec=5}||||
+529|CTOTALW|graduation_female_graduate||Women graduated with graduate degree||continuous||{area_postsec=7 or 17 or 18 or 19}||||
+530|CAIANT|graduation_native||American Indian or Alaska Native total graduated||continuous||||||
+531|CAIANM|graduation_native_male||American Indian or Alaska Native men graduated||continuous||||||
+532|CAIANW|graduation_native_female||American Indian or Alaska Native women graduated||continuous||||||
+533|CASIAT|graduation_asian||Asian total graduated||continuous||||||
+534|CASIAM|graduation_asian_male||Asian men graduated||continuous||||||
+535|CASIAW|graduation_asian_female||Asian women graduated||continuous||||||
+536|CBKAAT|gradutaion_black||Black or African American total graduated||continuous||||||
+537|CBKAAM|graduation_black_male||Black or African American men graduated||continuous||||||
+538|CBKAAW|graduation_black_female||Black or African American women graduated||continuous||||||
+539|CHISPT|graduation_latino||Hispanic or Latino total graduated||continuous||||||
+540|CHISPM|graduation_latino_male||Hispanic or Latino men graduated||continuous||||||
+541|CHISPW|graduation_latino_female||Hispanic or Latino women graduated||continuous||||||
+542|CNHPIT|gradution_pacific||Native Hawaiian or Other Pacific Islander total graduated||continuous||||||
+543|CNHPIM|graduation_pacific_male||Native Hawaiian or Other Pacific Islander men graduated||continuous||||||
+544|CNHPIW|graduation_pacific_female||Native Hawaiian or Other Pacific Islander women graduated||continuous||||||
+545|CWHITT|gradutaion_white||White total graduated||continuous||||||
+546|CWHITM|graduation_white_male||White men graduated||continuous||||||
+547|CWHITW|graduation_white_female||White women graduated||continuous||||||
+548|C2MORT|graduation_tworaces||Two or more races total graduated||continuous||||||
+549|C2MORM|gradutaion_tworaces_male||Two or more races men graduated||continuous||||||
+550|C2MORW|graduation_tworaces_female||Two or more races women graduated||continuous||||||
+551|CUNKNT|graduation_other||Race/ethnicity unknown total graduated||continuous||||||
+552|CUNKNM|graduation_other_male||Race/ethnicity unknown men graduated||continuous||||||
+553|CUNKNW|graduation_other_female||Race/ethnicity unknown women graduated||continuous||||||
+554|CNRALT|graduation_international||Nonresident alien total graduated||continuous||||||
+555|CNRALM|graduation_international_male||Nonresident alien men graduated||continuous||||||
+556|CNRALW|graduation_international_female||Nonresident alien women graduated||continuous||||||
+557|CONTRACT|faculty_contract_length||Contract length {1=9/10-month contract; 2=11/12-month contract; 4=Equated 9-month contract}||categorical||||||
+558|ARANK|faculty_rank||Academic rank {7=All instructional staff total; 1=Professor; 2=Associate professor; 3=Assistant professor; 4=Instructor; 5=Lecturer; 6=No academic rank}||categorical||||||
+559|EMPCNTM|faculty_male||Number of full time instructional faculty men||continuous||||||
+560|EMPCNTM|faculty_male_percent||Percent of full-time instructional faculty men||continuous||faculty_male/faculty||||
+561|EMPCNTM|faculty_male_10month||Number of full time instructional faculty men with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+562|EMPCNTM|faculty_male_12month||Number of full time instructional faculty men with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+563|EMPCNTM|faculty_male_less9||Number of full time instructional faculty men with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+564|OUTLAYM|faculty_salary_male_total||Salary outlays of full time instructional faculty men||continuous||||||
+565|OUTLAYM|faculty_salary_10month_male_total||Salary outlays of full time instructional faculty men with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+566|OUTLAYM|faculty_salary_12month_male_total||Salary outlays of full time instructional faculty men with 11/12-month contracts}||continuous||{faculty_contract_length=2}||||
+567|OUTLAYM|faculty_salary_less9_male_total||Salary outlays of full time instructional faculty men with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+568|AVESALM|faculty_salary_male_ave||Average salary of full time instructional faculty men||continuous||||||
+569|AVESALM|faculty_salary_10month_male_ave||Average salary of full time instruction faculty men with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+570|AVESALM|faculty_salary_12month_male_ave||Average salary of full time instructional faculty men with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+571|AVESALM|faculty_salary_less9_male_ave||Average salary of full time instructional faculty men with less than 9-month contract||continuous||{faculty_contract_length=4}||||
+572|EMPCNTW|faculty_female||Number of full time instructional faculty women||continuous||||||
+573|EMPCNTW|faculty_female_percent||Percent of full-time instructional faculty women||continuous||faculty_female/faculty||||
+574|EMPCNTW|faculty_female_10month||Number of full time instructional faculty women with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+575|EMPCNTW|faculty_female_12month||Number of full time instructional faculty women with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+576|EMPCNTW|faculty_female_less9||Number of full time instructional faculty women with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+577|OUTLAYW|faculty_salary_female_total||Salary outlays of full time instructional faculty women||continuous||||||
+578|OUTLAYW|faculty_salary_10month_female_total||Salary outlays of full time instructional faculty women with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+579|OUTLAYW|faculty_salary_12month_female_total||Salary outlays of full time instructional faculty women with 11/12-month contracts}||continuous||{faculty_contract_length=2}||||
+580|OUTLAYW|faculty_salary_less9_female_total||Salary outlays of full time instructional faculty women with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+581|AVESALW|faculty_salary_female_ave||Average salary of full time instructional faculty women||continuous||||||
+582|AVESALW|faculty_salary_10month_female_ave||Average salary of full time instruction faculty men with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+583|AVESALW|faculty_salary_12month_female_ave||Average salary of full time instructional faculty men with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+584|AVESALW|faculty_salary_less9_female_ave||Average salary of full time instructional faculty women with less than 9-month contract||continuous||{faculty_contract_length=4}||||
+585|EMPCNTT|faculty||Number of full time instructional faculty total||continuous||||||
+586|EMPCNTT|faculty_10month||Number of full time instrucitonal faculty with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+587|EMPCNTT|faculty_12month||Number of full time instructional faculty with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+588|EMPCNTT|faculty_less9||Number of full time instructional faculty with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+589|OUTLAYT|faculty_salary_total||Salary outlays of full time instructional faculty total||continuous||||||
+590|OUTLAYT|faculty_salary_10month_total||Salary outlays of full time instructional faculty with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+591|OUTLAYT|faculty_salary_12month_total||Salary outlays of full time instructional faculty with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+592|OUTLAYT|faculty_salary_less9_total||Salary outlays of full time instructional faculty with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+593|AVESALT|faculty_salary_ave||Average salary of full time instructional faculty total||continuous||||||
+594|AVESALT|faculty_salary_10month_ave||Average salary of full time instructional faculty with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+595|AVESALT|faculty_salary_12month_ave||Average salary of full time instructional faculty with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+596|AVESALT|faculty_salary_less9_ave||Average salary of full time instructional faculty with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+597|CONTRACT|faculty_contract_length||Contract length {1=9/10-month contract; 2=11/12-month contract; 4=Equated 9-month contract}||categorical||||||
+598|ARANK|faculty_rank||Academic rank {7=All instructional staff total; 1=Professor; 2=Associate professor; 3=Assistant professor; 4=Instructor; 5=Lecturer; 6=No academic rank}||categorical||||||
+599|TENUREM|faculty_tenured_male||Tenured faculty, men||continuous||||||
+600|TENUREM|faculty_tenured_male_percent||Tenured faculty percent, men||continuous||faculty_tenured_male/faculty_tenured||||
+601|TENUREM|faculty_tenured_male_10month||Tenured faculty, men with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+602|TENUREM|faculty_tenured_male_12month||Tenured faculty, men with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+603|TENUREM|faculty_tenured_male_less9||Tenured faculty, men with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+604|ONTRCKM|faculty_tenure_track_male||On tenure track, men||continuous||||||
+605|ONTRCKM|faculty_tenure_track_male_percent||On tenure track percent, men||continuous||faculty_tenure_track_male_percent/faculty_tenure_track||||
+606|ONTRCKM|faculty_tenure_track_male_10month||On tenure track, men with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+607|ONTRCKM|faculty_tenure_track_male_12month||On tenure track, men with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+608|ONTRCKM|faculty_tenure_track_male_less9||On tenure track, men with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+609|NOTRCKM|faculty_non_tenure_track_male||Not on tenure track/no tenure system, men||continuous||||||
+610|NOTRCKM|faculty_non_tenure_track_male_percent||Not on tenure track/no tenure system percent, men||continuous||faculty_non_tenure_track_male/faculty_non_tenure_track||||
+611|NOTRCKM|faculty_non_tenure_track_male_10month||Not on tenure track/no tenure system, men with 9/10-mNot onth cNot ontracts||continuous||{faculty_contract_length=1}||||
+612|NOTRCKM|faculty_non_tenure_track_male_12month||Not on tenure track/no tenure system, men with 11/12-mNot onth cNot ontracts||continuous||{faculty_contract_length=2}||||
+613|NOTRCKM|faculty_non_tenure_track_male_less9||Not on tenure track/no tenure system, men with less than 9-mNot onth cNot ontracts||continuous||{faculty_contract_length=4}||||
+614|NOFACTM|faculty_no_status_male||Without faculty status, men||continuous||||||
+615|NOFACTM|faculty_no_status_male_percent||Without faculty status percent, men||continuous||faculty_no_status_male/faculty_no_status||||
+616|NOFACTM|faculty_no_status_male_10month||Without faculty status, men with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+617|NOFACTM|faculty_no_status_male_12month||Without faculty status, men with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+618|NOFACTM|faculty_no_status_male_less9||Without faculty status, men with less that 9-month contracts||continuous||{faculty_contract_length=4}||||
+619|TENUREW|faculty_tenured_female||Tenured faculty, women||continuous||||||
+620|TENUREW|faculty_tenured_female_percent||Tenured faculty percent, women||continuous||faculty_tenured_female/faculty_tenured||||
+621|TENUREW|faculty_tenured_female_10month||Tenured faculty, women with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+622|TENUREW|faculty_tenured_female_12month||Tenured faculty, women with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+623|TENUREW|faculty_tenured_female_less9||Tenured faculty, women with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+624|ONTRCKW|faculty_tenure_track_female||On tenure track, women||continuous||||||
+625|ONTRCKW|faculty_tenure_track_female_percent||On tenure track percent, women||continuous||faculty_tenure_track_female/faculty_tenure_track||||
+626|ONTRCKW|faculty_tenure_track_female_10month||On tenure track, women with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+627|ONTRCKW|faculty_tenure_track_female_12month||On tenure track, women with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+628|ONTRCKW|faculty_tenure_track_female_less9||On tenure track, women with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+629|NOTRCKW|faculty_non_tenure_track_female||Not on tenure track/no tenure system, women||continuous||||||
+630|NOTRCKW|faculty_non_tenure_track_female_percent||Not on tenure track/no tenure system percet, women||continuous||faculty_non_tenure_track_female/faculty_non_tenure_track||||
+631|NOTRCKW|faculty_non_tenure_track_female_10month||Not on tenure track/no tenure system, women with 9/10-mNot onth cNot ontracts||continuous||{faculty_contract_length=1}||||
+632|NOTRCKW|faculty_non_tenure_track_female_12month||Not on tenure track/no tenure system, women with 11/12-mNot onth cNot ontracts||continuous||{faculty_contract_length=2}||||
+633|NOTRCKW|faculty_non_tenure_track_female_less9||Not on tenure track/no tenure system, women with less than 9-mNot onth cNot ontracts||continuous||{faculty_contract_length=4}||||
+634|NOFACTW|faculty_no_status_female||Without faculty status, women||continuous||||||
+635|NOFACTW|faculty_no_status_female_percent||Without faculty status percent, women||continuous||faculty_no_status_female/faculty_no_status||||
+636|NOFACTW|faculty_no_status_female_10month||Without faculty status, women with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+637|NOFACTW|faculty_no_status_female_12month||Without faculty status, women with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+638|NOFACTW|faculty_no_status_female_less9||Without faculty status, women with less that 9-month contracts||continuous||{faculty_contract_length=4}||||
+639|EMPCNTT|faculty||Number of full time instructional faculty total||continuous||||||
+640|EMPCNTT|faculty_tenured||Tenured faculty, total||continuous||faculty_tenured_male+faculty_tenured_female||||
+641|EMPCNTT|faculty_tenured_10month||Tenured faculty, total with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+642|EMPCNTT|faculty_tenured_12month||Tenured faculty, total with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+643|EMPCNTT|faculty_tenured_less9||Tenured faculty, total with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+644|EMPCNTT|faculty_tenure_track||On tenure track, total||continuous||faculty_tenure_track_male+faculty_tenure_track_female||||
+645|EMPCNTT|faculty_tenure_track_10month||On tenure track, total with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+646|EMPCNTT|faculty_tenure_track_12month||On tenure track, total with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+647|EMPCNTT|faculty_tenure_track_less9||On tenure track, total with less than 9-month contracts||continuous||{faculty_contract_length=4}||||
+648|EMPCNTT|faculty_non_tenure_track||Not on tenure track/no tenure system, total||continuous||faculty_non_tenure_track_male+faculty_non_tenure_track_female||||
+649|EMPCNTT|faculty_non_tenure_track_10month||Not on tenure track/no tenure system, total with 9/10-mNot onth cNot ontracts||continuous||{faculty_contract_length=1}||||
+650|EMPCNTT|faculty_non_tenure_track_12month||Not on tenure track/no tenure system, total with 11/12-mNot onth cNot ontracts||continuous||{faculty_contract_length=2}||||
+651|EMPCNTT|faculty_non_tenure_track_less9||Not on tenure track/no tenure system, total with less than 9-mNot onth cNot ontracts||continuous||{faculty_contract_length=4}||||
+652|EMPCNTT|faculty_no_status||Without faculty status, total||continuous||faculty_no_status_male+faculty_no_status_female||||
+653|EMPCNTT|faculty_no_status_10month||Without faculty status, total with 9/10-month contracts||continuous||{faculty_contract_length=1}||||
+654|EMPCNTT|faculty_no_status_12month||Without faculty status, total with 11/12-month contracts||continuous||{faculty_contract_length=2}||||
+655|EMPCNTT|faculty_no_status_less9||Without faculty status, total with less that 9-month contracts||continuous||{faculty_contract_length=4}||||
+656|ARANK|faculty_rank||Academic rank {7=All instructional staff total; 1=Professor; 2=Associate professor; 3=Assistant professor; 4=Instructor; 5=Lecturer; 6=No academic rank}||categorical||||||
+657|EMPCNTM|faculty_less9_male||Number of full time instructional faculty men with less than 9-month contracts||continuous||||||
+658|EMPCNTW|faculty_less9_female||Number of full time instructional faculty women with less than 9-month contracts||continuous||||||
+659|EMPCNTT|faculty_less9||Number of full time instructional faculty total with less than 9-month contracts||continuous||||||
+660|SABDTYPE|employee_type||Primary function/occupational activity||categorical||||||
+661|LINE|employee_type_original||Original line number on survey number||categorical||||||
+662|HRTOTLT|employee_total||Grand total employed||continuous||||||
+663|HRTOTLM|employee_male||Grand total men employed||continuous||||||
+664|HRTOTLW|employee_female||Grand total women employed||continuous||||||
+665|HRAIANT|employee_native||American Indian or Alaska Native total employed||continuous||||||
+666|HRAIANM|employee_native_male||American Indian or Alaska Native men employed||continuous||||||
+667|HRAIANW|employee_native_female||American Indian or Alaska Native women employed||continuous||||||
+668|HRASIAT|employee_asian||Asian total employed||continuous||||||
+669|HRASIAM|employee_asian_male||Asian men employed||continuous||||||
+670|HRASIAW|employee_asian_female||Asian women employed||continuous||||||
+671|HRBKAAT|employee_black||Black or African American total employed||continuous||||||
+672|HRBKAAM|employee_black_male||Black or African American men employed||continuous||||||
+673|HRBKAAW|employee_black_female||Black or African American women employed||continuous||||||
+674|HRHISPT|employee_latino||Hispanic or Latino total employed||continuous||||||
+675|HRHISPM|employee_latino_male||Hispanic or Latino men employed||continuous||||||
+676|HRHISPW|employee_latino_female||Hispanic or Latino women employed||continuous||||||
+677|HRNHPIT|employee_pacific||Native Hawaiian or Other Pacific Islander total employed||continuous||||||
+678|HRNHPIM|employee_pacific_male||Native Hawaiian or Other Pacific Islander men employed||continuous||||||
+679|HRNHPIW|employee_pacific_female||Native Hawaiian or Other Pacific Islander women employed||continuous||||||
+680|HRWHITT|employee_white||White total employed||continuous||||||
+681|HRWHITM|employee_white_male||White men employed||continuous||||||
+682|HRWHITW|employee_white_female||White women employed||continuous||||||
+683|HR2MORT|employee_tworaces||Two or more races total employed||continuous||||||
+684|HR2MORM|employee_tworaces_male||Two or more races men employed||continuous||||||
+685|HR2MORW|employee_tworaces_female||Two or more races women employed||continuous||||||
+686|HRUNKNT|employee_other||Race/ethnicity unknown total employed||continuous||||||
+687|HRUNKNM|employee_other_male||Race/ethnicity unknown men employed||continuous||||||
+688|HRUNKNW|employee_other_female||Race/ethnicity unknown women employed||continuous||||||
+689|HRNRALT|employee_international||Nonresident alien total employed||continuous||||||
+690|HRNRALT|faculty_international||Nonresident alien faculty total||continuous||{employee_type=2 AND 3}||||
+691|HRNRALM|employee_international_male||Nonresident alien men employed||continuous||||||
+692|HRNRALM|faculty_internation_male||Nonresident alien faculty men||continuous||{employee_type=2 AND 3}||||
+693|HRNRALW|employee_international_female||Nonresident alien women employed||continuous||||||
+694|HRNRALW|faculty_international_female||Nonresident alien faculty women||continuous||{employee_type=2 AND 3}||||
+695|ARANK|faculty_irp_rank||Tenure status and academic rank of full-time instruction/research/public service staff||categorical||||||
+696|HRTOTLT|faculty_irp||Grand total full-time instruction/research/public service staff||continuous||||||
+697|HRTOTLM|faculty_irp_male||Grand total men full-time instruction/research/public service staff||continuous||||||
+698|HRTOTLW|faculty_irp_female||Grand total women full-time instruction/research/public service staff||continuous||||||
+699|HRAIANT|faculty_irp_native||American Indian or Alaska Native total full-time instruction/research/public service staff||continuous||||||
+700|HRAIANM|faculty_irp_native_male||American Indian or Alaska Native men full-time instruction/research/public service staff||continuous||||||
+701|HRAIANW|faculty_irp_native_female||American Indian or Alaska Native women full-time instruction/research/public service staff||continuous||||||
+702|HRASIAT|faculty_irp_asian||Asian total full-time instruction/research/public service staff||continuous||||||
+703|HRASIAM|faculty_irp_asian_male||Asian men full-time instruction/research/public service staff||continuous||||||
+704|HRASIAW|faculty_irp_asian_female||Asian women full-time instruction/research/public service staff||continuous||||||
+705|HRBKAAT|faculty_irp_black||Black or African American total full-time instruction/research/public service staff||continuous||||||
+706|HRBKAAM|faculty_irp_black_male||Black or African American men full-time instruction/research/public service staff||continuous||||||
+707|HRBKAAW|faculty_irp_black_female||Black or African American women full-time instruction/research/public service staff||continuous||||||
+708|HRHISPT|faculty_irp_latino||Hispanic or Latino total full-time instruction/research/public service staff||continuous||||||
+709|HRHISPM|faculty_irp_latino_male||Hispanic or Latino men full-time instruction/research/public service staff||continuous||||||
+710|HRHISPW|faculty_irp_latino_female||Hispanic or Latino women full-time instruction/research/public service staff||continuous||||||
+711|HRNHPIT|faculty_irp_pacific||Native Hawaiian or Other Pacific Islander total full-time instruction/research/public service staff||continuous||||||
+712|HRNHPIM|faculty_irp_pacific_male||Native Hawaiian or Other Pacific Islander men full-time instruction/research/public service staff||continuous||||||
+713|HRNHPIW|faculty_irp_pacific_female||Native Hawaiian or Other Pacific Islander women full-time instruction/research/public service staff||continuous||||||
+714|HRWHITT|faculty_irp_white||White total full-time instruction/research/public service staff||continuous||||||
+715|HRWHITM|faculty_irp_white_male||White men full-time instruction/research/public service staff||continuous||||||
+716|HRWHITW|faculty_irp_white_female||White women full-time instruction/research/public service staff||continuous||||||
+717|HR2MORT|faculty_irp_tworaces||Two or more races total full-time instruction/research/public service staff||continuous||||||
+718|HR2MORM|faculty_irp_tworaces_male||Two or more races men full-time instruction/research/public service staff||continuous||||||
+719|HR2MORW|faculty_irp_tworaces_female||Two or more races women full-time instruction/research/public service staff||continuous||||||
+720|HRUNKNT|faculty_irp_other||Race/ethnicity unknown total full-time instruction/research/public service staff||continuous||||||
+721|HRUNKNM|faculty_irp_other_male||Race/ethnicity unknown men full-time instruction/research/public service staff||continuous||||||
+722|HRUNKNW|faculty_irp_other_female||Race/ethnicity unknown women full-time instruction/research/public service staff||continuous||||||
+723|HRNRALT|faculty_irp_international||Nonresident alien total full-time instruction/research/public service staff||continuous||||||
+724|HRNRALM|faculty_irp_international_male||Nonresident alien men full-time instruction/research/public service staff||continuous||||||
+725|HRNRALW|faculty_irp_international_female||Nonresident alien women full-time instruction/research/public service staff||continuous||||||
+726|SGTYPE|employee_type_new||Primary function/occupational activity of new hire||categorical||||||
+727|FUNCTCD|employee_type_original_new||Orignal function code on survey form of new hire||categorical||||||
+728|HRTOTLT|employee_new||Grand total new hires||continuous||||||
+729|HRTOTLM|employee_male_new||Grand total men new hires||continuous||||||
+730|HRTOTLW|employee_female_new||Grand total women new hires||continuous||||||
+731|HRAIANT|employee_native_new||American Indian or Alaska Native total new hires||continuous||||||
+732|HRAIANM|employee_native_male_new||American Indian or Alaska Native men new hires||continuous||||||
+733|HRAIANW|employee_native_female_new||American Indian or Alaska Native women new hires||continuous||||||
+734|HRASIAT|employee_asian_new||Asian total new hires||continuous||||||
+735|HRASIAM|employee_asian_male_new||Asian men new hires||continuous||||||
+736|HRASIAW|employee_asian_female_new||Asian women new hires||continuous||||||
+737|HRBKAAT|employee_black_new||Black or African American total new hires||continuous||||||
+738|HRBKAAM|employee_black_male_new||Black or African American men new hires||continuous||||||
+739|HRBKAAW|employee_black_female_new||Black or African American women new hires||continuous||||||
+740|HRHISPT|employee_latino_new||Hispanic or Latino total new hires||continuous||||||
+741|HRHISPM|employee_latino_male_new||Hispanic or Latino men new hires||continuous||||||
+742|HRHISPW|employee_latino_female_new||Hispanic or Latino women new hires||continuous||||||
+743|HRNHPIT|employee_pacific_new||Native Hawaiian or Other Pacific Islander total new hires||continuous||||||
+744|HRNHPIM|employee_pacific_male_new||Native Hawaiian or Other Pacific Islander men new hires||continuous||||||
+745|HRNHPIW|employee_pacific_female_new||Native Hawaiian or Other Pacific Islander women new hires||continuous||||||
+746|HRWHITT|employee_white_new||White total new hires||continuous||||||
+747|HRWHITM|employee_white_male_new||White men new hires||continuous||||||
+748|HRWHITW|employee_white_female_new||White women new hires||continuous||||||
+749|HR2MORT|employee_tworaces_new||Two or more races total new hires||continuous||||||
+750|HR2MORM|employee_tworaces_male_new||Two or more races men new hires||continuous||||||
+751|HR2MORW|employee_tworaces_female_new||Two or more races women new hires||continuous||||||
+752|HRUNKNT|employee_other_new||Race/ethnicity unknown total new hires||continuous||||||
+753|HRUNKNM|employee_other_male_new||Race/ethnicity unknown men new hires||continuous||||||
+754|HRUNKNW|employee_other_female_new||Race/ethnicity unknown women new hires||continuous||||||
+755|HRNRALT|employee_international_new||Nonresident alien total new hires||continuous||||||
+756|HRNRALM|employee_international_male_new||Nonresident alien men new hires||continuous||||||
+757|HRNRALW|employee_international_female_new||Nonresident alien women new hires||continuous||||||
+758|SCNLEVEL|employee_type||Primary function/occupational activity of employees||categorical||||||
+759|LINE|employee_type_original||Original line number on survey form of employees||categorical||||||
+760|HRTOTLT|employee_total||Grand total employed||continuous||||||
+761|HRTOTLM|employee_male||Grand total men employed||continuous||||||
+762|HRTOTLW|employee_female||Grand total women employed||continuous||||||
+763|HRAIANT|employee_native||American Indian or Alaska Native total employed||continuous||||||
+764|HRAIANM|employee_native_male||American Indian or Alaska Native men employed||continuous||||||
+765|HRAIANW|employee_native_female||American Indian or Alaska Native women employed||continuous||||||
+766|HRASIAT|employee_asian||Asian total employed||continuous||||||
+767|HRASIAM|employee_asian_male||Asian men employed||continuous||||||
+768|HRASIAW|employee_asian_female||Asian women employed||continuous||||||
+769|HRBKAAT|employee_black||Black or African American total employed||continuous||||||
+770|HRBKAAM|employee_black_male||Black or African American men employed||continuous||||||
+771|HRBKAAW|employee_black_female||Black or African American women employed||continuous||||||
+772|HRHISPT|employee_latino||Hispanic or Latino total employed||continuous||||||
+773|HRHISPM|employee_latino_male||Hispanic or Latino men employed||continuous||||||
+774|HRHISPW|employee_latino_female||Hispanic or Latino women employed||continuous||||||
+775|HRNHPIT|employee_pacific||Native Hawaiian or Other Pacific Islander total employed||continuous||||||
+776|HRNHPIM|employee_pacific_male||Native Hawaiian or Other Pacific Islander men employed||continuous||||||
+777|HRNHPIW|employee_pacific_female||Native Hawaiian or Other Pacific Islander women employed||continuous||||||
+778|HRWHITT|employee_white||White total employed||continuous||||||
+779|HRWHITM|employee_white_male||White men employed||continuous||||||
+780|HRWHITW|employee_white_female||White women employed||continuous||||||
+781|HR2MORT|employee_tworaces||Two or more races total employed||continuous||||||
+782|HR2MORM|employee_tworaces_male||Two or more races men employed||continuous||||||
+783|HR2MORW|employee_tworaces_female||Two or more races women employed||continuous||||||
+784|HRUNKNT|employee_other||Race/ethnicity unknown total employed||continuous||||||
+785|HRUNKNM|employee_other_male||Race/ethnicity unknown men employed||continuous||||||
+786|HRUNKNW|employee_other_female||Race/ethnicity unknown women employed||continuous||||||
+787|HRNRALT|employee_international||Nonresident alien total employed||continuous||||||
+788|HRNRALM|employee_international_male||Nonresident alien men employed||continuous||||||
+789|HRNRALW|employee_international_female||Nonresident alien women employed||continuous||||||
+790|EAPRECTP|employee_function||Primary function of employee||categorical||||||
+791|FTPT|employee_status||Full and part-time status of employee||categorical||||||
+792|FUNCTCD|employee_type||Primary function/occupational activity of employee||categorical||||||
+793|FSTAT|faculty_status||Faculty status||categorical||||||
+794|EAPTYP|employee_total_non_medical||Institution employees (excluding medical school)||continuous||||||
+795|EAPMED|employee_medical||Medical school employees||continuous||||||
+796|EAPTOT|employee_total||Total employees||continuous||||||
+797|SCUGRAD|enrollment_undergrad||Total number of undergraduates - financial aid cohort (October 15)||continuous||||This variable is used for the total enrollment figure in the student life tab||
+798|SCUGFFN|enrollment_fresh_ft||Total number of full-time first-time degree/certificate seeking undergraduates - financial aid cohort (October 15)||continuous||||||
+799|SCUGFFP|enrollment_fresh_ft_pc||Full-time first-time degree/certificate seeking undergraduates as a percent of all undergraduates - financial aid cohort (October 15)||continuous||||||
+800|SCFA2|enrollment_undergrad||Total number of undergraduates - fall cohort (October 15)||continuous||||||
+801|SCFA1N|enrollment_fresh_ft||Number of students in fall cohort (October 15)||continuous||||||
+802|SCFA1P|enrollment_fresh_ft_pc||Students in fall cohort as a percentage of all undergraduates (October 15)||continuous||||||
+803|SCFA11N|enrollment_fresh_indistrict||Number of students in fall cohort who are paying in-district tuition rates (October 15)||continuous||||||
+804|SCFA11P|enrollment_fresh_indistrict_percent||Percentage of students in fall cohort who are paying in-district tuition rates (October 15)||continuous||||||
+805|SCFA12N|enrollment_fresh_instate||Number of students in fall cohort who are paying in-state tuititon rates (October 15)||continuous||||||
+806|SCFA12P|enrollment_fresh_instate_percent||Percentage of students in fall cohort who paying in-state tuition rates (October 15)||continuous||||||
+807|SCFA13N|enrollment_fresh_outstate||Number of students in fall cohort who are paying out-of-state tuition rates (October 15)||continuous||||||
+808|SCFA13P|enrollment_fresh_outstate_percent||Percentage of students in fall cohort who are paying out-of-state tuition rates (October 15)||continuous||||||
+809|SCFA14N|enrollment_fresh_tuition_other||Number of students in fall cohort whose residence/tuition rate is unknown (October 15)||continuous||||||
+810|SCFA14P|enrollment_fresh_tuition_other_percent||Percentage of students in fall cohort whose residence/ tuition rate is unknown (October 15)||continuous||||||
+811|SCFY2|enrollment_undergrad_full||Total number of undergraduates - full-year cohort||continuous||||Full-year refers to 12-month, unduplicated head count enrollment between September 1st and August 31st||
+812|SCFY1N|enrollment_fresh_ft_full||Number of students in full-year cohort||continuous||||Full-year refers to 12-month, unduplicated head count enrollment between September 1st and August 31st||
+813|SCFY1P|enrollment_fresh_ft_pc_full||Students in full-year cohort as a percentage of all  undergraduates||continuous||||Full-year refers to 12-month, unduplicated head count enrollment between September 1st and August 31st||
+814|SCFY11N|enrollment_fresh_indistrict_full||Number of students in full-year cohort who are paying in-district tuition rates||continuous||||Full-year refers to 12-month, unduplicated head count enrollment between September 1st and August 31st||
+815|SCFY11P|enrollment_fresh_indistrict_percent_full||Percentage of students in full-year cohort who are paying in-district tuition rates||continuous||||Full-year refers to 12-month, unduplicated head count enrollment between September 1st and August 31st||
+816|SCFY12N|enrollment_fresh_instate_full||Number of students in full-year cohort who are paying in-state tuition rates||continuous||||Full-year refers to 12-month, unduplicated head count enrollment between September 1st and August 31st||
+817|SCFY12P|enrollment_fresh_instate_percent_full||Percentage of students in full-year cohort who are paying in-state tuition rates||continuous||||Full-year refers to 12-month, unduplicated head count enrollment between September 1st and August 31st||
+818|SCFY13N|enrollment_fresh_outstate_full||Number of students in full-year cohort who are paying out-of-state tuition rates||continuous||||Full-year refers to 12-month, unduplicated head count enrollment between September 1st and August 31st||
+819|SCFY13P|enrollment_fresh_outstate_percent_full||Percentage of students in full-year cohort who are paying out-of-state tuition rates||continuous||||Full-year refers to 12-month, unduplicated head count enrollment between September 1st and August 31st||
+820|SCFY14N|enrollment_fresh_tuition_other_full||Number of students in full-year cohort whose residence/tuition rate is unknown||continuous||||Full-year refers to 12-month, unduplicated head count enrollment between September 1st and August 31st||
+821|SCFY14P|enrollment_fresh_tuition_other_percent_full||Percentage of students in full-year cohort whose residence/tuition rate  is unknown||continuous||||Full-year refers to 12-month, unduplicated head count enrollment between September 1st and August 31st||
+822|UAGRNTN|finaid_undergrad_all_grant_aid||Number of undergraduate students receiving federal, state, local, institutional or other sources of grant aid||continuous||||||
+823|UAGRNTP|finaid_undergrad_all_grant_aid_pc||Percent of undergraduate students receiving federal, state, local, institutional or other sources of grant aid||continuous||||||
+824|UAGRNTT|finaid_undergrad_all_grant_aid_total||Total amount of federal, state, local, institutional or other sources of grant aid dollars received by undergraduate students||continuous||||||
+825|UAGRNTA|finaid_undergrad_all_grant_aid_avg||Average amount of federal, state, local, institutional or other sources of grant aid dollars received by undergraduate students||continuous||||||
+826|UPGRNTN|finaid_undergrad_pell_grant||Number of undergraduate students receiving Pell grants||continuous||||||
+827|UPGRNTP|finaid_undergrad_pell_grant_pc||Percent of undergraduate students receiving Pell grants||continuous||||||
+828|UPGRNTT|finaid_undergrad_pell_grant_total||Total amount of Pell grant aid received by undergraduate students||continuous||||||
+829|UPGRNTA|finaid_undergrad_pell_grant_avg||Average amount Pell grant aid received by undergraduate students||continuous||||||
+830|UFLOANN|finaid_undergrad_fed_loan||Number of undergraduate students receiving Federal student loans||continuous||||||
+831|UFLOANP|finaid_undergrad_fed_loan_pc||Percent of undergraduate students receiving Federal student loans||continuous||||||
+832|UFLOANT|finaid_undergrad_fed_loan_total||Total amount of Federal student loan aid received by undergraduate students||continuous||||||
+833|UFLOANA|finaid_undergrad_fed_loan_avg||Average amount of Federal student loan aid received by undergraduate students||continuous||||||
+834|ANYAIDN|finaid_received_any||Number of full-time first-time undergraduates receiving any financial aid||continuous||||||
+835|ANYAIDP|finaid_received_any_percent||Percent of full-time first-time undergraduates receiving any financial aid||continuous||||||
+836|AIDFSIN|finaid_undergrad_stud_loan||Number of full-time first-time undergraduates receiving any loans to students or grant aid  from federal state/local government or the institution||continuous||||||
+837|AIDFSIP|finaid_undergrad_stud_loan_pc||Percent of full-time first-time undergraduates receiving any loans to students or grant aid  from federal state/local government or the institution||continuous||||||
+838|AGRNT_N|finaid_undergrad_all_aid||Number of full-time first-time undergraduates receiving federal, state, local or institutional grant aid||continuous||||||
+839|AGRNT_P|finaid_undergrad_all_aid_pc||Percent of full-time first-time undergraduates receiving federal, state, local or institutional grant aid||continuous||||||
+840|AGRNT_T|finaid_undergrad_all_aid_total||Total amount of federal, state, local or institutional grant aid received by full-time first-time undergraduates||continuous||||||
+841|AGRNT_A|finaid_undergrad_all_aid_avg||Average amount of federal, state, local or institutional grant aid received||continuous||||||
+842|FGRNT_N|finaid_undergrad_fed_grant||Number of full-time first-time undergraduates receiving federal grant aid||continuous||||||
+843|FGRNT_P|finaid_undergrad_fed_grant_pc||Percent of full-time first-time undergraduates  receiving federal grant aid||continuous||||||
+844|FGRNT_T|finaid_undergrad_fed_grant_total||Total amount of Federal grant aid received by full-time first-time undergraduates||continuous||||||
+845|FGRNT_A|finaid_undergrad_fed_grant_avg||Average amount of federal grant aid received by full-time first-time undergraduates||continuous||||||
+846|PGRNT_N|finaid_undergrad_pell_grant||Number of full-time first-time undergraduates receiving Pell grants||continuous||||||
+847|PGRNT_P|finaid_undergrad_pell_grant_pc||Percent of full-time first-time undergraduates receiving Pell grants||continuous||||||
+848|PGRNT_T|finaid_undergrad_fresh_pell_grant_total||Total amount of Pell grant aid received by full-time first-time undergraduates||continuous||||||
+849|PGRNT_A|finaid_undergrad_fresh_pell_grant_avg||Average amount of Pell grant aid received by full-time first-time undergraduates||continuous||||||
+850|OFGRT_N|finaid_undergrad_oth_fed_grant||Number of full-time first-time undergraduates receiving other federal grant aid||continuous||||||
+851|OFGRT_P|finaid_undergrad_oth_fed_grant_pc||Percent of full-time first-time undergraduates receiving other federal grant aid||continuous||||||
+852|OFGRT_T|finaid_undergrad_oth_fed_grant_total||Total amount of other federal grant aid received by full-time first-time undergraduates||continuous||||||
+853|OFGRT_A|finaid_undergrad_oth_fed_grant_avg||Average amount of other federal grant aid received by full-time first-time undergraduates||continuous||||||
+854|SGRNT_N|finaid_undergrad_state_grant||Number of full-time first-time undergraduates receiving state/local grant aid||continuous||||||
+855|SGRNT_P|finaid_undergrad_state_grant_pc||Percent of full-time first-time undergraduates receiving state/local grant aid||continuous||||||
+856|SGRNT_T|finaid_undergrad_state_grant_total||Total amount of state/local grant aid received by full-time first-time undergraduates||continuous||||||
+857|SGRNT_A|finaid_undergrad_state_grant_avg||Average amount of state/local grant aid received by full-time first-time undergraduates||continuous||||||
+858|IGRNT_N|finaid_undergrad_inst_grant||Number of full-time first-time undergraduates receiving  institutional grant aid||continuous||||||
+859|IGRNT_P|finaid_undergrad_inst_grant_pc||Percent of full-time first-time undergraduates receiving institutional grant aid||continuous||||||
+860|IGRNT_T|finaid_undergrad_inst_grant_total||Total amount of institutional grant aid received by full-time first-time undergraduates||continuous||||||
+861|IGRNT_A|finaid_undergrad_inst_grant_avg||Average amount of institutional grant aid received by full-time first-time undergraduates||continuous||||||
+862|LOAN_N|finaid_undergrad_stud_loan||Number of full-time first-time undergraduates receiving student loan aid||continuous||||||
+863|LOAN_P|finaid_undergrad_stud_loan_pc||Percent of full-time first-time undergraduates receiving student loan aid||continuous||||||
+864|LOAN_T|finaid_undergrad_stud_loan_total||Total amount of student loan aid received by full-time first-time undergraduates||continuous||||||
+865|LOAN_A|finaid_undergrad_stud_loan_avg||Average amount of student loan aid received by full-time first-time undergraduates||continuous||||||
+866|FLOAN_N|finaid_undergrad_fed_loan||Number of full-time first-time undergraduates receiving federal student loans||continuous||||||
+867|FLOAN_P|finaid_undergrad_fed_loan_pc||Percent of full-time first-time undergraduates receiving federal student loans||continuous||||||
+868|FLOAN_T|finaid_undergrad_fed_loan_total||Total amount of Federal student loan aid received by full-time first-time undergraduates||continuous||||||
+869|FLOAN_A|finaid_undergrad_fed_loan_avg||Average amount of federal student loan aid received by full-time first-time undergraduates||continuous||||||
+870|OLOAN_N|finaid_undergrad_oth_loan||Number of full-time first-time undergraduates receiving other student loans||continuous||||||
+871|OLOAN_P|finaid_undergrad_oth_loan_pc||Percent of full-time first-time undergraduates receiving other loan aid||continuous||||||
+872|OLOAN_T|finaid_undergrad_oth_loan_total||Total amount of other student loan aid received by full-time first-time undergraduates||continuous||||||
+873|OLOAN_A|finaid_undergrad_oth_loan_avg||Average amount of other student loan aid received by full-time first-time undergraduates||continuous||||||
+874|GISTN2|finaid_enrollment_instate||Total number of full-time, first-time degree/certificate-seeking undergraduates paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2010-11||continuous||||||
+875|GISTON2|finaid_enrollment_instate_on_campus||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING ON-CAMPUS, paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2010-11||continuous||||||
+876|GISTWF2|finaid_enrollment_instate_off_campus_family||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (WITH FAMILY), paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2010-11||continuous||||||
+877|GISTOF2|finaid_enrollment_instate_off_campus||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (NOT WITH FAMILY), paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2010-11||continuous||||||
+878|GISTUN2|finaid_enrollment_instate_other||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING ARRANGEMENT UNKNOWN, paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2010-11||continuous||||||
+879|GISTT2|finaid_undergrad_instate_grant_aid_total||Total amount of grant and scholarship aid received by full-tiime, first-time degree/certificate-seeking undergraduates, 2010-11||continuous||||||
+880|GISTA2|finaid_undergrad_instate_grant_aid_avg||Average amount of grant and scholarship aid received by full-tiime, first-time degree/certificate-seeking undergraduates, 2010-11||continuous||||||
+881|GISTN1|finaid_enrollment_instate_1||Total number of full-time, first-time degree/certificate-seeking undergraduates paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2009-10||continuous||||||
+882|GISTON1|finaid_enrollment_instate_on_campus_1||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING ON-CAMPUS, paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2009-10||continuous||||||
+883|GISTWF1|finaid_enrollment_instate_off_campus_family_1||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (WITH FAMILY), paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2009-10||continuous||||||
+884|GISTOF1|finaid_enrollment_instate_off_campus_1||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (NOT WITH FAMILY), paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2009-10||continuous||||||
+885|GISTUN1|finaid_enrollment_instate_other_1||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING ARRANGEMENT UNKNOWN, paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2009-10||continuous||||||
+886|GISTT1|finaid_undergrad_instate_grant_aid_total_1||Total amount of grant and scholarship aid received by full-tiime, first-time degree/certificate-seeking undergraduates, 2009-10||continuous||||||
+887|GISTA1|finaid_undergrad_instate_grant_aid_avg_1||Average amount of grant and scholarship aid received by full-tiime, first-time degree/certificate-seeking undergraduates, 2009-10||continuous||||||
+888|GISTN0|finaid_enrollment_instate_2||Total number of full-time, first-time degree/certificate-seeking undergraduates paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2008-09||continuous||||||
+889|GISTON0|finaid_enrollment_instate_on_campus_2||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING ON-CAMPUS, paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2008-09||continuous||||||
+890|GISTWF0|finaid_enrollment_instate_off_campus_family_2||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (WITH FAMILY), paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2008-09||continuous||||||
+891|GISTOF0|finaid_enrollment_instate_off_campus_2||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (NOT WITH FAMILY), paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2008-09||continuous||||||
+892|GISTUN0|finaid_enrollment_instate_other_2||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING ARRANGEMENT UNKNOWN, paying the in-state or in-district tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2008-09||continuous||||||
+893|GISTT0|finaid_undergrad_instate_grant_aid_total_2||Total amount of grant and scholarship aid received by full-tiime, first-time degree/certificate-seeking undergraduates, 2008-09||continuous||||||
+894|GISTA0|finaid_undergrad_instate_grant_aid_avg_2||Average amount of grant and scholarship aid received by full-tiime, first-time degree/certificate-seeking undergraduates, 2008-09||continuous||||||
+895|GIS4N2|finaid_undergrad_instate_fed_any||Total number of full-time, first-time degree/certificate-seeking undergraduates paying the in-state or in-district tuition rate who received Title IV federal student aid, 2010-11||continuous||||||
+896|GIS4ON2|finaid_undergrad_instate_fed_any_on_campus||Total number of full-time, first-time degree/certificate-seeking undergraduates LIVING ON-CAMPUS, paying the in-state or in-district tuition rate who received Title IV federal student aid, 2010-11||continuous||||||
+897|GIS4WF2|finaid_undergrad_instate_fed_any_off_campus_family||Total number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (WITH FAMILY), paying the in-state or in-district tuition rate who received Title IV federal student aid, 2010-11||continuous||||||
+898|GIS4OF2|finaid_undergrad_instate_fed_any_off_campus||Total number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (NOT WITH FAMILY), paying the in-state or in-district tuition rate who received Title IV federal student aid, 2010-11||continuous||||||
+899|GIS4UN2|finaid_undergrad_instate_fed_any_other||Total number of full-time, first-time degree/certificate-seeking undergraduates LIVING ARRANGEMENT UNKNOWN, paying the in-state or in-district tuition rate who received Title IV federal student aid, 2010-11||continuous||||||
+900|GIS4T2|finaid_total_grant_scholarship_in_state||Total amount of grant and scholarship aid received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received Title IV federal student aid in all income levels, 2010-11||continuous||||||
+901|GIS4A2|finaid_average_grant_scholarship_in_state||Average amount of grant and scholarship aid received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received Title IV federal student aid in all income levels, 2010-11||continuous||||||
+902|GIS4N12|finaid_number_grant_scholarship_0_30k_in_state||Number in income level (0-30,000) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2010-11||continuous||||||
+903|GIS4T12|finaid_total_grant_scholarship_0_30k_in_state||Total amount of grant and scholarship aid in income level (0-30,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2010-11||continuous||||||
+904|GIS4A12|finaid_average_grant_scholarship_0_30k_in_state||Average amount of grant and scholarship aid in income level (0-30,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2010-11||continuous||||||
+905|GIS4N22|finaid_number_grant_scholarship_30k_48k_in_state||Number in income level (30,001-48,000) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2010-11||continuous||||||
+906|GIS4T22|finaid_total_grant_scholarship_30k_48k_in_state||Total amount of grant and scholarship aid in income level (30,001-48,000)  received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition,2010-11||continuous||||||
+907|GIS4A22|finaid_average_grant_scholarship_30k_48k_in_state||Average amount of grant and scholarship aid in income level (30,001-48,000)  received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2010-11||continuous||||||
+908|GIS4N32|finaid_number_grant_scholarship_48k_75k_in_state||Number in income level (48,001-75,000) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2010-11||continuous||||||
+909|GIS4T32|finaid_total_grant_scholarship_48k_75k_in_state||Total amount of grant and scholarship aid in income level (48,001-75,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2010-11||continuous||||||
+910|GIS4A32|finaid_average_grant_scholarship_48k_75k_in_state||Average amount of grant and scholarship aid in income level (48,001-75,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2010-11||continuous||||||
+911|GIS4N42|finaid_number_grant_scholarship_75k_110k_in_state||Number in income level (75,001-110,000) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2010-11||continuous||||||
+912|GIS4T42|finaid_total_grant_scholarship_75k_110k_in_state||Total amount of grant and scholarship aid in income level (75,001-110,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2010-11||continuous||||||
+913|GIS4A42|finaid_average_grant_scholarship_75k_110k_in_state||Average amount of grant and scholarship aid in income level (75,001-110,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2010-11||continuous||||||
+914|GIS4N52|finaid_number_grant_scholarship_110K_up_in_state||Number in income level (110,001 or more) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2010-11||continuous||||||
+915|GIS4T52|finaid_total_grant_scholarship_110k_up_in_state||Total amount of grant and scholarship aid in income level (110,001 or more) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2010-11||continuous||||||
+916|GIS4A52|finaid_average_grant_scholarship_110k_up_in_state||Average amount of grant and scholarship aid in income level (110,001 or more) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2010-11||continuous||||||
+917|GIS4N1|finaid_undergrad_instate_fed_any_1||Total number full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received Title IV federal student aid, 2009-10||continuous||||||
+918|GIS4ON1|finaid_undergrad_instate_fed_any_on_campus_1||Number living on-campus full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received Title IV federal student aid, 2009-10||continuous||||||
+919|GIS4WF1|finaid_undergrad_instate_fed_any_off_campus_family_1||Number living off-campus with family full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received Title IV federal student aid, 2009-10||continuous||||||
+920|GIS4OF1|finaid_undergrad_instate_fed_any_off_campus_1||Number living off-campus not with family full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received Title IV federal student aid, 2009-10||continuous||||||
+921|GIS4UN1|finaid_undergrad_instate_fed_any_other_1||Number living arrangement unknown full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received Title IV federal student aid, 2009-10||continuous||||||
+922|GIS4T1|finaid_total_grant_scholarship_in_state_1||Total amount of grant and scholarship aid in all income levels received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2009-10||continuous||||||
+923|GIS4A1|finaid_average_grant_scholarship_in_state_1||Average amount of grant and scholarship aid in all income levels received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2009-10||continuous||||||
+924|GIS4N11|finaid_number_grant_scholarship_0_30k_in_state_1||Number in income level (0-30,000) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2009-10||continuous||||||
+925|GIS4T11|finaid_total_grant_scholarship_0_30k_in_state_1||Total amount of grant and scholarship aid in income level (0-30,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2009-10||continuous||||||
+926|GIS4A11|finaid_average_grant_scholarship_0_30k_in_state_1||Average amount of grant and scholarship aid in income level (0-30,000) received by full-time,first-time degree/certificate-seeking undergraduates paying in-state tuition, 2009-10||continuous||||||
+927|GIS4N21|finaid_number_grant_scholarship_30k_48k_in_state_1||Number in income level (30,001-48,000) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2009-10||continuous||||||
+928|GIS4T21|finaid_total_grant_scholarship_30k_48k_in_state_1||Total amount of grant and scholarship aid in income level (30,001-48,000) received by full-time,first-time degree/certificate-seeking undergraduates paying in-state tuition, 2009-10||continuous||||||
+929|GIS4A21|finaid_average_grant_scholarship_30k_48k_in_state_1||Average amount of grant and scholarship aid in income level (30,001-48,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2009-10||continuous||||||
+930|GIS4N31|finaid_number_grant_scholarship_48k_75k_in_state_1||Number in income level (48,001-75,000) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2009-10||continuous||||||
+931|GIS4T31|finaid_total_grant_scholarship_48k_70k_in_state_1||Total amount of grant and scholarship aid in income level (48,001-75,000) received by full-time,first-time degree/certificate-seeking undergraduates paying in-state tuition, 2009-10||continuous||||||
+932|GIS4A31|finaid_average_grant_scholarship_48k_70k_in_state_1||Average amount of grant and scholarship aid in income level (48,001-75,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2009-10||continuous||||||
+933|GIS4N41|finaid_number_grant_scholarship_75k_110k_in_state_1||Number in income level (75,001-110,000) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2009-10||continuous||||||
+934|GIS4T41|finaid_total_grant_scholarship_75k_110k_in_state_1||Total amount of grant and scholarship aid in income level (75,001-110,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2009-10||continuous||||||
+935|GIS4A41|finaid_average_grant_scholarship_75k_110k_in_state_1||Average amount of grant and scholarship aid in income level (75,001-110,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2009-10||continuous||||||
+936|GIS4N51|finaid_number_grant_scholarship_110K_up_in_state_1||Number in income level (110,001 or more) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2009-10||continuous||||||
+937|GIS4T51|finaid_total_grant_scholarship_110k_up_in_state_1||Total amount of grant and scholarship aid in income level (110,001 or more) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2009-10||continuous||||||
+938|GIS4A51|finaid_average_grant_scholarship_110k_up_in_state_1||Average amount of grant and scholarship aid in income level (110,001 or more) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2009-10||continuous||||||
+939|GIS4N0|finaid_undergrad_instate_fed_any_2||Total number full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+940|GIS4ON0|finaid_undergrad_instate_fed_any_on_campus_2||Number living on-campus full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+941|GIS4WF0|finaid_undergrad_instate_fed_any_off_campus_family_2||Number living off-campus with family full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+942|GIS4OF0|finaid_undergrad_instate_fed_any_off_campus_2||Number living off-campus not with family full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+943|GIS4UN0|finaid_undergrad_instate_fed_any_other_2||Number living arrangement unknown full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+944|GIS4T0|finaid_total_grant_scholarship_in_state_2||Total amount of grant and scholarship aid in all income levels received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2008-09||continuous||||||
+945|GIS4A0|finaid_average_grant_scholarship_in_state_2||Average amount of grant and scholarship aid in all income levels received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2008-09||continuous||||||
+946|GIS4N10|finaid_number_grant_scholarship_0_30k_in_state_2||Number in income level (0-30,000) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+947|GIS4T10|finaid_total_grant_scholarship_0_30k_in_state_2||Total amount of grant and scholarship aid in income level (0-30,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2008-09||continuous||||||
+948|GIS4A10|finaid_average_grant_scholarship_0_30k_in_state_2||Average amount of grant and scholarship aid in income level (0-30,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2008-09||continuous||||||
+949|GIS4N20|finaid_number_grant_scholarship_30k_48k_in_state_2||Number in income level (30,001-48,000) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+950|GIS4T20|finaid_total_grant_scholarship_30k_48k_in_state_2||Total amount of grant and scholarship aid in income level (30,001-48,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2008-09||continuous||||||
+951|GIS4A20|finaid_average_grant_scholarship_30k_48k_in_state_2||Average amount of grant and scholarship aid in income level (30,001-48,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2008-09||continuous||||||
+952|GIS4N30|finaid_number_grant_scholarship_48k_75k_in_state_2||Number in income level (48,001-75,000) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+953|GIS4T30|finaid_total_grant_scholarship_48k_70k_in_state_2||Total amount of grant and scholarship aid in income level (48,001-75,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2008-09||continuous||||||
+954|GIS4A30|finaid_average_grant_scholarship_48k_70k_in_state_2||Average amount of grant and scholarship aid in income level (48,001-75,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2008-09||continuous||||||
+955|GIS4N40|finaid_number_grant_scholarship_75k_110k_in_state_2||Number in income level (75,001-110,000) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+956|GIS4T40|finaid_total_grant_scholarship_75k_110k_in_state_2||Total amount of grant and scholarship aid in income level (75,001-110,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2008-09||continuous||||||
+957|GIS4A40|finaid_average_grant_scholarship_75k_110k_in_state_2||Average amount of grant and scholarship aid in income level (75,001-110,000) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2008-09||continuous||||||
+958|GIS4N50|finaid_number_grant_scholarship_110K_up_in_state_2||Number in income level (110,001 or more) full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+959|GIS4T50|finaid_total_grant_scholarship_110k_up_in_state_2||Total amount of grant and scholarship aid in income level (110,001 or more) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2008-09||continuous||||||
+960|GIS4A50|finaid_average_grant_scholarship_110k_up_in_state_2||Average amount of grant and scholarship aid in income level (110,001 or more) received by full-time, first-time degree/certificate-seeking undergraduates paying in-state tuition, 2008-09||continuous||||||
+961|NPIST2|finaid_realcost_instate||Average net price-full-time, first-time undergraduate students paying in-state tuition receiving grant or scholarship aid, 2010-11||continuous||||||
+962|NPIST1|finaid_realcost_instate_1||Average net price-full-time, first-time undergraduate students paying in-state tuition receiving grant or scholarship aid, 2009-10||continuous||||||
+963|NPIST0|finaid_realcost_instate_2||Average net price-full-time, first-time undergraduate students paying in-state tuition receiving grant or scholarship aid, 2008-09||continuous||||||
+964|NPIS412|finaid_realcost_instate_0_30k||Average net price (income 0-30,000)-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid,2010-11||continuous||||||
+965|NPIS422|finaid_realcost_instate_30k_48k||Average net price (income 30,001-48,000)-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2010-11||continuous||||||
+966|NPIS432|finaid_realcost_instate_48k_75k||Average net price (income 48,001-75,000)-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2010-11||continuous||||||
+967|NPIS442|finaid_realcost_instate_75k_110k||Average net price (income 75,001-110,000)-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2010-11||continuous||||||
+968|NPIS452|finaid_realcost_instate_110k_up||Average net price (income over 110,000 )-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2010-11||continuous||||||
+969|NPIS411|finaid_realcost_instate_0_30k_1||Average net price (income 0-30,000)-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2009-10||continuous||||||
+970|NPIS421|finaid_realcost_instate_30k_48k_1||Average net price (income 30,001-48,000)-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2009-10||continuous||||||
+971|NPIS431|finaid_realcost_instate_48k_75k_1||Average net price (income 48,001-75,000)-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2009-10||continuous||||||
+972|NPIS441|finaid_realcost_instate_75k_110k_1||Average net price (income 75,001-110,000)-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2009-10||continuous||||||
+973|NPIS451|finaid_realcost_instate_110k_up_1||Average net price (income over 110,000 )-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2009-10||continuous||||||
+974|NPIS410|finaid_realcost_instate_0_30k_2||Average net price (income 0-30,000)-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2008-09||continuous||||||
+975|NPIS420|finaid_realcost_instate_30k_48k_2||Average net price (income 30,001-48,000)-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2008-09||continuous||||||
+976|NPIS430|finaid_realcost_instate_48k_75k_2||Average net price (income 48,001-75,000)-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2008-09||continuous||||||
+977|NPIS440|finaid_realcost_instate_75k_110k_2||Average net price (income 75,001-110,000)-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2008-09||continuous||||||
+978|NPIS450|finaid_realcost_instate_110k_up_2||Average net price (income over 110,000 )-full-time, first-time undergraduate students paying in-state tuition receiving Title IV Federal financial aid, 2008-09||continuous||||||
+979|GRNTN2|finaid_enrollment||Total number of full-time, first-time degree/certificate-seeking undergraduates paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2010-11||continuous||||||
+980|GRNTON2|finaid_enrollment_on_campus||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING ON-CAMPUS, paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2010-11||continuous||||||
+981|GRNTWF2|finaid_enrollment_off_campus_family||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (WITH FAMILY), paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2010-11||continuous||||||
+982|GRNTOF2|finaid_enrollment_off_campus||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (NOT WITH FAMILY), paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2010-11||continuous||||||
+983|GRNTUN2|finaid_enrollment_other||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING ARRANGEMENT UNKNOWN, paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2010-11||continuous||||||
+984|GRNTT2|finaid_undergrad_grant_aid_total||Total amount of grant and scholarship aid received by full-tiime, first-time degree/certificate-seeking undergraduates, 2010-11||continuous||||||
+985|GRNTA2|finaid_undergrad_grant_aid_avg||Average amount of grant and scholarship aid received by full-tiime, first-time degree/certificate-seeking undergraduates, 2010-11||continuous||||||
+986|GRNTN1|finaid_enrollment_1||Total number of full-time, first-time degree/certificate-seeking undergraduates paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2009-10||continuous||||||
+987|GRNTON1|finaid_enrollment_on_campus_1||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING ON-CAMPUS, paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2009-10||continuous||||||
+988|GRNTWF1|finaid_enrollment_off_campus_family_1||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (WITH FAMILY), paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2009-10||continuous||||||
+989|GRNTOF1|finaid_enrollment_off_campus_1||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (NOT WITH FAMILY), paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2009-10||continuous||||||
+990|GRNTUN1|finaid_enrollment_other_1||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING ARRANGEMENT UNKNOWN, paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2009-10||continuous||||||
+991|GRNTT1|finaid_undergrad_grant_aid_total_1||Total amount of grant and scholarship aid received by full-tiime, first-time degree/certificate-seeking undergraduates, 2009-10||continuous||||||
+992|GRNTA1|finaid_undergrad_grant_aid_avg_1||Average amount of grant and scholarship aid received by full-tiime, first-time degree/certificate-seeking undergraduates, 2009-10||continuous||||||
+993|GRNTN0|finaid_enrollment_2||Total number of full-time, first-time degree/certificate-seeking undergraduates paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2008-09||continuous||||||
+994|GRNTON0|finaid_enrollment_on_campus_2||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING ON-CAMPUS, paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2008-09||continuous||||||
+995|GRNTWF0|finaid_enrollment_off_campus_family_2||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (WITH FAMILY), paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2008-09||continuous||||||
+996|GRNTOF0|finaid_enrollment_off_campus_2||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (NOT WITH FAMILY), paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2008-09||continuous||||||
+997|GRNTUN0|finaid_enrollment_other_2||Number of full-time, first-time degree/certificate-seeking undergraduates LIVING ARRANGEMENT UNKNOWN, paying the out-of-state tuition rate who received grant or scholarship aid from federal, state or local governments, or the institution, 2008-09||continuous||||||
+998|GRNTT0|finaid_undergrad_grant_aid_total_2||Total amount of grant and scholarship aid received by full-tiime, first-time degree/certificate-seeking undergraduates, 2008-09||continuous||||||
+999|GRNTA0|finaid_undergrad_grant_aid_avg_2||Average amount of grant and scholarship aid received by full-tiime, first-time degree/certificate-seeking undergraduates, 2008-09||continuous||||||
+1000|GRN4N2|finaid_undergrad_fed_any||Total number of full-time, first-time degree/certificate-seeking undergraduates paying the out-of-state tuition rate who received Title IV federal student aid, 2010-11||continuous||||||
+1001|GRN4ON2|finaid_undergrad_fed_on_campus||Total number of full-time, first-time degree/certificate-seeking undergraduates LIVING ON-CAMPUS, paying the out-of-state tuition rate who received Title IV federal student aid, 2010-11||continuous||||||
+1002|GRN4WF2|finaid_undergrad_fed_off_campus_family||Total number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (WITH FAMILY), paying the out-of-state tuition rate who received Title IV federal student aid, 2010-11||continuous||||||
+1003|GRN4OF2|finaid_undergrad_fed_off_campus||Total number of full-time, first-time degree/certificate-seeking undergraduates LIVING OFF-CAMPUS (NOT WITH FAMILY), paying the out-of-state tuition rate who received Title IV federal student aid, 2010-11||continuous||||||
+1004|GRN4UN2|finaid_undergrad_fed_other||Total number of full-time, first-time degree/certificate-seeking undergraduates LIVING ARRANGEMENT UNKNOWN, paying the out-of-state tuition rate who received Title IV federal student aid, 2010-11||continuous||||||
+1005|GRN4T2|finaid_total_grant_scholarship||Total amount of grant and scholarship aid received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received Title IV federal student aid in all income levels, 2010-11||continuous||||||
+1006|GRN4A2|finaid_average_grant_scholarship||Average amount of grant and scholarship aid received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received Title IV federal student aid in all income levels, 2010-11||continuous||||||
+1007|GRN4N12|finaid_number_grant_scholarship_0_30k||Number in income level (0-30,000) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2010-11||continuous||||||
+1008|GRN4T12|finaid_total_grant_scholarship_0_30k||Total amount of grant and scholarship aid in income level (0-30,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2010-11||continuous||||||
+1009|GRN4A12|finaid_average_grant_scholarship_0_30k||Average amount of grant and scholarship aid in income level (0-30,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2010-11||continuous||||||
+1010|GRN4N22|finaid_number_grant_scholarship_30k_48k||Number in income level (30,001-48,000) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2010-11||continuous||||||
+1011|GRN4T22|finaid_total_grant_scholarship_30k_48k||Total amount of grant and scholarship aid in income level (30,001-48,000)  received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition,2010-11||continuous||||||
+1012|GRN4A22|finaid_average_grant_scholarship_30k_48k||Average amount of grant and scholarship aid in income level (30,001-48,000)  received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2010-11||continuous||||||
+1013|GRN4N32|finaid_number_grant_scholarship_48k_75k||Number in income level (48,001-75,000) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2010-11||continuous||||||
+1014|GRN4T32|finaid_total_grant_scholarship_48k_75k||Total amount of grant and scholarship aid in income level (48,001-75,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2010-11||continuous||||||
+1015|GRN4A32|finaid_average_grant_scholarship_48k_75k||Average amount of grant and scholarship aid in income level (48,001-75,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2010-11||continuous||||||
+1016|GRN4N42|finaid_number_grant_scholarship_75k_110k||Number in income level (75,001-110,000) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2010-11||continuous||||||
+1017|GRN4T42|finaid_total_grant_scholarship_75k_110k||Total amount of grant and scholarship aid in income level (75,001-110,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2010-11||continuous||||||
+1018|GRN4A42|finaid_average_grant_scholarship_75k_110k||Average amount of grant and scholarship aid in income level (75,001-110,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2010-11||continuous||||||
+1019|GRN4N52|finaid_number_grant_scholarship_110k_up||Number in income level (110,001 or more) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2010-11||continuous||||||
+1020|GRN4T52|finaid_total_grant_scholarship_110k_up||Total amount of grant and scholarship aid in income level (110,001 or more) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2010-11||continuous||||||
+1021|GRN4A52|finaid_average_grant_scholarship_110k_up||Average amount of grant and scholarship aid in income level (110,001 or more) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2010-11||continuous||||||
+1022|GRN4N1|finaid_undergrad_fed_any_1||Total number full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received Title IV federal student aid, 2009-10||continuous||||||
+1023|GRN4ON1|finaid_undergrad_fed_any_on_campus_1||Number living on-campus full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received Title IV federal student aid, 2009-10||continuous||||||
+1024|GRN4WF1|finaid_undergrad_fed_any_off_campus_family_1||Number living off-campus with family full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received Title IV federal student aid, 2009-10||continuous||||||
+1025|GRN4OF1|finaid_undergrad_fed_any_off_campus_1||Number living off-campus not with family full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received Title IV federal student aid, 2009-10||continuous||||||
+1026|GRN4UN1|finaid_undergrad_fed_any_other_1||Number living arrangement unknown full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received Title IV federal student aid, 2009-10||continuous||||||
+1027|GRN4T1|finaid_total_grant_scholarship_1||Total amount of grant and scholarship aid in all income levels received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2009-10||continuous||||||
+1028|GRN4A1|finaid_average_grant_scholarship_1||Average amount of grant and scholarship aid in all income levels received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2009-10||continuous||||||
+1029|GRN4N11|finaid_number_grant_scholarship_0_30k_1||Number in income level (0-30,000) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2009-10||continuous||||||
+1030|GRN4T11|finaid_total_grant_scholarship_0_30k_1||Total amount of grant and scholarship aid in income level (0-30,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2009-10||continuous||||||
+1031|GRN4A11|finaid_average_grant_scholarship_0_30k_1||Average amount of grant and scholarship aid in income level (0-30,000) received by full-time,first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2009-10||continuous||||||
+1032|GRN4N21|finaid_number_grant_scholarship_30k_48k_1||Number in income level (30,001-48,000) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2009-10||continuous||||||
+1033|GRN4T21|finaid_total_grant_scholarship_30k_48k_1||Total amount of grant and scholarship aid in income level (30,001-48,000) received by full-time,first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2009-10||continuous||||||
+1034|GRN4A21|finaid_average_grant_scholarship_30k_48k_1||Average amount of grant and scholarship aid in income level (30,001-48,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2009-10||continuous||||||
+1035|GRN4N31|finaid_number_grant_scholarship_48k_75k_1||Number in income level (48,001-75,000) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2009-10||continuous||||||
+1036|GRN4T31|finaid_total_grant_scholarship_48k_70k_1||Total amount of grant and scholarship aid in income level (48,001-75,000) received by full-time,first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2009-10||continuous||||||
+1037|GRN4A31|finaid_average_grant_scholarship_48k_70k_1||Average amount of grant and scholarship aid in income level (48,001-75,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2009-10||continuous||||||
+1038|GRN4N41|finaid_number_grant_scholarship_75k_110k_1||Number in income level (75,001-110,000) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2009-10||continuous||||||
+1039|GRN4T41|finaid_total_grant_scholarship_75k_110k_1||Total amount of grant and scholarship aid in income level (75,001-110,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2009-10||continuous||||||
+1040|GRN4A41|finaid_average_grant_scholarship_75k_110k_1||Average amount of grant and scholarship aid in income level (75,001-110,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2009-10||continuous||||||
+1041|GRN4N51|finaid_number_grant_scholarship_110k_up_1||Number in income level (110,001 or more) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2009-10||continuous||||||
+1042|GRN4T51|finaid_total_grant_scholarship_110k_up_1||Total amount of grant and scholarship aid in income level (110,001 or more) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2009-10||continuous||||||
+1043|GRN4A51|finaid_average_grant_scholarship_110k_up_1||Average amount of grant and scholarship aid in income level (110,001 or more) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2009-10||continuous||||||
+1044|GRN4N0|finaid_undergrad_fed_any_2||Total number full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+1045|GRN4ON0|finaid_undergrad_fed_any_on_campus_2||Number living on-campus full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+1046|GRN4WF0|finaid_undergrad_fed_any_off_campus_family_2||Number living off-campus with family full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+1047|GRN4OF0|finaid_undergrad_fed_any_off_campus_2||Number living off-campus not with family full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+1048|GRN4UN0|finaid_undergrad_fed_any_other_2||Number living arrangement unknown full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+1049|GRN4T0|finaid_total_grant_scholarship_2||Total amount of grant and scholarship aid in all income levels received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2008-09||continuous||||||
+1050|GRN4A0|finaid_average_grant_scholarship_2||Average amount of grant and scholarship aid in all income levels received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2008-09||continuous||||||
+1051|GRN4N10|finaid_number_grant_scholarship_0_30k_2||Number in income level (0-30,000) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+1052|GRN4T10|finaid_total_grant_scholarship_0_30k_2||Total amount of grant and scholarship aid in income level (0-30,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2008-09||continuous||||||
+1053|GRN4A10|finaid_average_grant_scholarship_0_30k_2||Average amount of grant and scholarship aid in income level (0-30,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2008-09||continuous||||||
+1054|GRN4N20|finaid_number_grant_scholarship_30k_48k_2||Number in income level (30,001-48,000) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+1055|GRN4T20|finaid_total_grant_scholarship_30k_48k_2||Total amount of grant and scholarship aid in income level (30,001-48,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2008-09||continuous||||||
+1056|GRN4A20|finaid_average_grant_scholarship_30k_48k_2||Average amount of grant and scholarship aid in income level (30,001-48,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2008-09||continuous||||||
+1057|GRN4N30|finaid_number_grant_scholarship_48k_75k_2||Number in income level (48,001-75,000) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+1058|GRN4T30|finaid_total_grant_scholarship_48k_70k_2||Total amount of grant and scholarship aid in income level (48,001-75,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2008-09||continuous||||||
+1059|GRN4A30|finaid_average_grant_scholarship_48k_70k_2||Average amount of grant and scholarship aid in income level (48,001-75,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2008-09||continuous||||||
+1060|GRN4N40|finaid_number_grant_scholarship_75k_110k_2||Number in income level (75,001-110,000) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+1061|GRN4T40|finaid_total_grant_scholarship_75k_110k_2||Total amount of grant and scholarship aid in income level (75,001-110,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2008-09||continuous||||||
+1062|GRN4A40|finaid_average_grant_scholarship_75k_110k_2||Average amount of grant and scholarship aid in income level (75,001-110,000) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2008-09||continuous||||||
+1063|GRN4N50|finaid_number_grant_scholarship_110k_up_2||Number in income level (110,001 or more) full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition who received grant and scholarship aid, 2008-09||continuous||||||
+1064|GRN4T50|finaid_total_grant_scholarship_110k_up_2||Total amount of grant and scholarship aid in income level (110,001 or more) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2008-09||continuous||||||
+1065|GRN4A50|finaid_average_grant_scholarship_110k_up_2||Average amount of grant and scholarship aid in income level (110,001 or more) received by full-time, first-time degree/certificate-seeking undergraduates paying out-of-state tuition, 2008-09||continuous||||||
+1066|NPGRN2|finaid_realcost_overall||Average net price-full-time, first-time undergraduate students paying out-of-state tuition receiving grant or scholarship aid, 2010-11||continuous||||||
+1067|NPGRN1|finaid_realcost_overall_1||Average net price-full-time, first-time undergraduate students paying out-of-state tuition receiving grant or scholarship aid, 2009-10||continuous||||||
+1068|NPGRN0|finaid_realcost_overall_2||Average net price-full-time, first-time undergraduate students paying out-of-state tuition receiving grant or scholarship aid, 2008-09||continuous||||||
+1069|NPT412|finaid_realcost_overall_0_30k||Average net price (income 0-30,000)-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid,2010-11||continuous||||||
+1070|NPT422|finaid_realcost_overall_30k_48k||Average net price (income 30,001-48,000)-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2010-11||continuous||||||
+1071|NPT432|finaid_realcost_overall_48k_75k||Average net price (income 48,001-75,000)-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2010-11||continuous||||||
+1072|NPT442|finaid_realcost_overall_75k_110k||Average net price (income 75,001-110,000)-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2010-11||continuous||||||
+1073|NPT452|finaid_realcost_overall_110k_up||Average net price (income over 110,000 )-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2010-11||continuous||||||
+1074|NPT411|finaid_realcost_overall_0_30k_1||Average net price (income 0-30,000)-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2009-10||continuous||||||
+1075|NPT421|finaid_realcost_overall_30k_48k_1||Average net price (income 30,001-48,000)-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2009-10||continuous||||||
+1076|NPT431|finaid_realcost_overall_48k_75k_1||Average net price (income 48,001-75,000)-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2009-10||continuous||||||
+1077|NPT441|finaid_realcost_overall_75k_110k_1||Average net price (income 75,001-110,000)-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2009-10||continuous||||||
+1078|NPT451|finaid_realcost_overall_110k_up_1||Average net price (income over 110,000 )-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2009-10||continuous||||||
+1079|NPT410|finaid_realcost_overall_0_30k_2||Average net price (income 0-30,000)-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2008-09||continuous||||||
+1080|NPT420|finaid_realcost_overall_30k_48k_2||Average net price (income 30,001-48,000)-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2008-09||continuous||||||
+1081|NPT430|finaid_realcost_overall_48k_75k_2||Average net price (income 48,001-75,000)-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2008-09||continuous||||||
+1082|NPT440|finaid_realcost_overall_75k_110k_2||Average net price (income 75,001-110,000)-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2008-09||continuous||||||
+1083|NPT450|finaid_realcost_overall_110k_up_2||Average net price (income over 110,000 )-full-time, first-time undergraduate students paying out-of-state tuition receiving Title IV Federal financial aid, 2008-09||continuous||||||
+1084|GIS4G2|finaid_undergrad_instate_fed_any||Total number full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2010-11||continuous||||||
+1085|GIS4G12|finaid_undergrad_instate_fed_0_30k||Number in income level (0-30,000) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2010-11||continuous||||||
+1086|GIS4G22|finaid_undergrad_instate_fed_30k_48k||Number in income level (30,001-48,000) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2010-11||continuous||||||
+1087|GIS4G32|finaid_undergrad_instate_fed_48k_75k||Number in income level (48,001-75,000) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2010-11||continuous||||||
+1088|GIS4G42|finaid_undergrad_instate_fed_75k_110k||Number in income level (75,001-110,000) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2010-11||continuous||||||
+1089|GIS4G52|finaid_undergrad_instate_fed_110k_up||Number in income level (110,001 or more) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2010-11||continuous||||||
+1090|GIS4G1|finaid_undergrad_instate_fed_any_1||Total number full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2009-10||continuous||||||
+1091|GIS4G11|finaid_undergrad_instate_fed_0_30k_1||Number in income level (0-30,000) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2009-10||continuous||||||
+1092|GIS4G21|finaid_undergrad_instate_fed_30k_48k_1||Number in income level (30,001-48,000) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2009-10||continuous||||||
+1093|GIS4G31|finaid_undergrad_instate_fed_48k_75k_1||Number in income level (48,001-75,000) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2009-10||continuous||||||
+1094|GIS4G41|finaid_undergrad_instate_fed_75k_110k_1||Number in income level (75,001-110,000) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2009-10||continuous||||||
+1095|GIS4G51|finaid_undergrad_instate_fed_110k_up_1||Number in income level (110,001 or more) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2009-10||continuous||||||
+1096|GIS4G0|finaid_undergrad_instate_fed_any_2||Total number full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2008-09||continuous||||||
+1097|GIS4G10|finaid_undergrad_instate_fed_0_30k_2||Number in income level (0-30,000) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2008-09||continuous||||||
+1098|GIS4G20|finaid_undergrad_instate_fed_30k_48k_2||Number in income level (30,001-48,000) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2008-09||continuous||||||
+1099|GIS4G30|finaid_undergrad_instate_fed_48k_75k_2||Number in income level (48,001-75,000) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2008-09||continuous||||||
+1100|GIS4G40|finaid_undergrad_instate_fed_75k_110k_2||Number in income level (75,001-110,000) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2008-09||continuous||||||
+1101|GIS4G50|finaid_undergrad_instate_fed_110k_up_2||Number in income level (110,001 or more) full-time, first-time undergraduates paying in-state tuition receiving Title IV federal grant aid, 2008-09||continuous||||||
+1102|GRN4G2|finaid_undergrad_fed_any||Total number full-time, first-time undergraduates receiving Title IV federal grant aid, 2010-11||continuous||||||
+1103|GRN4G12|finaid_undergrad_fed_0_30k||Number in income level (0-30,000) full-time, first-time undergraduates receiving Title IV federal grant aid, 2010-11||continuous||||||
+1104|GRN4G22|finaid_undergrad_fed_30k_48k||Number in income level (30,001-48,000) full-time, first-time undergraduates receiving Title IV federal grant aid, 2010-11||continuous||||||
+1105|GRN4G32|finaid_undergrad_fed_48k_75k||Number in income level (48,001-75,000) full-time, first-time undergraduates receiving Title IV federal grant aid, 2010-11||continuous||||||
+1106|GRN4G42|finaid_undergrad_fed_75k_110k||Number in income level (75,001-110,000) full-time, first-time undergraduates receiving Title IV federal grant aid, 2010-11||continuous||||||
+1107|GRN4G52|finaid_undergrad_fed_110k_up||Number in income level (110,001 or more) full-time, first-time undergraduates receiving Title IV federal grant aid, 2010-11||continuous||||||
+1108|GRN4G1|finaid_undergrad_fed_any_1||Total number full-time, first-time undergraduates receiving Title IV federal grant aid, 2009-10||continuous||||||
+1109|GRN4G11|finaid_undergrad_fed_0_30k_1||Number in income level (0-30,000) full-time, first-time undergraduates receiving Title IV federal grant aid, 2009-10||continuous||||||
+1110|GRN4G21|finaid_undergrad_fed_30k_48k_1||Number in income level (30,001-48,000) full-time, first-time undergraduates receiving Title IV federal grant aid, 2009-10||continuous||||||
+1111|GRN4G31|finaid_undergrad_fed_48k_75k_1||Number in income level (48,001-75,000) full-time, first-time undergraduates receiving Title IV federal grant aid, 2009-10||continuous||||||
+1112|GRN4G41|finaid_undergrad_fed_75k_110k_1||Number in income level (75,001-110,000) full-time, first-time undergraduates receiving Title IV federal grant aid, 2009-10||continuous||||||
+1113|GRN4G51|finaid_undergrad_fed_110k_up_1||Number in income level (110,001 or more) full-time, first-time undergraduates receiving Title IV federal grant aid, 2009-10||continuous||||||
+1114|GRN4G0|finaid_undergrad_fed_any_2||Total number full-time, first-time undergraduates receiving Title IV federal grant aid, 2008-09||continuous||||||
+1115|GRN4G10|finaid_undergrad_fed_0_30k_2||Number in income level (0-30,000) full-time, first-time undergraduates receiving Title IV federal grant aid, 2008-09||continuous||||||
+1116|GRN4G20|finaid_undergrad_fed_30k_48k_2||Number in income level (30,001-48,000) full-time, first-time undergraduates receiving Title IV federal grant aid, 2008-09||continuous||||||
+1117|GRN4G30|finaid_undergrad_fed_48k_75k_2||Number in income level (48,001-75,000) full-time, first-time undergraduates receiving Title IV federal grant aid, 2008-09||continuous||||||
+1118|GRN4G40|finaid_undergrad_fed_75k_110k_2||Number in income level (75,001-110,000) full-time, first-time undergraduates receiving Title IV federal grant aid, 2008-09||continuous||||||
+1119|GRN4G50|finaid_undergrad_fed_110k_up_2||Number in income level (110,001 or more) full-time, first-time undergraduates receiving Title IV federal grant aid, 2008-09||continuous||||||
+1120|GRCOHRT|enrollment_fresh_ft||Full-time first-time degree/certificate-seeking undergraduate (current year GRS cohort)||continuous||||||
+1121|UGENTERN|enrollment_entering||Total entering students at the undergraduate level, fall 2010||continuous||||||
+1122|PGRCOHRT|enrollment_entering_pc||Current year GRS cohort as a percent of entering class||continuous||||||
+1123|RRFTCT|retention_enrollment_fulltime||Full-time fall 2009 cohort (bachelor degree seeking students only)||continuous||||||
+1124|RRFTEX|retention_enrollment_fulltime_exclusions||Exclusions from full-time fall 2009 cohort (includes: death or permanent disability, armed forces service, foreign aid service, or church missions)||continuous||||||
+1125|RRFTCTA|retention_enrollment_lastyear_fulltime||Full-time adjusted fall 2009 cohort||continuous||||||
+1126|RET_NMF|retention_enrollment_thisyear_fulltime||Students from the full-time adjusted fall 2009 cohort enrolled in fall 2010||continuous||||||
+1127|RET_PCF|retention_fulltime||Full-time retention rate, 2010||continuous||||||
+1128|RRPTCT|retention_enrollment_parttime||Part-time fall 2009 cohort (bachelor degree seeking students only)||continuous||||||
+1129|RRPTEX|retention_enrollment_parttime_exclusions||Exclusions from part-time fall 2009 cohort (includes: death or permanent disability, aremed forces service, foreign aid service, or church missions)||continuous||||||
+1130|RRPTCTA|retention_enrollment_lastyear_parttime||Part-time adjusted fall 2009 cohort||continuous||||||
+1131|RET_NMP|retention_enrollment_thisyear_parttime||Students from the part-time adjusted fall 2009 cohort enrolled in fall 2010||continuous||||||
+1132|RET_PCP|retention_parttime||Part-time retention rate, 2010||continuous||||||
+1133|STUFACR|student_faculty_ratio||Student-to-faculty ratio||continuous||||||
+1134|BAREVCT|graduation_enrollment_8||Revised bachelor's degree-seeking cohort, (cohort year 2002)||continuous||||||
+1135|BAEXCLU|graduation_enrollment_150_exclusion_8||Exclusions from bachelor's degree-seeking cohort within 150% percent of normal time (includes: death or permanent disability, armed forces service, foregin aid service, or church missions)||continuous||||||
+1136|BAAC150|graduation_bachelor_150_enrollment_8||Adjusted bachelor's degree-seeking cohort within 150% of normal time||continuous||||||
+1137|BANC100|graduation_bachelor_100_8||Number completed a bachelor's degree within 100% of normal time (4-years)||continuous||||||
+1138|BAGR100|graduation_bachelor_100_rate_8||4-year Graduation rate - bachelor's degree within 100% of normal time||continuous||||||
+1139|BANC150|graduation_bachelor_150_8||Number completed a bachelor's degree within 150% of normal time (6-years)||continuous||||||
+1140|BAGR150|graduation_bachelor_150_rate_8||6-year Graduation rate - bachelor's degree within 150% of normal time||continuous||||||
+1141|BAAEXCL|graduation_enrollment_200_exclusion_8||Additional exclusions from bachelor's degree-seeking cohort between 150% and 200% (includes: death or permanent disability, armed forces service, foreign aid service, or church missions)||continuous||||||
+1142|BAAC200|graduation_bachelor_200_enrollment_8||Adjusted bachelor's degree-seeking cohort within 200% of normal time||continuous||||||
+1143|BANC200A|graduation_bachelor_150_200_8||Number completed a bachelor's degree between 150% and 200% of normal time||continuous||||||
+1144|BANC200|graduation_bachelor_200_8||Number completed a bachelor's degree within 200% of normal time (8-years)||continuous||||||
+1145|BAGR200|graduation_bachelor_200_rate_8||8-year Graduation rate - bachelor's degree within 200% of normal time||continuous||||||
+1146|L4REVCT|graduation_enrollment||Revised degree/certificate-seeking cohort, (cohort year 2006)||continuous||||||
+1147|L4EXCLU|graduation_enrollment_150_exclusion||Exclusions from degree/certificate-seeking cohort within 150% percent of normal time (includes: death or permanent disability, armed forces service, foreign aid service, or church missions)||continuous||||||
+1148|L4AC150|graduation_bachelor_150_enrollment||Adjusted degree/certificate-seeking cohort within 150% of normal time||continuous||||||
+1149|L4NC100|graduation_bachelor_100||Number completed a degree/certificate within 100% of normal time||continuous||||||
+1150|L4GR100|graduation_bachelor_100_rate||Graduation rate - degree/certificate within 100% of normal time||continuous||||||
+1151|L4NC150|graduation_bachelor_150||Number completed a degree/certificate  within 150% of normal time||continuous||||||
+1152|L4GR150|graduation_bachelor_150_rate||Graduation rate - degree/certificate within 150% of normal time||continuous||||||
+1153|L4AEXCL|graduation_enrollment_200_exclusion||Additional exclusions from degree/certificate-seeking cohort between 150% and 200% (includes: death or permanent disability, armed forces service, foreign aid service, or church missions)||continuous||||||
+1154|L4AC200|graduation_bachelor_200_enrollment||Adjusted degree/certificate-seeking cohort within 200% of normal time||continuous||||||
+1155|L4NC200A|graduation_bachelor_150_200||Number completed a  degree/certificate between 150% and 200% of normal time||continuous||||||
+1156|L4NC200|graduation_bachelor_200||Number completed a degree/certificate within 200% of normal time||continuous||||||
+1157|L4GR200|graduation_bachelor_200_rate||Graduation rate - degree/certificate within 200% of normal time||continuous||||||
+1158||name||Name of school||other||||||
+1159||admit_deadline_date||Regular decision deadline date||other||||||
+1160||graduation_bachelor_150_rate||Bachelor's degree 6-year graduation rate||continuous||||||
+1161||admit_notification_set_date||Notification of regular acceptance date||other||||||
+1162||admit_earlydecision_date||Early decision deadline date||other||||||
+1163||admit_earlydecision_notification||Notification of early decision acceptance date||other||||||
+1164||retention_fulltime||Retention rate||continuous||||||
+1165||enrollment_undergrad_instate_percent||Percent of undergraduates paying in-state tuition||continuous||||||
+1166||enrollment_undergrad_outstate_percent||Percent of undergraduates paying out-of-state tuition||continuous||||||
+1167||admit_transfer_applicants||Number of transfer applicants||continuous||||||
+1168||admit_transfer_admittances||Number of transfer applicants admitted||continuous||||||
+1169||admit_transfer_enrolled||Number of transfer students enrolled||continuous||||||
+1170||admit_rank_toptenth||Percent of freshman that finished in the top 10% of graduating class||continuous||||||
+1171||admit_rank_topquarter||Percent of freshman that finished in the top 25% of graduating class||continuous||||||
+1172||admit_rank_tophalf||Percent of freshman that finished in the top 50% of graduating class||continuous||||||
+1173||housing_oncampus_percent||Percent of undergraduates living in on-campus housing||continuous||||||
+1174||housing_offcampus_percent||Percent of undergraduates living in off-campus housing||continuous||||||
+1175||housing_apts_married||Housing: Offers apartments for married students||dichotomous||||||
+1176||housing_apts_single||Housing: Offers apartments for single students||dichotomous||||||
+1177||housing_apts||Housing: Offers apartments for undergraduate students||dichotomous||||||
+1178||housing_dorms_coed||Housing: Offers coed dormitories||dichotomous||||||
+1179||housing_greek||Housing: Offers on-campus fraternity or sorority housing||dichotomous||||||
+1180||housing_dorms_singlesex_male||Housing: Offers male only dormitories||dichotomous||||||
+1181||housing_dorms_singlesex_female||Housing: Offers female only dormitories||dichotomous||||||
+1182||housing_disabled||Housing: Offers housing that meets needs of students with disabliities||dichotomous||||||
+1183||housing_international||Housing: Offers housing for international students only||dichotomous||||||
+1184||housing_theme||Housing: Offers themed housing||dichotomous||||||
+1185||housing_wellness||Housing: Offers wellness housing||dichotomous||||||
+1186||admit_address||Address of admissions office||other||||||
+1187||admit_phone||Phone number of admissions office||other||||||
+1188||life_ministries||Does school have campus ministries?||dichotomous||||||
+1189||life_choral||Does school have choral groups?||dichotomous||||||
+1190||life_music_concert||Does school have a concert band?||dichotomous||||||
+1191||life_dance||Does school have dance groups?||dichotomous||||||
+1192||life_drama||Does school have drama groups?||dichotomous||||||
+1193||life_student_filmsociety||Does school have a student-run film society?||dichotomous||||||
+1194||life_greek||Does school have fraternity or sorority organizations?||dichotomous||||||
+1195||life_student_government||Does school have a student government?||dichotomous||||||
+1196||life_international_student_org||Does school have an internation student organization?||dichotomous||||||
+1197||life_music_jazz||Does school have a jazz band?||dichotomous||||||
+1198||life_literarymag||Does school have a literary magazine?||dichotomous||||||
+1199||life_music_marching||Does school have a marching band?||dichotomous||||||
+1200||life_modelun||Does school have a Model UN?||dichotomous||||||
+1201||life_music_ensembles||Does school have music ensembles?||dichotomous||||||
+1202||life_music_theater||Does school have a musical theater organization for students?||dichotomous||||||
+1203||life_music_opera||Does school have an opera group for students?||dichotomous||||||
+1204||life_music_pep||Does school have a pep band?||dichotomous||||||
+1205||life_radio||Does school have a student-run radio station?||dichotomous||||||
+1206||life_student_newspaper||Does school have a student-run newspaper?||dichotomous||||||
+1207||life_music_symphony||Does school have a student musical symphony?||dichotomous||||||
+1208||life_television||Does school have a student-run television station?||dichotomous||||||
+1209||life_yearbook||Does school have a yearbook?||dichotomous||||||
+1210||admit_hs_req_units_lanquage||Units: foreign language required||continuous||||||
+1211||admit_hs_rec_units_language||Units: foreign language recommended||continuous||||||
+1212||admit_hs_req_units_eng||Units: English required||continuous||||||
+1213||admit_hs_rec_units_eng||Units: English recommended||continuous||||||
+1214||admit_hs_req_units_math||Units: Math required||continuous||||||
+1215||admit_hs_rec_units_math||Units: Math recommended||continuous||||||
+1216||admit_hs_req_units_science||Units: science required||continuous||||||
+1217||admit_hs_rec_units_science||Units: science recommended||continuous||||||
+1218||admit_hs_req_units_science_lab||Units: science lab required||continuous||||||
+1219||admit_hs_rec_units_science_lab||Units: science lab recommended||continuous||||||
+1220||admit_hs_req_units_social||Units: social studies required||continuous||||||
+1221||admit_hs_rec_units_social||Units: social studies recommended||continuous||||||
+1222||admit_hs_req_units_history||Units: history required||continuous||||||
+1223||admit_hs_rec_units_history||Units: history recommended||continuous||||||
+1224||admit_qual_gpa||Importance: GPA considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1225||admit_qual_essay||Importance: admission essay considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1226||admit_qual_character||Importance: character considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1227||admit_qual_extracurriculars||Importance: extracurricular activies considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1228||admit_qual_recommendations||Importance: recommendations considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1229||admit_qual_rigor||Importance: secondary school rigor considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1230||admit_qual_tests||Importance: standardized tests considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1231||admit_qual_talent||Importance: talent considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1232||admit_qual_rank||Importance: class rank considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1233||admit_qual_alumni||Importance: alumni relations considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1234||admit_qual_first||Importance: first generation college student considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1235||admit_qual_geography||Importance: geographical residence considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1236||admit_qual_interview||Importance: the interview considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1237||admit_qual_ethnicity||Importance: ethnicity considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1238||admit_qual_instate||Importance: state residency considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1239||admit_qual_volunteer||Importance: vounteer work considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1240||admit_qual_workexp||Importance: work experience considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1241||admit_qual_religion||Importance: religious affiliation considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1242||admit_qual_interest||Importance: interests considered during the admissions process? {3=Very important; 2=Important; 1=Considered; 0=Not considered}||categorical||||||
+1243||admit_earlydecision_applicants||Number applied for early decision admission||continuous||||||
+1244||admit_earlydecision_acceptances||Number accepeted for early decision admission||continuous||||||
+1245||admit_waitlist_offered||Number offered to be on the wait list||continuous||||||
+1246||admit_waitinglist_accept_place||Number accepted to be placed on the wait list||continuous||||||
+1247||admit_waitinglist_acceptances||Number on the wait list were granted admission||continuous||||||
+1248||enrollment_tworaces_pc||Two or more races undergraduate enrolled percent||continuous||||||
+1249||enrollment_black_pc||Black or African American undergraduate enrolled percent||continuous||||||
+1250||enrollment_asian_pc||Asian undergraduate enrolled percent||continuous||||||
+1251||enrollment_latino_pc||Hispanic or Latino undergraduate enrolled percent||continuous||||||
+1252||enrollment_white_pc||White undergraduate enrolled percent||continuous||||||
+1253||enrollment_international_pc||Non-resident/alien undergraduate enrolled percent||continuous||||||
+1254||enrollment_otherrace_pc||Race unknown undergraduate enrolled percent||continuous||||||
+1255||admit_hs_req_units||Units: Total required||continuous||||||
+1256||admit_hs_req_units_eng||Units: English required||continuous||||||
+1257||admit_hs_req_units_math||Units: Math required||continuous||||||
+1258||admit_hs_req_units_science||Units: science required||continuous||||||
+1259||admit_hs_req_units_language||Units: foreign language required||continuous||||||
+1260||admit_hs_req_units_social||Units: social studies required||continuous||||||
+1261||admit_hs_req_units_history||Units: history required||continuous||||||
+1262||admit_hs_req_units_electives||Units: electives required||continuous||||||
+1263||admit_hs_req_units_compsci||Units: compscience required||continuous||||||
+1264||admit_hs_req_units_arts||Units: visual/performing arts required||continuous||||||
+1265||admit_hs_req_units_other||Units: other required||continuous||||||
+1266||admit_hs_rec_units||Units: Total recommended||continuous||||||
+1267||admit_hs_rec_units_eng||Units: English recommended||continuous||||||
+1268||admit_hs_rec_units_math||Units: Math recommended||continuous||||||
+1269||admit_hs_rec_units_science||Units: science recommended||continuous||||||
+1270||admit_hs_rec_units_language||Units: foreign language recommended||continuous||||||
+1271||admit_hs_rec_units_social||Units: social studies recommended||continuous||||||
+1272||admit_hs_rec_units_history||Units: history recommended||continuous||||||
+1273||admit_hs_rec_units_electives||Units: electives recommended||continuous||||||
+1274||admit_hs_rec_units_compsci||Units: compscience recommended||continuous||||||
+1275||admit_hs_rec_units_arts||Units: visual/performing arts recommended||continuous||||||
+1276||admit_hs_rec_units_other||Units: other recommended||continuous||||||
+1277||admit_deadline_date||Regular decision deadline date||other||||||
+1278||admit_notifictation_set_date||Notification of regular acceptance date||other||||||
+1279||admit_defer||Does school allow defered enrollment||dichotomous||||||
+1280||admit_defer_max||Maximum length of deferment allowed||other||||||
+1281||admit_earlydecision_deadline||Early decision deadline date||other||||||
+1282||admit_earlydecision_notification||Notification of early decision acceptance date||other||||||
+1283||life_ministries||Does school have campus ministries?||dichotomous||||||
+1284||life_choral||Does school have choral groups?||dichotomous||||||
+1285||life_musical_concert||Does school have a concert band?||dichotomous||||||
+1286||life_dance||Does school have dance groups?||dichotomous||||||
+1287||lifee_drama||Does school have drama groups?||dichotomous||||||
+1288||life_international_student_org||Does school have an internation student organization?||dichotomous||||||
+1289||life_musical_jazz||Does school have a jazz band?||dichotomous||||||
+1290||life_literarymag||Does school have a literary magazine?||dichotomous||||||
+1291||life_music_marching||Does school have a marching band?||dichotomous||||||
+1292||life_modelun||Does school have a Model UN?||dichotomous||||||
+1293||life_music_ensembles||Does school have music ensembles?||dichotomous||||||
+1294||life_musical_theater||Does school have a musical theater organization for students?||dichotomous||||||
+1295||life_music_opera||Does school have an opera group for students?||dichotomous||||||
+1296||life_music_pep||Does school have a pep band?||dichotomous||||||
+1297||life_radio||Does school have a student-run radio station?||dichotomous||||||
+1298||life_student_government||Does school have a student government?||dichotomous||||||
+1299||life_student_newspaper||Does school have a student-run newspaper?||dichotomous||||||
+1300||life_student_filmsociety||Does school have a student-run film society?||dichotomous||||||
+1301||life_music_symphony||Does school have a student musical symphony?||dichotomous||||||
+1302||life_television||Does school have a student-run television station?||dichotomous||||||
+1303||life_yearbook||Does school have a yearbook?||dichotomous||||||
+1304||housing_dorms_coed||Housing: Offers coed dormitories||dichotomous||||||
+1305||housing_dorms_male||Housing: Offers male only dormitories||dichotomous||||||
+1306||housing_dorms_female||Housing: Offers female only dormitories||dichotomous||||||
+1307||housing_dorms_apts_marry||Housing: Offers apartments for married students||dichotomous||||||
+1308||housing_dorms_apts_single||Housing: Offers apartments for single students||dichotomous||||||
+1309||housing_disabled||Housing: Offers housing that meets needs of students with disabliities||dichotomous||||||
+1310||housing_international||Housing: Offers housing for international students only||dichotomous||||||
+1311||housing_greek||Housing: Offers on-campus fraternity or sorority housing||dichotomous||||||
+1312||housing_coop||Housing: Offers cooperative housing||dichotomous||||||
+1313||housing_theme||Housing: Offers themed housing||dichotomous||||||
+1314||housing_wellness||Housing: Offers wellness housing||dichotomous||||||
+1315||housing_other||Housing: Offers other housing options||dichotomous||||||
+1316||academics_class_size_1||Number of classes with 2-9 students||continuous||||||
+1317||academics_class_size_2||Number of classes with 10-19 students||continuous||||||
+1318||academics_class_size_3||Number of classes with 20-29 students||continuous||||||
+1319||academics_class_size_4||Number of classes with 30-39 students||continuous||||||
+1320||academics_class_size_5||Number of classes with 40-49 students||continuous||||||
+1321||academics_class_size_6||Number of classes with 50-99 students||continuous||||||
+1322||academics_class_size_7||Number of classes with 100+ students||continuous||||||
+1323||student_faculty_ratio||Student-to-faculty ratio||continuous||||||
+1324||housing_dorms_singlesex||Housing: Offers single sex dormitories||dichotomous||If housing_dorms_male or housing_dorms_female is TRUE; housing_dorms_singlesex is TRUE||||
+1325||housing_apts||Housing: Offers on-campus apartments||dichotomous||If housing_apts_marry or housing_apts_single is TRUE; housing_apts is TRUE||||
+1326||academics_class_size_total||Total number of scheduled classes||continuous||academics_class_size_1+academics_class_size_2+academics_class_size_3+academics_class_size_4+academics_class_size_5+academics_class_size_6+academics_class_size_7||||
+1327||academics_class_size_1_percent||Percent of total classes with 2-9 students||continuous||(academics_class_size_1/academics_class_size_total)*100||||
+1328||academics_class_size_2_percent||Percent of total classes with 10-19 students||continuous||(academics_class_size_2/academics_class_size_total)*101||||
+1329||academics_class_size_3_percent||Percent of total classes with 20-29 students||continuous||(academics_class_size_3/academics_class_size_total)*102||||
+1330||academics_class_size_4_percent||Percent of total classes with 30-39 students||continuous||(academics_class_size_4/academics_class_size_total)*103||||
+1331||academics_class_size_5_percent||Percent of total classes with 40-49 students||continuous||(academics_class_size_5/academics_class_size_total)*104||||
+1332||academics_class_size_6_percent||Percent of total classes with 50-99 students||continuous||(academics_class_size_6/academics_class_size_total)*105||||
+1333||academics_class_size_7_percent||Percent of total classes with 100+ students||continuous||(academics_class_size_7/academics_class_size_total)*106||||

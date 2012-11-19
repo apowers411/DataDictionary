@@ -10,8 +10,7 @@
       <th><%= model_class.human_attribute_name(:name) %></th>
       <th><%= model_class.human_attribute_name(:location) %></th>
       <th><%= model_class.human_attribute_name(:year) %></th>
-      <th><%= model_class.human_attribute_name(:importdetail) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%= model_class.human_attribute_name(:description) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -19,12 +18,11 @@
     <% @datatables.each do |datatable| %>
       <tr>
         <td><%= link_to datatable.id, datatable_path(datatable) %></td>
-        <td><%= datatable.datasource_id %></td>
+        <td><%= link_to datatable.datasource.name, datatable.datasource %></td>
         <td><%= datatable.name %></td>
         <td><%= datatable.location %></td>
         <td><%= datatable.year %></td>
-        <td><%= datatable.importdetail %></td>
-        <td><%= datatable.created_at %></td>
+        <td><%= datatable.description %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_datatable_path(datatable), :class => 'btn btn-mini' %>

@@ -6,17 +6,13 @@
   <thead>
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
-      <th><%= model_class.human_attribute_name(:originalname) %></th>
       <th><%= model_class.human_attribute_name(:devname) %></th>
-      <th><%= model_class.human_attribute_name(:datatype) %></th>
+      <th><%= model_class.human_attribute_name(:originalname) %></th>
       <th><%= model_class.human_attribute_name(:description) %></th>
       <th><%= model_class.human_attribute_name(:devtable) %></th>
       <th><%= model_class.human_attribute_name(:analysistype) %></th>
-      <th><%= model_class.human_attribute_name(:format) %></th>
       <th><%= model_class.human_attribute_name(:in_house_formula) %></th>
-      <th><%= model_class.human_attribute_name(:recode) %></th>
       <th><%= model_class.human_attribute_name(:comments) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -24,17 +20,13 @@
     <% @dataelements.each do |dataelement| %>
       <tr>
         <td><%= link_to dataelement.id, dataelement_path(dataelement) %></td>
+        <td><%= link_to dataelement.devname, dataelement_path(dataelement) %></td>
         <td><%= dataelement.originalname %></td>
-        <td><%= dataelement.devname %></td>
-        <td><%= dataelement.datatype %></td>
         <td><%= dataelement.description %></td>
         <td><%= dataelement.devtable %></td>
         <td><%= dataelement.analysistype %></td>
-        <td><%= dataelement.format %></td>
         <td><%= dataelement.in_house_formula %></td>
-        <td><%= dataelement.recode %></td>
         <td><%= dataelement.comments %></td>
-        <td><%= dataelement.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_dataelement_path(dataelement), :class => 'btn btn-mini' %>

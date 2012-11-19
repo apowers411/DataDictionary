@@ -19,7 +19,7 @@
       <tr>
         <td><%= link_to datatable.id, datatable_path(datatable) %></td>
         <td><%= link_to datatable.datasource.name, datatable.datasource %></td>
-        <td><%= datatable.name %></td>
+        <td><%= link_to datatable.name, datatable_path(datatable) %></td>
         <td><%= datatable.location %></td>
         <td><%= datatable.year %></td>
         <td><%= datatable.description %></td>

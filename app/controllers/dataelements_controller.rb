@@ -2,12 +2,16 @@ class DataelementsController < ApplicationController
   # GET /dataelements
   # GET /dataelements.json
   def index
-    @dataelements = Dataelement.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @dataelements }
+    @search = Dataelement.search do
+      fulltext params[:search]
     end
+    @dataelements = @search.results
+   # @dataelements = Dataelement.all
+
+    #respond_to do |format|
+    #  format.html # index.html.erb
+     # format.json { render json: @dataelements }
+    #end
   end
 
   # GET /dataelements/1

@@ -14,7 +14,7 @@ class ProfilepagesController < ApplicationController
   # GET /profilepages/1.json
   def show
     @profilepage = Profilepage.find(params[:id])
-
+    @dataelements = @profilepage.dataelements.all
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @profilepage }

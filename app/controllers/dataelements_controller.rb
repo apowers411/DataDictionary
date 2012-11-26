@@ -4,6 +4,7 @@ class DataelementsController < ApplicationController
   def index
     @search = Dataelement.search do
       fulltext params[:search]
+      paginate :page=>1, :per_page=>20
     end
     @dataelements = @search.results
    # @dataelements = Dataelement.all
@@ -18,7 +19,8 @@ class DataelementsController < ApplicationController
   # GET /dataelements/1.json
   def show
     @dataelement = Dataelement.find(params[:id])
-
+    @profilepages = @dataelement.profilepages.all
+    @datatables = @dataelement.datatables.all
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @dataelement }

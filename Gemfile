@@ -10,7 +10,7 @@ gem 'twitter-bootstrap-rails'
 gem "less-rails" 
 gem 'sunspot_rails'
 gem 'progress_bar'
-
+gem 'will_paginate'
 group :development do
   gem 'sunspot_solr'
 end

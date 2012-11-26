@@ -45,7 +45,7 @@
     <% end %>
   </tbody>
 </table>
-
+<%= will_paginate @dataelement %>
 <%= link_to t('.new', :default => t("helpers.links.new")),
             new_dataelement_path,
             :class => 'btn btn-primary' %>

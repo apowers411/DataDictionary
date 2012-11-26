@@ -13,7 +13,44 @@
   <dt><strong><%= model_class.human_attribute_name(:description) %>:</strong></dt>
   <dd><%= @profilepage.description %></dd>
 </dl>
-
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:devname) %></th>
+      <th><%= model_class.human_attribute_name(:originalname) %></th>
+      <th><%= model_class.human_attribute_name(:description) %></th>
+      <th><%= model_class.human_attribute_name(:devtable) %></th>
+      <th><%= model_class.human_attribute_name(:analysistype) %></th>
+      <th><%= model_class.human_attribute_name(:in_house_formula) %></th>
+      <th><%= model_class.human_attribute_name(:comments) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @dataelements.each do |dataelement| %>
+      <tr>
+        <td><%= link_to dataelement.id, dataelement_path(dataelement) %></td>
+        <td><%= link_to dataelement.devname, dataelement_path(dataelement) %></td>
+        <td><%= dataelement.originalname %></td>
+        <td><%= dataelement.description %></td>
+        <td><%= dataelement.devtable %></td>
+        <td><%= dataelement.analysistype %></td>
+        <td><%= dataelement.in_house_formula %></td>
+        <td><%= dataelement.comments %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_dataelement_path(dataelement), :class => 'btn btn-mini' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      dataelement_path(dataelement),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-mini btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               profilepages_path, :class => 'btn'  %>

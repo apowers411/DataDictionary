@@ -2,12 +2,15 @@ class ProfilepagesController < ApplicationController
   # GET /profilepages
   # GET /profilepages.json
   def index
-    @profilepages = Profilepage.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @profilepages }
+    #@profilepages = Profilepage.all
+    @search=Profilepage.search do
+      fulltext params[:search]
+      paginate :page=>1, :per_page=>20
     end
+    @profilepages = @search.results
+    #respond_to do |format|
+     # format.html # index.html.erb
+      #format.json { render json: @profilepages }
   end
 
   # GET /profilepages/1

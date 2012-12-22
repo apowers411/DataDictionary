@@ -5,7 +5,7 @@ class Dataelement < ActiveRecord::Base
   has_many :profilepage_dataelements
   has_many :profilepages, :through => :profilepage_dataelements  
   searchable do 
-    text :devname, :originalname, :description
+    text :devname, :originalname, :description, :stored => true
   end
   
 end

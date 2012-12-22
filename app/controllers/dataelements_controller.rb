@@ -7,6 +7,7 @@ class DataelementsController < ApplicationController
       paginate :page=>1, :per_page=>20
     end
     @dataelements = @search.results
+    #@search_total = @dataelements.total
    # @dataelements = Dataelement.all
 
     #respond_to do |format|

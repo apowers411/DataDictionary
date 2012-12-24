@@ -1,4 +1,6 @@
 DataDictionary::Application.routes.draw do
+  root :to => 'datasources#index'
+  
   resources :dataelements
 
   resources :profilepage_dataelements

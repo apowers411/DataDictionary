@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121225053223) do
+ActiveRecord::Schema.define(:version => 20121225053606) do
 
   create_table "dataelements", :force => true do |t|
     t.string   "originalname"
@@ -37,8 +37,7 @@ ActiveRecord::Schema.define(:version => 20121225053223) do
     t.datetime "updated_at",  :null => false
     t.integer  "productid"
     t.date     "update"
-    t.boolean  "scraped"
-    t.boolean  "datafile"
+    t.string   "method"
   end
 
   create_table "datatable_dataelements", :force => true do |t|

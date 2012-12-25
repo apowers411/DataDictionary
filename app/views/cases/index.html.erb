@@ -1,6 +1,27 @@
-
+<%- model_class = Cases -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
+</div>
 <% @chores.each do |chore| %>
-  <%= "Got a person: #{chore.inspect}" %>
+  <%= "Case: #{chore.name}" %>
+  <%= "Created: #{chore.created_at}" %>
+  <%= "Background: #{chore.background}" %>
 <% end %>
 
-
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><% Case %></th>
+      <th><% Created %></th>
+      <th><% Background %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @chores.each do |chore| %>
+      <tr>
+        <td><%= "Case: #{chore.name}" %></td>
+        <td><%= "Created: #{chore.created_at}" %></td>
+        <td> <%= "Background: #{chore.background}" %></td>
+      </tr>
+ <% end %>
+  </tbody>

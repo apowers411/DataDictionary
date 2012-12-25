@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121225053606) do
+ActiveRecord::Schema.define(:version => 20121225055647) do
 
   create_table "dataelements", :force => true do |t|
     t.string   "originalname"
@@ -35,8 +35,8 @@ ActiveRecord::Schema.define(:version => 20121225053606) do
     t.text     "comments"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
-    t.integer  "productid"
-    t.date     "update"
+    t.integer  "product_id"
+    t.date     "lastupdate"
     t.string   "method"
   end
 

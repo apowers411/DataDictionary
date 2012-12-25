@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121118064408) do
+ActiveRecord::Schema.define(:version => 20121225053223) do
 
   create_table "dataelements", :force => true do |t|
     t.string   "originalname"
@@ -35,6 +35,10 @@ ActiveRecord::Schema.define(:version => 20121118064408) do
     t.text     "comments"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.integer  "productid"
+    t.date     "update"
+    t.boolean  "scraped"
+    t.boolean  "datafile"
   end
 
   create_table "datatable_dataelements", :force => true do |t|
@@ -53,6 +57,14 @@ ActiveRecord::Schema.define(:version => 20121118064408) do
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
     t.text     "description"
+  end
+
+  create_table "products", :force => true do |t|
+    t.string   "name"
+    t.string   "vertical"
+    t.string   "inhcontact"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "profilepage_dataelements", :force => true do |t|

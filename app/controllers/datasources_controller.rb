@@ -2,8 +2,11 @@ class DatasourcesController < ApplicationController
   # GET /datasources
   # GET /datasources.json
   def index
-    @datasources = Datasource.all
-
+    @search = Datasource.search do
+      fulltext params[:search]
+      paginate :page=>1, :per_page=>20
+    end
+    @datasources = @search.results
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @datasources }

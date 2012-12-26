@@ -1,0 +1,65 @@
+38	IPEDS	http://nces.ed.gov/ipeds/datacenter/	"Integrated Postsecondary Education Data System - system of interrelated, annual surveys conducted by the National Center for Education Statistics.  Information is gathered from every college, university, and vocational school that participates in federal financial aid programs."		9	9	08/15/12	datafile
+39	CDS	http://www.commondataset.org/	"The Common Data Set (CDS) initiative is a collaborative effort among data providers in the higher education community and publishers as represented by the College Board, Peterson's, and U.S. News & World Report"	Only a percentage of schools participate in the voluntary CDS Initiative and post the surveys on their own school websites.			08/15/12	scrape
+40	College Board	http://www.collegeboard.org/	"An online resource aimed to prepare prospective students by creating and administering SAT exams, AP courses and tests, and providing information on colleges and universities. "	Most of the CDS information is taken from College Board college profiles.			08/15/12	scrape
+41	IFSA-Butler	http://www.ifsa-butler.org	"The Institute for Study Abroad, Butler University provides quality study abroad opportunities for qualified North American undergraduates seeking to earn academic credit through study abroad.  While IFSA is an affiliation with Butler University for transcripts and other purposes, it is a separate organization."	Roughly half of IFSA-Butler information was provided by the organization and the other half was scraped from their website.			12/01/12	datafile and scrape
+42	Youtube	http://www.youtube.com	Videos based on a select number of educational channels	This data was scraped and cleaned using python. 			11/01/12	scrape
+43	Slideshare	http://www.slideshare.net/developers	Provides slideshare	Used slideshare API (50K requests allowed per day. 				API
+44	Vault	http://thevault.noodle.org/	List of educational websites compiled by Learning Content Team	Variables are used for provider pages and learning pages				datafile
+45	Apps_Apple	http://www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.html	List of educational apps available through Apple App Store	There is an affiliate agreement				API
+1	Common Core Build a Table (school)	www.nces.ed.gov/	"The National Center of Educational Statistics provides a dataset composed of basic information for all elementary, middle and secondary public schools in the US and outlying territories. "	There are a total of 54 tables to download because the build a table service cannot accommodate all columns and states at once. 			01/01/12	datafile
+2	Common Core Build a Table (district)	www.nces.ed.gov/	The National Center of Educational Statistics provides a dataset composed of basic information for all districts in the US and outlying territories. 				01/01/12	datafile
+3	New York City Department of Education 	http://schools.nyc.gov	New York City Department of Education 					datafile
+4	New York State Department of Education 	http://www.p12.nysed.gov/	New York State Department of Education					datafile
+5	California Department of Education	http://www.cde.ca.gov	California Department of Education					datafile
+6	Massachusetts Department of Education 	http://profiles.doe.mass.edu/	Massachusetts Department of Education 					datafile
+7	Maryland Department of Education 	www.mdk12.org	Maryland Department of Education 					datafile
+8	Florida Department of Education 	www.fldoe.org	Florida Department of Education 					datafile
+9	North Carolina Department of Education	www.ncspublicschools.org	North Carolina Department of Education 					datafile
+10	Texas Education Agency	http://www.tea.state.tx.us/	Texas Agency that compiles all education information into reports					datafile
+11	Colorado Department of Education 	http://www.cde.state.co.us/	Colorado Department of Education 					datafile
+12	Pennsylvania Department of Education 	www.education.state.pa.us	Pennsylvania Department of Education 					datafile
+13	Connecticut Department of Education	http://www.sde.ct.gov	Connecticut Department of Education 					datafile
+14	Michigan Department of Education 	http://www.michigan.gov/mde	Michigan Department of Education 					datafile
+15	Arizona Department of Education 	http://www.azed.gov/	Arizona Department of Education 					datafile
+16	Chicago Public Schools	www.cps.edu	Chicago Public Schools 					datafile
+17	Georgia Department of Education 	http://www.doe.k12.ga.us/Pages/Home.aspx	Georgia Department of Education 					datafile
+18	Virginia Department of Education 	http://www.doe.virginia.gov/	Virginia Department of Education 					datafile
+19	Washington Office of Superintendant of Public Instruction 	http://www.k12.wa.us/	Washington Office of Superintendant of Public Instruction 					datafile
+20	Wisconsin Department of Public Instruction 	http://dpi.wi.gov/	Wisconsin Department of Public Instruction 					datafile
+21	New Jersey Department of Education 	http://education.state.nj.us/	New Jersey Department of Education 					datafile
+22	Ohio Department of Education	http://ilrc.ode.state.oh.us/	Ohio Department of Education 					datafile
+23	South Carolina Department of Education 	http://ed.sc.gov/	South Carolina Department of Education 					datafile
+24	Nevada Department of Education 	http://www.doe.nv.gov/	Nevada Department of Education 					datafile
+25	Oregon Department of Education 	http://www.ode.state.or.us	Oregon Department of Education 					datafile
+26	Kansas Department of Education 	http://www.ksde.org/	Kansas Department of Education 					datafile
+27	Alabama Department of Education 	https://www.alsde.edu	Alabama Department of Education 					datafile
+28	Alaska Department of Education 	http://www.eed.state.ak.us/	Alaska Department of Education 					datafile
+29	Indiana Department of Education 	http://www.doe.in.gov/	Indiana Department of Education 					datafile
+30	Hawaii Department of Education 	http://doe.k12.hi.us/	Hawaii Department of Education 					datafile
+31	Iowa Department of Education 	http://educateiowa.gov/	Iowa Department of Education 					datafile
+32	Kentucky Department of Education 	http://education.ky.gov	Kentucky Department of Education 					datafile
+33	Louisiana Department of Education 	http://www.doe.state.la.us/	Louisiana Department of Education 					datafile
+34	Maine Department of Education	http://www.maine.gov/doe/	Maine Department of Education					datafile
+35	Minnesota Department of Education 	http://education.state.mn.us/mde/index.html	Minnesota Department of Education 					datafile
+36	New Hampshire Department of Education 							datafile
+37	Center for Education Reform (CER)	http://www.edreform.com/	The Center for Education Reform is an organization set out to make structural and sustainable changes in education to allow for better educational opportunities. 				01/01/12	datafile
+46	NCES Private School Survey	http://nces.ed.gov/surveys/pss/	"The purposes of this data collection activity are; a) to generate biennial data on the total number of private schools, teachers, and students; and b) to build an accurate and complete list of private schools to serve as a sampling frame for NCES surveys of private schools. The PSS began with the 1989-90 school year and has been conducted every two years since."					datafile
+47	LinkedIn		The data consists of mapping their IDs to the NCESID and graduate school ids. Data provided by linked in	This data is for the Linkedin Plugin that appears on the college and grad school profiles				datafile
+48	Princeton Review Reviews	 	"The data are academic, student body, campus life review data on college, law, MBA programs with student quotes"				01/01/12	datafile
+49	Forbes	http://www.forbes.com/top-colleges/	Forbes top schools and best value rankings				08/15/12	scrape
+50	Newsweek	http://www.thedailybeast.com/newsweek/features/2012/college-rankings.html	"Rankings include top party schoo, most affordable, happiest, stressful)"				08/15/12	scrape
+51	Princeton Review Rankings	http://www.princetonreview.com/college-rankings.aspx	"Rankings include best professors, best libraries, best career services, etc."				08/15/12	scrape
+52	Kiplinger 	http://www.kiplinger.com/magazine/archives/best-values-in-public-colleges-2012.html	"Rankings include best values in public colleges, liberal arts, private, etc."				08/15/12	scrape
+53	US News and World Report	http://www.usnews.com/rankings	"Rankings include best colleges, liberal arts, regional, etc."				08/15/12	scrape
+54	College Prowler Rankings	http://collegeprowler.com/rankings/	Rankings on all aspects of college	Rankings are dynamic which is an issue			08/15/12	scrape
+55	Washington Monthly 	http://www.washingtonmonthly.com/college_guide/toc_2012.php	"Rankings on top natiional university, liberal arts, BA, etc."				08/15/12	scape
+56	Wintergreen Orchard House: Mediical-Licenses AAMC surveys	http://www.wintergreenorchardhouse.com/dataLease.php?subPageCat=dataHome&pageCat=dataLease					06/15/12	datafile
+57	Wintergreen Orchard House:The Handbook of Private Schools	http://www.wintergreenorchardhouse.com/dataLease.php?subPageCat=dataHome&pageCat=dataLease					 	datafile
+58	Wintergreen Orchard House:Law	http://www.wintergreenorchardhouse.com/dataLease.php?subPageCat=dataHome&pageCat=dataLease						datafile
+59	Wintergreen Orchard House:Business	http://www.wintergreenorchardhouse.com/dataLease.php?subPageCat=dataHome&pageCat=dataLease						datafile
+60	Wintergreen Orchard House:Education	http://www.wintergreenorchardhouse.com/dataLease.php?subPageCat=dataHome&pageCat=dataLease						datafile
+61	Wintergreen Orchard House:Engineering	http://www.wintergreenorchardhouse.com/dataLease.php?subPageCat=dataHome&pageCat=dataLease						datafile
+62	Wintergreen Orchard House:Graduate School	http://www.wintergreenorchardhouse.com/dataLease.php?subPageCat=dataHome&pageCat=dataLease						datafile
+63	Independent Education Consultants of America	http://www.iecaonline.com/	Membership list	"IECA is the nation’s leading professional organization for independent educational consultants working in private practice. For 36 years IECA has helped its members serve families in educational decisions that include colleges, local day and boarding schools, schools or programs for students with learning or behavioral needs, international placements, summer opportunities, and graduate and professional schools."			05/01/12	datafile
+64	Wizant	 					08/01/12	datafile
+65	Tutored entered providers							provider_entered

@@ -9,7 +9,7 @@ class CasesController < ApplicationController
   def index
     @tasks = Highrise::Task.find(:all)
     @people = Highrise::Person.find(:all)
-    @chores = Highrise::Kase.find(:all)
+    @chores = Highrise::Kase.find(:all, :order => "created_at")
   end
 end
 

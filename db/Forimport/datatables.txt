@@ -1,0 +1,315 @@
+1	1	allstates1.txt	dropbox/K12 Update 2012/ CCD 2010-2011	2010	 	 	 	This file includes a total of all the K12 schools with a small group of the variables listed in the downloaded files from CCD1-CCD5
+2	1	allstates2.txt	dropbox/K12 Update 2012/ CCD 2010-2011	2010				This file includes a total of all the K12 schools with a small group of the variables listed in the downloaded files CCD6-CCD10
+3	1	allstates3.txt	dropbox/K12 Update 2012/ CCD 2010-2011	2010				This file includes a total of all the K12 schools with a small group of the variables listed in the downloaded files CCD11-CCD15
+4	1	allstates4.txt	dropbox/K12 Update 2012/ CCD 2010-2011	2010				This file includes a total of all the K12 schools with a small group of the variables listed in the downloaded files CCD16-CCD20
+5	1	allstates5.txt	dropbox/K12 Update 2012/ CCD 2010-2011	2010				This file includes a total of all the K12 schools with a small group of the variables listed in the downloaded files CCD21-CCD25
+6	1	allstates6.txt	dropbox/K12 Update 2012/ CCD 2010-2011	2010				This file includes a total of all the K12 schools with a small group of the variables listed in the downloaded files CCD26-CCD30
+7	1	allstates7.txt	dropbox/K12 Update 2012/ CCD 2010-2011	2010				This file includes a total of all the K12 schools with a small group of the variables listed in the downloaded files CCD31-CCD35
+8	1	allstates8.txt	dropbox/K12 Update 2012/ CCD 2010-2011	2010				This file includes a total of all the K12 schools with a small group of the variables listed in the downloaded files CCD36-CCD40
+9	1	allstates9.txt	dropbox/K12 Update 2012/ CCD 2010-2011	2010				This file includes a total of all the K12 schools with a small group of the variables listed in the downloaded files CCD41-CCD45
+10	1	alloutlying.txt	dropbox/K12 Update 2012/ CCD 2010-2011	2010				This file includes a total of all the K12 schools in outlying territories of the US with all the variables listed in the downloaded files CCD46-CCD54
+12	1	OLD DATA		2009				This table was the existing information on the website. It was the original information uploaded for K12
+11	2	district12000.csv	dropbox/K12 Update 2012/ District Information 	2000 Census				This file includes districtwide information for all schools within a district. 
+13	2	district22000.csv	dropbox/K12 Update 2012/ District Information	2000 Census				This file includes districtwide information for all schools within a district. 
+14	3	district32000.csv	dropbox/K12 Update 2012/ District Information	2000 Census				This file includes districtwide information for all schools within a district. 
+15	3	nyap.csv	dropbox/K12 Update 2012/ New York/ New York City School	2011	http://schools.nyc.gov/Accountability/data/TestResults/default.htm			AP Scores for NYC Schools 
+16	3	nyela.csv	dropbox/K12 Update 2012/ New York/ New York City School	2011	http://schools.nyc.gov/Accountability/data/TestResults/default.htm			
+17	3	nygrad.csv	dropbox/K12 Update 2012/ New York/ New York City School	2011	http://schools.nyc.gov/Accountability/data/GraduationDropoutReports/default.htm			This file contains graduation information for NYC Schools. It is downloadable from the side tab titled Graduation Results
+18	3	nymath.csv	dropbox/K12 Update 2012/ New York/ New York City School	2011	http://schools.nyc.gov/Accountability/data/TestResults/default.htm			Math Scores for NYC Schools 
+19	3	nyreportcard.csv	dropbox/K12 Update 2012/ New York/ New York City School	2011	http://schools.nyc.gov/Accountability/tools/report/default.htm			Report Card Grades for NYC Schools 
+20	3	nysat.csv	dropbox/K12 Update 2012/ New York/ New York City School	2011	http://schools.nyc.gov/Accountability/data/TestResults/default.htm			SAT Scores for NYC Schools 
+303	3	nyschoolid.csv	dropbox/K12 Update 2012/New York City School		http://schools.nyc.gov/Offices/EnterpriseOperations/DIIT/OOD/default.htm			Office of Organizational Data's List to Correspond DBN numbers with NYSDOE State BEDS Code
+21	4	nycviolence.csv	dropbox/K12 Update 2012/ New York/ New York State School	2010	http://www.p12.nysed.gov/irs/vadir/vadir-reporting.html			Violence information for NYC Schools 
+22	4	nysela.csv	dropbox/K12 Update 2012/ New York/ New York State School	2010	http://www.p12.nysed.gov/irs/ela-math/			ELA Scores for New York State Schools 
+23	4	nysmath.csv	dropbox/K12 Update 2012/ New York/ New York State School	2010	http://www.p12.nysed.gov/irs/ela-math/			Math Scores for New York State Schools 
+24	4	nysviolence.csv	dropbox/K12 Update 2012/ New York/ New York State School	2010	http://www.p12.nysed.gov/irs/vadir/vadir-reporting.html			Violence School Information for New York State Schools 
+264	4	nysschoolid	dropbox/K12 Update 2012/New York/ New York State School	2012				New York State School Identification Information. This file contains the NCES ID's and the BEDS Code. -Emailed directly by contact in the NYSED
+25	5	cahs.csv	dropbox/K12 Update 2012/ California/ School	2011	http://cahsee.cde.ca.gov/datafiles.asp			California High School Exit Examination (HSEE): ELA Reading and Math 
+26	5	caact.csv	dropbox/K12 Update 2012/ California/ School	2010	http://www.cde.ca.gov/ds/sp/ai/index.asp			California ACT Scores 
+27	5	caap.csv	dropbox/K12 Update 2012/ California/ School	2010	http://www.cde.ca.gov/ds/sp/ai/index.asp			California AP Scores 
+28	5	casat.csv	dropbox/K12 Update 2012/ California/ School	2010	http://www.cde.ca.gov/ds/sp/ai/index.asp			California SAT Scores 
+29	5	castar.csv	dropbox/K12 Update 2012/ California/ School	2011	http://star.cde.ca.gov/star2012/index.aspx			California STAR Test Scores
+30	5	caayp.csv	dropbox/K12 Update 2012/ California/ School	2011	http://www.cde.ca.gov/ta/ac/ay/aypdatafiles.asp			California AYP Results - original file in txt. The file has no headers but has a data dictionary to help determine column distinctions 
+31	5	cagrad.txt	dropbox/K12 Update 2012/ California/ School	2010	http://www.cde.ca.gov/ds/sd/sd/filesgrads.asp     Data Dictionary Available at: http://www.cde.ca.gov/ds/sd/sd/fsgrads.asp			California Graduation Rates
+263	5	caschoolid	dropbox/K12 Update 2012/California/ School	2011	http://www.cde.ca.gov/ds/si/ds/pubschls.asp			"California School Identification Information. This file contains the NCES ID's and CDS Code. The data dictionary is found on that page as well title ""File Stucture"". "
+32	6	maap.csv	dropbox/K12 Update 2012/ Massachusetts/ School	2009	http://profiles.doe.mass.edu/state_report/ap.aspx			Massachusetts AP Scores 
+33	6	magrad.csv	dropbox/K12 Update 2012/ Massachusetts/ School	2010	http://profiles.doe.mass.edu/state_report/gradrates.aspx			Massachusetts Graduation Rates 
+34	6	matech	dropbox/K12 Update 2012/ Massachusetts/ District	2010	http://profiles.doe.mass.edu/state_report/technology.aspx			Massachusetts District LevelTechnology Information
+35	6	mamcas.csv	dropbox/K12 Update 2012/ Massachusetts/ School	2011	http://profiles.doe.mass.edu/state_report/mcas.aspx			Massachusetts ELA and Math Test Results 
+36	6	masal.csv	dropbox/K12 Update 2012/ Massachusetts/ District	2010	http://profiles.doe.mass.edu/state_report/teachersalaries.aspx			Massachusetts District Level Teacher Salaries 
+37	6	masat.csv	dropbox/K12 Update 2012/ Massachusetts/ School	2009	http://profiles.doe.mass.edu/state_report/sat_perf.aspx			Massachusetts SAT Score Results 
+38	6	masi.csv	dropbox/K12 Update 2012/ Massachusetts/ School	2011	http://profiles.doe.mass.edu/state_report/indicators.aspx			"Massachusetts District Level Attendance Rates, Suspensions, and Truancies"
+39	7	mdcohortgrad.csv	dropbox/K12 Update 2012/ Maryland/ School	2011	http://msp.msde.state.md.us/downloadindex.aspx?K=99AAAA			Maryland Graduation Rates 
+40	7	mddropout.csv	dropbox/K12 Update 2012/ Maryland/ School	2010	http://msp.msde.state.md.us/downloadindex.aspx?K=99AAAA			Maryland Dropout Rates 
+41	7	mdgraddecisions.csv	dropbox/K12 Update 2012/ Maryland/ School	2011	http://msp.msde.state.md.us/downloadindex.aspx?K=99AAAA			Maryland Decisions of the Graduates 
+42	7	mdhsa.csv	dropbox/K12 Update 2012/ Maryland/ School	2011	http://msp.msde.state.md.us/downloadindex.aspx?K=99AAAA			Maryland High School Examination Results 
+43	7	mdmsa.csv	dropbox/K12 Update 2012/ Maryland/ School	2011	http://msp.msde.state.md.us/downloadindex.aspx?K=99AAAA			Maryland Elementary and Middle School Examination Results 
+44	7	mdschoollist.csv	dropbox/K12 Update 2012/ Maryland/ School	2010	http://msp.msde.state.md.us/downloadindex.aspx?K=99AAAA			
+45	7	mdteachercert.csv	dropbox/K12 Update 2012/ Maryland/ School	2011	http://msp.msde.state.md.us/downloadindex.aspx?K=99AAAA			Maryland District Level Teacher Certifications 
+46	7	mdattendance.csv	dropbox/K12 Update 2012/ Maryland/ School	2011	http://msp.msde.state.md.us/downloadindex.aspx?K=99AAAA			Maryland Attendance Rates 
+47	7	mdspecial.csv	dropbox/K12 Update 2012/ Maryland/ School	2011	http://msp.msde.state.md.us/downloadindex.aspx?K=99AAAA			Maryland Special Services Count of students 
+48	8	flact.csv	dropbox/K12 Update 2012/ Florida/ School	2011	www.fldoe.org/evaluation/act-sat-aparch.asp			Florida ACT Scores
+49	8	flap.csv	dropbox/K12 Update 2012/ Florida/ School	2011	www.fldoe.org/evaluation/act-sat-aparch.asp			Florida AP Scores 
+50	8	flsat.csv	dropbox/K12 Update 2012/ Florida/ School	2011	www.fldoe.org/evaluation/act-sat-aparch.asp			Florida SAT Scores 
+51	8	flamo.csv	dropbox/K12 Update 2012/ Florida/ School	2011	http://schoolgrades.fldoe.org/			Florida AYP Score Report
+52	8	flfreelunch.csv	dropbox/K12 Update 2012/ Florida/ School	2010	www.fldoe.org/eias/eiaspubs/xls/frplunch1011svy2.xls			Florida Free Lunch Information 
+53	8	flteacherscert.csv	dropbox/K12 Update 2012/ Florida/ School	2011	http://www.fldoe.org/eias/eiaspubs/pubstaff.asp			Florida Teacher Certifications 
+54	9	ncsat.csv	dropbox/K12 Update 2012/ North Carolina/ School	2010	http://www.ncpublicschools.org/accountability/reporting/sat/2011			North Carolina SAT Scores 
+55	9	nctest.csv	dropbox/K12 Update 2012/ North Carolina/ School	2010	http://report.ncsu.edu/ncpublicschools/AutoForward.do?forward=table.pagedef			North Carolina State Test Results 
+56	9	ncgradnew.csv	dropbox/K12 Update 2012/ North Carolina/ School	2011	http://www.ncpublicschools.org/accountability/reporting/cohortgradrate			North Carolina Graduation Rates 
+57	9	ncschoollist.csv	dropbox/K12 Update 2012/ North Carolina/ School	2010				North Carolina Public School List with School code 
+58	10	txdropout.csv	dropbox/K12 Update 2012/ Texas/ School	2010	http://www.tea.state.tx.us/acctres/drop_annual/1011/level.html   Data Dictionary can be found at :http://www.tea.state.tx.us/acctres/drop_annual/1011/clayout.html			Texas Dropout Information 
+59	10	txgrad.csv	dropbox/K12 Update 2012/ Texas/ School	2010	http://www.tea.state.tx.us/acctres/completion/2011/level.html Data Dictionary is available at: http://www.tea.state.tx.us/acctres/completion/2011/clayout.html			Texas Graduation Information
+60	11	codropout.csv	dropbox/K12 Update 2012/ Texas/ School	2011	http://www.cde.state.co.us/index_stats.htm			Colorado Dropout Information 
+61	11	cograd.csv	dropbox/K12 Update 2012/ Colorado/ School	2011	http://www.cde.state.co.us/index_stats.htm			Colorado Graduation Information 
+62	11	codistrictsuspension.csv	dropbox/K12 Update 2012/ Colorado/ School	2011	http://www.cde.state.co.us/cdereval/rv2012sdiincidents.htm			Colorado District Level Suspensions 
+63	11	cotruancy.csv	dropbox/K12 Update 2012/ Colorado/ School	2011	http://www.cde.state.co.us/cdereval/truancystatistics.htm			Colorado Truancy Information 
+64	11	cosecondary.csv	dropbox/K12 Update 2012/ Colorado/ School	2010	http://www.cde.state.co.us/cdereval/rvpostsec.htm			Colorado District Level Post Secondary Information
+65	12	pasat.csv	dropbox/K12 Update 2012/ Pennsylvania/ School	2011	http://www.education.state.pa.us/portal/server.pt/community/data_and_statistics/7202/sat_and_act_scores/674663			Pennsylvania SAT Information 
+66	12	paact.csv	dropbox/K12 Update 2012/ Pennsylvania/ School	2011	http://www.education.state.pa.us/portal/server.pt/community/data_and_statistics/7202/sat_and_act_scores/674663			Pennsylvania ACT Information 
+67	12	pagraddec.csv	dropbox/K12 Update 2012/ Pennsylvania/ School	2010	http://www.education.state.pa.us/portal/server.pt/community/graduates/7426			Pennsylvania Graduate Decisions
+68	12	padropout.csv	dropbox/K12 Update 2012/ Pennsylvania/ School	2010	http://www.education.state.pa.us/portal/server.pt/community/dropouts/7396			Pennsylvania Dropout Rates 
+69	12	padistrictlibraries.csv	dropbox/K12 Update 2012/ Pennsylvania/ School	2010	http://www.education.state.pa.us/portal/server.pt/community/library_statistics/8696			Pennsylvania District Library Information 
+70	13	ctcaptmath.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/OverallSummaryReportLanding.aspx			Connecticut State Test Math Scores 
+71	13	ctcaptreading.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/OverallSummaryReportLanding.aspx			Connecticut State Test Reading Scores 
+72	13	ctcaptsci.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/OverallSummaryReportLanding.aspx			Connecticut State Test Science Scores 
+73	13	ctcaptwriting.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/OverallSummaryReportLanding.aspx			Connecticut State Test Writing Scores 
+74	13	ctdropout.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/DropoutDT.aspx			Connecticut Dropout Rates
+75	13	ctdropoutgender.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/DropoutDT.aspx			Connecticut Dropout Rates broken down by gender 
+76	13	ctdropoutrace.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/DropoutDT.aspx			Connecticut Dropout Rates broken down by race
+77	13	ctgrad.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/GraduationDT.aspx			Connecticut Graduation Rates 
+78	13	ctgraddec.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/GraduationDT.aspx			Connecticut Graduation Decisions
+79	13	ctsatcomp.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/SATDT.aspx			Connecticut SAT Composite Scores 
+80	13	ctsatmathematics.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/SATDT.aspx			Connecticut SAT Mathematic Scores 
+81	13	ctsatreading.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/SATDT.aspx			Connecticut SAT Reading Scores 
+82	13	ctsatwriting.csv	dropbox/K12 Update 2012/ Connecticut/ School	2010	http://sdeportal.ct.gov/Cedar/WEB/ct_report/SATDT.aspx			Connecticut SAT Writing Scores 
+83	14	miayp.csv	dropbox/K12 Update 2012/ Michigan/ School	2011	http://www.michigan.gov/mde/046157-140-22709_31168_31530---00.html			Michigan AYP Information 
+84	14	miayp2.csv	dropbox/K12 Update 2012/ Michigan/ School	2011	"http://www.michigan.gov/mde/0, 4615,7-140-22709_00.html"			Michigan AYP Details for Test Categories
+85	14	miaypnotmet.csv	dropbox/K12 Update 2012/ Michigan/ School	2011	"http://www.michigan.gov/mde/0, 4615,7-140-22709_00.html"			Michigan Previous AYP Scores 
+86	14	miaypreportcard.csv	dropbox/K12 Update 2012/ Michigan/ School	2011	"http://www.michigan.gov/mde/0, 4615,7-140-22709_00.html"			Michigan Report Card and Accreditation Grades 
+87	15	azgradbysubgroup.csv	dropbox/K12 Update 2012/ Arizona/ School	2010	http://www.azed.gov/research-evaluation/graduation-rates/			Arizona Graduation Rates by Subgroup
+88	15	azdropout.csv	dropbox/K12 Update 2012/ Arizona/ School	2011	http://www.azed.gov/research-evaluation/dropout-rate-study-report/			Arizona Dropout Rates 
+89	15	azayp.csv	dropbox/K12 Update 2012/ Arizona/ School	2010	http://www.azed.gov/research-evaluation/az-learns/ayp-determinations/			Arizona AYP Scores 
+90	15	azcharterayp.csv	dropbox/K12 Update 2012/ Arizona/ School	2010	http://www.azed.gov/research-evaluation/az-learns/ayp-determinations/			Arizona Charter AYP Scores 
+91	15	azschoolimprove.csv	dropbox/K12 Update 2012/ Arizona/ School	2010	http://www.azed.gov/research-evaluation/az-learns/ayp-determinations/			Arizona AYP School Status
+92	16	chact.csv	dropbox/K12 Update 2012/ Illinois/ School	2011	http://www.cps.edu/SchoolData/Pages/SchoolData.aspx			Chicago ACT Composite Scores 
+93	16	chact2.csv	dropbox/K12 Update 2012/ Illinois/ School	2011	http://www.cps.edu/SchoolData/Pages/SchoolData.aspx			Chicago ACT Scores by Category 
+94	16	chap.csv	dropbox/K12 Update 2012/ Illinois/ School	2011	http://www.cps.edu/SchoolData/Pages/SchoolData.aspx			Chicago AP Scores 
+95	16	chayp.csv	dropbox/K12 Update 2012/ Illinois/ School	2011	http://www.cps.edu/SchoolData/Pages/SchoolData.aspx			Chicago AYP Results 
+96	16	chdropout.csv	dropbox/K12 Update 2012/ Illinois/ School	2011	http://www.cps.edu/SchoolData/Pages/SchoolData.aspx			Chicago Dropout Rate
+97	16	chfreshmanontrack.csv	dropbox/K12 Update 2012/ Illinois/ School	2011	http://www.cps.edu/SchoolData/Pages/SchoolData.aspx			Chicago Freshmen On Track Information 
+98	16	chgraddec.csv	dropbox/K12 Update 2012/ Illinois/ School	2011	http://www.cps.edu/SchoolData/Pages/SchoolData.aspx			Chicago Graduate Decisions 
+99	16	chisat.csv	dropbox/K12 Update 2012/ Illinois/ School	2011	http://www.cps.edu/SchoolData/Pages/SchoolData.aspx			Chicago Standardized Test Scores 
+100	16	chpsae.csv	dropbox/K12 Update 2012/ Illinois/ School	2011	http://www.cps.edu/SchoolData/Pages/SchoolData.aspx			Chicago PSAE Test Scores 
+101	16	chschoollist.csv	dropbox/K12 Update 2012/ Illinois/ School	2011	http://www.cps.edu/SchoolData/Pages/SchoolData.aspx			Chicago School List
+102	16	chworkkey.csv	dropbox/K12 Update 2012/ Illinois/ School	2011	http://www.cps.edu/SchoolData/Pages/SchoolData.aspx			Chicago Workkeys Score Results 
+103	17	gaayp.csv	dropbox/K12 Update 2012/ Georgia/ School	2010	http://www.doe.k12.ga.us/AYP/Pages/default.aspx			Georgia AYP Scores 
+104	17	gagrad.csv	dropbox/K12 Update 2012/ Georgia/ School	2010	http://www.doe.k12.ga.us/AYP/Pages/default.aspx			Georgia Graduation Rates -PDF Conversion
+105	17	gasat.csv	dropbox/K12 Update 2012/ Georgia/ School	2010	http://archives.doe.k12.ga.us/DMGetDocument.aspx/SAT%202011%20-%20Georgia%20High%20School%20Summary.pdf?p=6CC6799F8C1371F6FD62E1D78EBE58E7F3DE827F47EA4114D24E1A90A6B90633&Type=D			Georgia SAT Scores 
+106	17	gaprivateschoollist.csv	dropbox/K12 Update 2012/ Georgia/ School	2012	https://app3.doe.k12.ga.us/ows-bin/owa/psc_pack_mainmenu.pvsch_list_public?p_sort=1			Georgia's List of Private Schools for Fall Year 2012
+107	18	vaenglish.txt	dropbox/K12 Update 2012/ Virginia/ School	2011	http://www.doe.virginia.gov/statistics_reports/research_data/index.shtml			Virginia English Reading Scores 
+108	18	VA FULL ENGLISH WRITING FILE.csv	dropbox/K12 Update 2012/ Virginia/ School	2011	http://www.doe.virginia.gov/statistics_reports/research_data/index.shtml			Virginia English Writing Scores 
+109	18	VA FULL HISTORY FILE.csv	dropbox/K12 Update 2012/ Virginia/ School	2011	http://www.doe.virginia.gov/statistics_reports/research_data/index.shtml			Virginia History Scores 
+110	18	VA FULL MATH FILE.csv	dropbox/K12 Update 2012/ Virginia/ School	2011	http://www.doe.virginia.gov/statistics_reports/research_data/index.shtml			Virginia Math Scores 
+111	18	VA FULL SCIENCE FILE.csv	dropbox/K12 Update 2012/ Virginia/ School	2011	http://www.doe.virginia.gov/statistics_reports/research_data/index.shtml			Virginia Science Scores 
+112	18	vaadvancedpart.csv	dropbox/K12 Update 2012/ Virginia/ School	2010	http://www.doe.virginia.gov/statistics_reports/research_data/index.shtml			"Virignia Advanced Courses Info : IB, AP, College"
+113	18	vacohortgrad.csv	dropbox/K12 Update 2012/ Virginia/ School	2010	http://www.doe.virginia.gov/statistics_reports/research_data/index.shtml			Virginia Graduation Information 
+114	18	vadropout.csv	dropbox/K12 Update 2012/ Virginia/ School	2010	http://www.doe.virginia.gov/statistics_reports/research_data/index.shtml			Virginia Dropout Rates 
+115	18	vagrad.csv	dropbox/K12 Update 2012/ Virginia/ School	2010	http://www.doe.virginia.gov/statistics_reports/research_data/index.shtml			Virginia Graduation Information 
+116	18	vagrad2.csv	dropbox/K12 Update 2012/ Virginia/ School	2010	http://www.doe.virginia.gov/statistics_reports/research_data/index.shtml			Virginia Completer Rates 
+117	18	valunch.csv	dropbox/K12 Update 2012/ Virginia/ School	2010	http://www.doe.virginia.gov/support/nutrition/statistics/index.shtml			Virginia Free and Reduced Lunches Information 
+118	18	vaspecialed.csv	dropbox/K12 Update 2012/ Virginia/ School	2010	http://www.doe.virginia.gov/statistics_reports/enrollment/index.shtml			Virginia Special Education Student Information 
+119	19	waayptitle.csv	dropbox/K12 Update 2012/ Washington/ School	2010	http://www.k12.wa.us/Accountability/default.aspx			Washington AYP Titles 
+120	19	waawards.csv	dropbox/K12 Update 2012/ Washington/ School	2011	http://reportcard.ospi.k12.wa.us/DataDownload.aspx			Washington Status Award 
+121	19	waachieveavg.csv	dropbox/K12 Update 2012/ Washington/ School	2011	http://reportcard.ospi.k12.wa.us/DataDownload.aspx			Washington Achievement Average Scores 
+122	19	wadropoutall.csv	dropbox/K12 Update 2012/ Washington/ School	2010	http://www.k12.wa.us/DataAdmin/default.aspx#download			Washington Dropout Rates 
+123	19	waabsences.csv	dropbox/K12 Update 2012/ Washington/ School	2011	http://reportcard.ospi.k12.wa.us/DataDownload.aspx			Washington Absence Rates 
+124	19	wastatetestall.csv	dropbox/K12 Update 2012/ Washington/ School	2010	http://reportcard.ospi.k12.wa.us/DataDownload.aspx			
+125	19	wawlptall.csv	dropbox/K12 Update 2012/ Washington/ School	2010	http://reportcard.ospi.k12.wa.us/DataDownload.aspx			Washington WLPT Test Scores
+126	19	waprivateschoolenroll.csv	dropbox/K12 Update 2012/ Washington/ School	2011	http://www.k12.wa.us/DataAdmin/default.aspx#download			Washington Private School enrollment 
+127	19	waprivateschoolbyethnicity.csv	dropbox/K12 Update 2012/ Washington/ School	2011	http://www.k12.wa.us/DataAdmin/default.aspx#download			Washington Private School broken down by Ethnicity 
+128	20	Wisconsin ACT Results-agg.csv	dropbox/K12 Update 2012/ Wisconsin/ School	2011	http://dpi.wi.gov/sig/dm-acadachmt.html			Wisconsin ACT Scores
+129	20	Wisconsin Dropout Rates-agg.csv	dropbox/K12 Update 2012/ Wisconsin/ School	2011	http://dpi.wi.gov/sig/dm-acadachmt.html			Wisconsin Dropout Rates 
+130	20	Wisconsin Graduation Plans-agg.csv	dropbox/K12 Update 2012/ Wisconsin/ School	2011	http://dpi.wi.gov/sig/dm-acadachmt.html			Wisconsin Graduation Plans 
+131	20	Wisconsin High School Completion rates Four Year-agg.csv	dropbox/K12 Update 2012/ Wisconsin/ School	2011	http://dpi.wi.gov/sig/dm-acadachmt.html			Wisconsin Graduation and Completion Rates 
+132	20	Wisconsin Suspensions-agg.csv	dropbox/K12 Update 2012/ Wisconsin/ School	2011	http://dpi.wi.gov/sig/dm-acadachmt.html			Wisconsin Suspensions 
+133	20	Wisconsin WSAS Language Arts Results-agg.csv	dropbox/K12 Update 2012/ Wisconsin/ School	2011	http://dpi.wi.gov/sig/dm-acadachmt.html			Wisconsin WSAS Scores- English 
+134	20	Wisconsin WSAS Mathematics Results-agg.csv	dropbox/K12 Update 2012/ Wisconsin/ School	2011	http://dpi.wi.gov/sig/dm-acadachmt.html			Wisconsin WSAS Scores- Math 
+135	20	Wisconsin WSAS results Reading- agg.csv	dropbox/K12 Update 2012/ Wisconsin/ School	2011	http://dpi.wi.gov/sig/dm-acadachmt.html			Wisconsin WSAS Scores- Reading  
+136	20	Wisconsin WSAS Science Results-agg.csv	dropbox/K12 Update 2012/ Wisconsin/ School	2011	http://dpi.wi.gov/sig/dm-acadachmt.html			Wisconsin WSAS Scores- Science
+137	20	Wisconsin WSAS Social Studies Results-agg.csv	dropbox/K12 Update 2012/ Wisconsin/ School	2011	http://dpi.wi.gov/sig/dm-acadachmt.html			Wisconsin WSAS Scores- Social Studies 
+138	20	Wisconsin AYP Status.csv	dropbox/K12 Update 2012/ Wisconsin/ School	2011	http://dpi.wi.gov/sig/dm-acadachmt.html			Wisconsin AYP Status 
+139	21	njap.csv	dropbox/K12 Update 2012/ New Jersey/ School	2010	http://education.state.nj.us/rc/rc11/database.htm			New Jersey AP Scores 
+140	21	njassessment.csv	dropbox/K12 Update 2012/ New Jersey/ School	2010	http://education.state.nj.us/rc/rc11/database.htm			New Jersey Test Scores 
+141	21	njcharter.csv	dropbox/K12 Update 2012/ New Jersey/ School	2010	http://education.state.nj.us/rc/rc11/database.htm			New Jersey Charter School List with Classroom Information 
+142	21	njclasssize.csv	dropbox/K12 Update 2012/ New Jersey/ School	2010	http://education.state.nj.us/rc/rc11/database.htm			New Jersey Average Class sizes
+143	21	njfaculty.csv	dropbox/K12 Update 2012/ New Jersey/ School	2010	http://education.state.nj.us/rc/rc11/database.htm			New Jersey Faculty Information 
+144	21	njgradrates.csv	dropbox/K12 Update 2012/ New Jersey/ School	2010	http://education.state.nj.us/rc/rc11/database.htm			New Jersey Graduation Rates 
+145	21	njjobready.csv	dropbox/K12 Update 2012/ New Jersey/ School	2010	http://education.state.nj.us/rc/rc11/database.htm			"New Jersey Job Ready Examination Scores, Tests include vocational tests"
+146	21	NJSAT.csv	dropbox/K12 Update 2012/ New Jersey/ School	2010	http://education.state.nj.us/rc/rc11/database.htm			New Jersey SAT Scores 
+147	21	njschoolheader.csv	dropbox/K12 Update 2012/ New Jersey/ School	2010	http://education.state.nj.us/rc/rc11/database.htm			New Jersey Type of School 
+148	21	njschoolinfo.csv	dropbox/K12 Update 2012/ New Jersey/ School	2010	http://education.state.nj.us/rc/rc11/database.htm			New Jersey Academic Day Information 
+149	21	njschoolinfo2.csv	dropbox/K12 Update 2012/ New Jersey/ School	2010	http://education.state.nj.us/rc/rc11/database.htm			New Jersey Computer Information 
+150	21	njvocationcert.csv	dropbox/K12 Update 2012/ New Jersey/ School	2010	http://education.state.nj.us/rc/rc11/database.htm			New Jersey Vocation Information 
+151	22	ohaypatt.csv	dropbox/K12 Update 2012/ Ohio/ School	2010	http://ilrc.ode.state.oh.us/Downloads.asp			Ohio AYP Attendance Rates 
+152	22	ohaypgrad.csv	dropbox/K12 Update 2012/ Ohio/ School	2009	http://ilrc.ode.state.oh.us/Downloads.asp			Ohio AYP Graduation Rates 
+153	22	ohaypgrowth.csv	dropbox/K12 Update 2012/ Ohio/ School	2010	http://ilrc.ode.state.oh.us/Downloads.asp			Ohio AYP Growth Status 
+154	22	ohaypnotrated.csv	dropbox/K12 Update 2012/ Ohio/ School	2010	http://ilrc.ode.state.oh.us/Downloads.asp			Ohio AYP Schools not rated 
+155	22	ohayppart.csv	dropbox/K12 Update 2012/ Ohio/ School	2010	http://ilrc.ode.state.oh.us/Downloads.asp			Ohio AYP Participation Rates 
+156	22	ohaypprof.csv	dropbox/K12 Update 2012/ Ohio/ School	2010	http://ilrc.ode.state.oh.us/Downloads.asp			Ohio AYP Proficient Schools 
+157	22	ohaypsafe.csv	dropbox/K12 Update 2012/ Ohio/ School	2010	http://ilrc.ode.state.oh.us/PublicDW/asp/Main.aspx?evt=2001&src=Main.aspx.2001&systemFolder=7&Main.aspx=-MSTRIS2.ILRC.0_&shared=*-1.*-1.0.0.0&ftb=0.*0.*0.8.0.7-8.18_268453447.*-1.1.*0&fb=0.D3C7D461F69C4610AA6BAA5EF51F4125.Reports.8.0.7-8.768.769.774.770.773.55_268453447.*-1.1.*0			Ohio AYP Safe Harbor Information 
+158	22	ohaypsum.csv	dropbox/K12 Update 2012/ Ohio/ School	2010	http://ilrc.ode.state.oh.us/Downloads.asp			Ohio AYP Summary Information 
+159	22	ohinfocommunityschoolsall.csv	dropbox/K12 Update 2012/ Ohio/ School	2010	http://ilrc.ode.state.oh.us/Downloads.asp			Ohio Community Schools Basic Test Scores 
+160	22	ohschoolsall.csv	dropbox/K12 Update 2012/ Ohio/ School	2010	http://ilrc.ode.state.oh.us/Downloads.asp			Ohio All Schools Basic Test Scores 
+161	22	ohteacher.csv	dropbox/K12 Update 2012/ Ohio/ School	2010	http://ilrc.ode.state.oh.us/Downloads.asp			Ohio Teacher Information 
+162	23	scpovertyindex.csv	dropbox/K12 Update 2012/ South Carolina/ School	2010	http://ed.sc.gov/agency/programs-services/171/			South Carolina Poverty Information
+163	23	scelemmiddleayp1.csv	dropbox/K12 Update 2012/ South Carolina/ School	2010	http://ed.sc.gov/data/ayp/2011/index.cfm			South Carolina Elementary and Middle School AYP Information 
+164	23	scelemmiddleayp2.csv	dropbox/K12 Update 2012/ South Carolina/ School	2010	http://ed.sc.gov/data/ayp/2011/index.cfm			South Carolina Elementary and Middle School AYP Information 
+165	23	schighayp.csv	dropbox/K12 Update 2012/ South Carolina/ School	2010	http://ed.sc.gov/data/ayp/2011/index.cfm			South Carolina High School AYP Information 
+166	23	schighayp2.csv	dropbox/K12 Update 2012/ South Carolina/ School	2010	http://ed.sc.gov/data/ayp/2011/index.cfm			South Carolina High School AYP Information 
+167	23	scap.csv	dropbox/K12 Update 2012/ South Carolina/ School	2010	http://ed.sc.gov/data/national-assessments/			South Carolina AP Scores-changed from pdf to excel
+168	23	scact.csv	dropbox/K12 Update 2012/ South Carolina/ School	2010	http://ed.sc.gov/data/national-assessments/			South Carolina ACT Scores-changed from pdf to excel
+169	23	scib1.csv	dropbox/K12 Update 2012/ South Carolina/ School	2010	http://ed.sc.gov/data/national-assessments/			South Carolina IB Course Information-changed from pdf to excel
+170	23	scib2.csv	dropbox/K12 Update 2012/ South Carolina/ School	2010	http://ed.sc.gov/data/national-assessments/			South Carolina IB Course Information-changed from pdf to excel
+171	23	sctitlei.csv	dropbox/K12 Update 2012/ South Carolina/ School	2010	http://ed.sc.gov/agency/programs-services/77/			South Carolina Title I Schools - changed from pdf to excel
+172	24	nvschoolinfo.csv	dropbox/K12 Update 2012/ Nevada / School	2011	http://www.nevadareportcard.com/			"Nevada Schools Enrollment, Teacher, Test Score Information (Use Custom search header to export one large file which compiles all this information) -Must include everything on the report form and then export "
+173	24	nvschoollist.csv	dropbox/K12 Update 2012/ Nevada / School	2011	http://www.doe.nv.gov/Resources/Nevada2011-2012_SchoolsList.xlsx			Nevada School Principal and Contact Information
+304	24	nvayp		2012	http://ayp.nv.gov/AYP/AYPdesignations2012.pdf			Nevada Schools AYP Designation 
+174	25	orayp.csv	dropbox/K12 Update 2012/ Oregon / School	2011	http://www.ode.state.or.us/data/reportcard/media.aspx			Oregon AYP Information 
+175	25	orschoolinfo.csv	dropbox/K12 Update 2012/ Oregon / School	2011	http://www.ode.state.or.us/data/reportcard/media.aspx			Oregon Subgroup Breakdown of Scores 
+305	25	orschoolallaggregate.csv	dropbox/K12 Update 2012/Oregon/ School	2011	http://www.ode.state.or.us/data/reportcard/media.aspx			"Oregon School Information for Aggregate: This includes graduation rates, attendance rates, suspensions, sat scores "
+306	25	orschoolalldisaggregate.csv	dropbox/K12 Update 2012/Oregon/ School	2011	http://www.ode.state.or.us/data/reportcard/media.aspx			"Oregon School Information for Subrgoups: This includes graduation rates, attendance rates, suspensions, sat scores "
+176	26	ksteacher.csv	dropbox/K12 Update 2012/Kansas / School	2010	http://www.ksde.org/Default.aspx?tabid=1870			Kansas Teacher Salary Information 
+177	26	kslunches.csv	dropbox/K12 Update 2012/Kansas / School	2012	http://www.ksde.org/Default.aspx?tabid=1870			Kansas Free and Reduced Lunch Information 
+178	27	alschoollist.csv	dropbox/K12 Update 2012/Alabama / School	2011	https://www.alsde.edu/Home/SchoolInfo/Default.aspx			Alabama Basic School Information 
+179	27	alayp.csv	dropbox/K12 Update 2012/Alabama / School	2011	http://www.alsde.edu/Accountability/preAccountability.asp			"Alabama AYP Scores, Graduation Rate and Attendance Rates "
+180	27	al3test.csv	dropbox/K12 Update 2012/Alabama / School	2011	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama 3rd Grade Test Scores 
+181	27	al4test.csv	dropbox/K12 Update 2012/Alabama / School	2011	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama 4th Grade Test Scores 
+182	27	al5test.csv	dropbox/K12 Update 2012/Alabama / School	2011	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama 5th Grade Test Scores 
+183	27	al5scitest.csv	dropbox/K12 Update 2012/Alabama / School	2011	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama 5th Grade Science Test Scores 
+184	27	al6test.csv	dropbox/K12 Update 2012/Alabama / School	2011	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama 6th Grade Test Scores 
+185	27	al7test.csv	dropbox/K12 Update 2012/Alabama / School	2011	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama 7th Grade Test Scores 
+186	27	al7scitest.csv	dropbox/K12 Update 2012/Alabama / School	2011	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama 7th Grade Science Test Scores 
+187	27	al8test.csv	dropbox/K12 Update 2012/Alabama / School	2011	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama 8th Grade Test Scores 
+188	27	al11test.csv	dropbox/K12 Update 2012/Alabama / School	2011	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama 11th Grade Test Scores 
+189	27	al12test.csv	dropbox/K12 Update 2012/Alabama / School	2011	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama 12th Grade Test Scores 
+190	27	al3stantest.csv	dropbox/K12 Update 2012/Alabama / School	2010	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama Stanford Achievement Test Scores For Grade 3
+191	27	al4stantest.csv	dropbox/K12 Update 2012/Alabama / School	2010	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama Stanford Achievement Test Scores For Grade 4
+192	27	al5stantest.csv	dropbox/K12 Update 2012/Alabama / School	2010	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama Stanford Achievement Test Scores For Grade 5
+193	27	al6stantest.csv	dropbox/K12 Update 2012/Alabama / School	2010	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama Stanford Achievement Test Scores For Grade 6
+194	27	al7stantest.csv	dropbox/K12 Update 2012/Alabama / School	2010	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama Stanford Achievement Test Scores For Grade 7
+195	27	al8stantest.csv	dropbox/K12 Update 2012/Alabama / School	2010	http://www.alsde.edu/Accountability/preAccountability.asp			Alabama Stanford Achievement Test Scores For Grade 8
+267	28	akenroll.csv	dropbox/K12 Update 2012/Alaska / School	2010	http://www.eed.state.ak.us/stats/			Alaska Enrollment Information 
+268	28	akgrads.csv	dropbox/K12 Update 2012/Alaska / School	2010	http://www.eed.state.ak.us/stats/			Alaska Graduation Information 
+269	28	aktruancy 	dropbox/K12 Update 2012/Alaska / School	2010	http://www.eed.state.ak.us/stats/			Alaska Truancy Information 
+196	29	inalgebra.csv	dropbox/K12 Update 2012/Indiana/ School	2010	http://www.doe.in.gov/achievement/assessment/statewide-eca-results			Indiana Test Scores for Algebra Tests
+197	29	inbio.csv	dropbox/K12 Update 2012/Indiana/ School	2010	http://www.doe.in.gov/achievement/assessment/statewide-eca-results			Indiana Test Scores for Biology Tests
+198	29	indiploma1.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana Diploma Information for Graduates 
+199	29	indropout1.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana Dropout Rates 
+200	29	inenglish.csv	dropbox/K12 Update 2012/Indiana/ School	2010	http://www.doe.in.gov/achievement/assessment/statewide-eca-results			Indiana English results 
+201	29	ingradrates1.csv	dropbox/K12 Update 2012/Indiana/ School	2010	http://www.doe.in.gov/improvement/accountability/graduation-cohort-rate			Indiana Graduation Rates
+202	29	inib.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana IB Courses Information 
+203	29	inscalescoreprivate.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana Private School ELA/Math Scores
+204	29	intestscalepublic.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana Public Schools Test Scores 
+205	29	inscience.csv	dropbox/K12 Update 2012/Indiana/ School	2010	http://www.doe.in.gov/achievement/assessment/statewide-eca-results			Indiana Test Scores for Science Tests 
+206	29	inscienceprivate.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana Private School Test Scores for Science Tests 
+207	29	intestprctprivate.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana Private School ELA/Math Percents
+208	29	intestprctprivategeneral.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana Private School ELA/Math Percents
+209	29	intestprctpublic.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana Public School Percent Test Results 
+210	29	intestspecialed.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana Scores for Special Ed Students
+211	29	inap.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana AP Information 
+212	29	inattendance.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana Attendance Rates
+213	29	insat.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana SAT Scores
+214	29	inact.csv	dropbox/K12 Update 2012/Indiana/ School	2011	http://www.doe.in.gov/improvement/accountability/find-school-and-corporation-data-reports			Indiana ACT Scores
+215	30	hiayp.csv	dropbox/K12 Update 2012/Hawaii/ School	2011	http://arch.k12.hi.us/PDFs/nclb/2012/FinalAYPPubSchList20120928.pdf			Hawaii AYP Information - changed from pdf to excel
+216	30	hitest.csv	dropbox/K12 Update 2012/Hawaii/ School	2011	http://lilinote.k12.hi.us/STATE/COMM/DOEPRESS.NSF/a1d7af052e94dd120a2561f7000a037c/109bc351814f935f0a257a64006bd73e?OpenDocument			Hawaii Test Scores (includes science)
+217	30	hischoollist.csv	dropbox/K12 Update 2012/Hawaii/ School	2011	http://doe.k12.hi.us/myschool/sat-hcps-terranova.htm			Hawaii School Directory
+218	31	iowadistrictatt.csv	dropbox/K12 Update 2012/Iowa/ School	2010	http://educateiowa.gov/index.php?option=com_docman&task=cat_view&gid=519&Itemid=1563			Iowa District Attendance Rates 
+219	31	iowadistrictayp.csv	dropbox/K12 Update 2012/Iowa/ School	2011	http://educateiowa.gov/index.php?option=com_docman&task=cat_view&gid=519&Itemid=1563			Iowa District AYP Results 
+220	31	iowadistrictgradplans.csv	dropbox/K12 Update 2012/Iowa/ School	2010	http://educateiowa.gov/index.php?option=com_docman&task=cat_view&gid=531&Itemid=1563			Iowa District Graduation Plans 
+221	31	iowadistrictprincipalinfo.csv	dropbox/K12 Update 2012/Iowa/ School	2010	http://educateiowa.gov/index.php?option=com_docman&task=cat_view&gid=95&Itemid=1563			Iowa District Principal Information 
+222	31	iowadistrictsuspension.csv	dropbox/K12 Update 2012/Iowa/ School	2010	http://educateiowa.gov/index.php?option=com_docman&task=cat_view&gid=527&Itemid=1563			iowa District Suspension Information
+223	31	iowadistrictteacher.csv	dropbox/K12 Update 2012/Iowa/ School	2010	http://educateiowa.gov/index.php?option=com_docman&task=cat_view&gid=95&limit=5&order=name&dir=DESC&Itemid=55			Iowa District Teacher Information 
+224	31	iowadistricttech.csv	dropbox/K12 Update 2012/Iowa/ School	2010	http://educateiowa.gov/index.php?option=com_docman&task=cat_view&gid=177&Itemid=55			Iowa District Technology Information
+225	31	iowagrad.csv	dropbox/K12 Update 2012/Iowa/ School	2010	http://educateiowa.gov/index.php?option=com_docman&task=cat_view&gid=530&Itemid=1563			Iowa School Graduation Rates 
+226	32	kyact.csv	dropbox/K12 Update 2012/Kentucky/ School	2011	http://education.ky.gov/AA/Reports/Pages/ACT-Tested-Juniors.aspx			Kentucky ACT Scores
+227	32	kyattendance.csv	dropbox/K12 Update 2012/Kentucky/ School	2011	http://education.ky.gov/AA/Reports/Pages/Nonacademic-Data.aspx			Kentucky Attendance Rates 
+228	32	kyretention.csv	dropbox/K12 Update 2012/Kentucky/ School	2011	http://education.ky.gov/AA/Reports/Pages/Nonacademic-Data.aspx			Kentucky Dropout Rates 
+229	32	kytransition.csv	dropbox/K12 Update 2012/Kentucky/ School	2011	http://education.ky.gov/AA/Reports/Pages/Nonacademic-Data.aspx			Kentucky Transition Rates 
+230	32	kycollegeexam.csv	dropbox/K12 Update 2012/Kentucky/ School	2011	http://education.ky.gov/AA/Reports/Pages/ACT-Tested-Juniors.aspx			Kentucky College Readiness Exam Scores 
+231	32	kyexplorescores.csv	dropbox/K12 Update 2012/Kentucky/ School	2011	http://education.ky.gov/AA/Reports/Pages/EXPLORE-and-PLAN-Data.aspx			Kentucky Explore Scores 
+232	32	kyexplorescores2.csv	dropbox/K12 Update 2012/Kentucky/ School	2011	http://education.ky.gov/AA/Reports/Pages/EXPLORE-and-PLAN-Data.aspx			Kentucky Explore Scores 
+233	32	kyplan.csv	dropbox/K12 Update 2012/Kentucky/ School	2011	http://education.ky.gov/AA/Reports/Pages/EXPLORE-and-PLAN-Data.aspx			Kentucky PLAN Scores 
+234	32	kyplan2.csv	dropbox/K12 Update 2012/Kentucky/ School	2011	http://education.ky.gov/AA/Reports/Pages/EXPLORE-and-PLAN-Data.aspx			Kentucky PLAN Scores 
+235	32	kygrad.csv	dropbox/K12 Update 2012/Kentucky/ School	2011	http://education.ky.gov/AA/Reports/Pages/Graduation-Rate-Data.aspx			Kentucky Graduation Rates 
+236	32	kydropout.csv	dropbox/K12 Update 2012/Kentucky/ School	2011	http://education.ky.gov/AA/Reports/Pages/Nonacademic-Data.aspx			Kentucky Graduation Rates 
+270	33	laact.csv	dropbox/K12 Update 2012/Louisiana / School	2010	http://www.laeducationresults.net/Downloads.aspx?RecordID=000			Louisiana ACT Scores 
+271	33	laayp.csv	dropbox/K12 Update 2012/Louisiana / School	2010	http://www.laeducationresults.net/Downloads.aspx?RecordID=000			Louisiana AYP Results 
+272	33	laeocalgebra.csv	dropbox/K12 Update 2012/Louisiana / School	2010	http://www.laeducationresults.net/Downloads.aspx?RecordID=000			Lousiana Algebra Results 
+273	33	laeocbiology.csv	dropbox/K12 Update 2012/Louisiana / School	2010	http://www.laeducationresults.net/Downloads.aspx?RecordID=000			Lousiana Biology Results 
+274	33	laeocenglish.csv	dropbox/K12 Update 2012/Louisiana / School	2010	http://www.laeducationresults.net/Downloads.aspx?RecordID=000			Lousiana English Results 
+275	33	laeocgeometry.csv	dropbox/K12 Update 2012/Louisiana / School	2010	http://www.laeducationresults.net/Downloads.aspx?RecordID=000			Lousiana Geometry Results 
+276	34	metest.csv	dropbox/K12 Update 2012/Maine / School	2011	http://www.maine.gov/education/mhsa/school_reports.htm			Maine Standardized High School Test Scores 
+277	34	metest2.csv	dropbox/K12 Update 2012/Maine / School	2011	http://www.maine.gov/education/mhsa/school_reports.htm			Maine Standardized Elementary and Middle School Test Scores 
+278	34	mescience.csv	dropbox/K12 Update 2012/Maine / School	2010	http://www.maine.gov/education/mea/edmea.htm			Maine Science Scores Grade 5 
+279	34	mescience2.csv	dropbox/K12 Update 2012/Maine / School	2010	http://www.maine.gov/education/mea/edmea.htm			Maine Science Scores Grade 8 
+280	34	meayp.csv	dropbox/K12 Update 2012/Maine / School	2010	http://www.maine.gov/education/pressreleases/ayp/fy2013/ayp-schools-status-12-13.html			Maine AYP Summary Results 
+281	34	metestresults.csv	dropbox/K12 Update 2012/Maine / School	2011	http://www.maine.gov/education/mhsa/school_reports.htm			Maine Summary of Achievement Levels 
+282	35	mndistrictdiscipline.csv	dropbox/K12 Update 2012/Minnesota/ School	2010	http://education.state.mn.us/MDEAnalytics/Data.jsp			Minnesota District Level Number of Discipline Incidents 
+283	35	mndistrictviolence.csv	dropbox/K12 Update 2012/Minnesota/ School	2010	http://education.state.mn.us/MDEAnalytics/Data.jsp			Minnesota District Level Violence Incidents based on type 
+284	35	mnacres.csv	dropbox/K12 Update 2012/Minnesota/ School	2011	http://education.state.mn.us/MDEAnalytics/Data.jsp			Minnesota Schools Acres of Properties
+285	35	mnscores.csv	dropbox/K12 Update 2012/Minnesota/ School	2011	http://education.state.mn.us/MDEAnalytics/Data.jsp			Minnesota Schools Score Results for ACCESS Exams 
+286	35	mnayp.csv	dropbox/K12 Update 2012/Minnesota/ School	2011	http://education.state.mn.us/MDEAnalytics/Data.jsp			Minnesota AYP Results 
+287	35	mnaypgrowth.csv	dropbox/K12 Update 2012/Minnesota/ School	2011	http://education.state.mn.us/MDEAnalytics/Data.jsp			Minnesota AYP Growth Results 
+288	35	mngradread.csv	dropbox/K12 Update 2012/Minnesota/ School	2011	http://education.state.mn.us/MDEAnalytics/Data.jsp			Minnesota Graduation Required Assessments for Diploma (GRAD) Reading 
+289	35	mngradwrite.csv	dropbox/K12 Update 2012/Minnesota/ School	2011	http://education.state.mn.us/MDEAnalytics/Data.jsp			Minnesota Graduation Required Assessments for Diploma (GRAD) Writing
+290	35	mngradmath.csv	dropbox/K12 Update 2012/Minnesota/ School	2011	http://education.state.mn.us/MDEAnalytics/Data.jsp			Minnesota Graduation Required Assessments for Diploma (GRAD) Math
+291	35	mndistrictdiscipliegender.csv	dropbox/K12 Update 2012/Minnesota/ School	2010	http://education.state.mn.us/MDEAnalytics/Data.jsp			Minnesota District Level Suspension/ Discipline Incidents broken down by Gender 
+292	35	mndistrictdisciplinegrade.csv	dropbox/K12 Update 2012/Minnesota/ School	2010	http://education.state.mn.us/MDEAnalytics/Data.jsp			Minnesota District Level Suspension/ Discipline Incidents broken down by Grade
+293	35	mnteacherdet.csv	dropbox/K12 Update 2012/Minnesota/ School	2011	http://education.state.mn.us/MDEAnalytics/Data.jsp			Minnesota Teacher Details
+294	36	nhayp.csv	dropbox/K12 Update 2012/New Hampshire/ School	2012	http://www.education.nh.gov/instruction/accountability/ayp/2012.htm			New Hampshire AYP Results 
+295	36	nhaypdetail.csv	dropbox/K12 Update 2012/New Hampshire/ School	2012	http://www.education.nh.gov/instruction/accountability/ayp/2012.htm			New Hampshire AYP Results with Details 
+296	36	nhgraddec.csv	dropbox/K12 Update 2012/New Hampshire/ School	2010	http://www.education.nh.gov/data/dropouts.htm			New Hampshire Graduation Decisions
+297	36	nhdropout.csv	dropbox/K12 Update 2012/New Hampshire/ School	2010	http://www.education.nh.gov/data/dropouts.htm			New Hampshire Dropout Rates
+298	36	nhavgclass.csv	dropbox/K12 Update 2012/New Hampshire/ School	2011	http://www.education.nh.gov/data/attendance.htm			New Hampshire Average Class Size 
+299	36	nhdistrictteacherdegree.csv	dropbox/K12 Update 2012/New Hampshire/ School	2011	http://www.education.nh.gov/data/staffing.htm			New Hampshire District Level Teacher Degrees
+300	36	nhdistrictteachersal.csv	dropbox/K12 Update 2012/New Hampshire/ School	2011	http://www.education.nh.gov/data/staffing.htm			New Hampshire District Level Teacher Salary
+265	37	cersurvey.csv	dropbox/K12 Update 2012/CER files	2011 (?)	Partnership			"The CER Survey file provides basic information for charter schools as well as school - funding, challenges and more - Received via email from Alison Consoletti"
+266	37	cercharterinfo.txt	dropbox/K12 Update 2012/CER files	2011 (?)	Partnership			The CER Export info file provides information for charter school contacts as well as descriptions and special focus of the school - Received via email from Alison Consoletti 
+307	38	hd2011	2011	"Directory information (name, address, website, etc..)"	Dropbox/College Update 2012/IPEDS Source data/			
+308	38	ic2011	2011	"Educational offerings, organization, admissions, services and athletic associations"	Dropbox/College Update 2012/IPEDS Source data/			
+309	38	ic2011_ay	2011	Student charges for academic year programs	Dropbox/College Update 2012/IPEDS Source data/			
+310	38	ic2011_py	2011	Student charges by program (vocational programs)	Dropbox/College Update 2012/IPEDS Source data/			
+311	38	flags2011	2011	Response status for all survey components	Dropbox/College Update 2012/IPEDS Source data/			
+312	38	effy2011	2011	12-month unduplicated headcount: 2010-11	Dropbox/College Update 2012/IPEDS Source data/			
+313	38	efia2011	2011	12-month instructional activity: 2010-11	Dropbox/College Update 2012/IPEDS Source data/			
+314	38	c2011_a	2011	"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 2010-11"	Dropbox/College Update 2012/IPEDS Source data/			
+315	38	sal2011_a	2011	"Salaries of full-time instructional staff, by contract length, gender, and academic rank: Academic year 2011-12"	Dropbox/College Update 2012/IPEDS Source data/			
+316	38	sal2011_faculty	2011	"Faculty status of full-time instructional staff in 4-year institutions, by contract length, gender, and academic rank: Academic year 2011-12"	Dropbox/College Update 2012/IPEDS Source data/			
+317	38	sal2011_a_lt9	2011	"Number of full-time instructional faculty with less than 9-month contracts, by gender and academic rank: Academic year 2011-12"	Dropbox/College Update 2012/IPEDS Source data/			
+318	38	s2011_abd	2011	"Employees by primary occupation, salary categories, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2011"	Dropbox/College Update 2012/IPEDS Source data/			
+319	38	s2011_f	2011	"Full-time instruction/research/public service staff, by faculty status, academic rank, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2011"	Dropbox/College Update 2012/IPEDS Source data/			
+320	38	s2011_g	2011	"New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2011"	Dropbox/College Update 2012/IPEDS Source data/			
+321	38	s2011_cn	2011	"Employees by primary occupation, race/ethnicity, and gender (Degree-granting institutions with less than 15 full-time employees and all nondegree-granting institutions): Fall 2011"	Dropbox/College Update 2012/IPEDS Source data/			
+322	38	eap2011	2011	"Employees by faculty status, primary function/occupational activity: Fall 2011"	Dropbox/College Update 2012/IPEDS Source data/			
+323	38	sfa1011	2011	Student financial aid and net price: 2010-11	Dropbox/College Update 2012/IPEDS Source data/			
+324	38	ef2010d	2010	"Total entering class, retention rates, and student-to-faculty ratio: Fall 2010"	Dropbox/College Update 2012/IPEDS Source data/			
+325	38	gr200_10	2010	"Graduation rate data, 200% of normal time to complete - cohort year 2002 (4-year) and cohort year 2006 (less-than-4-year) institutions"	Dropbox/College Update 2012/IPEDS Source data/			
+326	39	cdsdirect	2011	Relevent information taken from the CDS surveys provided by the specific college or university's website	Dropbox/College Update 2012/CDS Direct/			
+327	40	cbprofiledata	2011	Relevent information taken from College Board profiles	Dropbox/College Update 2012/College Board/			
+328	41	Noodle 2013.xls	2012	Information on host universities provided by IFSA-Bulter	Dropbox/Jacob/Study_Abroad/			
+329	41	ifsa.csv	2012	Information scraped from IFSA-Butler website	Dropbox/Jacob/Study_Abroad/			ifsa-scrape.php was used to scrape and cleaned manually with Excel
+330	41	ifsa_gpa.csv	2012	GPA information scraped from website	Dropbox/Jacob/Study_Abroad/			scrape_extra.php was used to scrape
+331	44	the vault						
+332	56	MED_01_GEN_INFO						
+333	56	MED_02_COMBINED						
+334	56	MED_03_TUITION						
+335	56	MED_04_ENROLLMENT						
+336	56	MED_05_ADMISSIONS						
+337	56	MED_06_GRADUATION						
+338	56	MED_07_NIH_RESEARCH						
+339	56	MED_08_HOSPITAL						
+340	56	MED_09_SPECIALTY						
+341	56	MED_10_RESP_INFO						
+342	56	MED_11_PR_CONTACT						
+262	26	ksearlyreadingassessment.csv	dropbox/K12 Update 2012/Kansas/ School	2011	http://www.ksde.org/Default.aspx?tabid=159			Kansas Schools Informtion on Early Reading Assessments and Results

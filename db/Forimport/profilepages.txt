@@ -1,0 +1,15 @@
+11	K12	www.noodle.org/k-12/[province]/[city]/[name]#overview	Overview	Overview Tab provides Quick Facts of the School	9	9
+12	K12	www.noodle.org/k-12/[province]/[city]/[name]#academicsAndStudents	Academics & Students 	Academics and Students Tab provides student enrollment information		
+13	K12	www.noodle.org/k-12/[province]/[city]/[name]#district	District	District Tab provides Districtwide information for district of the school		
+14	K12		Header 	"Header appears on each tab and contains name, address, picture and a one line summary about the school. "		
+15	K12	www.noodle.org/k-12/[province]/[city]/[name]#admissionsAndTuition	Admissions and Tuition	Admissions and Tuition Tab provides tuition information about private schools 		
+1	College	www.noodle.org/college/[name]#overview	Overview	Provides statements about the school and from leading professionals say about the school		
+2	College	www.noodle.org/college/[name]#academics	Academics	"Provides information about areas of study, faculty, class sizes, and graduation rates"		
+3	College	www.noodle.org/college/[name]#studentLife	Student Life	"Provides information about the student body, activities and housing options"		
+4	College	www.noodle.org/college/[name]#finance	Finance	"Provides information about tuition, financial aid, and overall costs of each school"		
+5	College	www.noodle.org/college/[name]#admissions	Admissions	Provides information about what the school is looking for when admitting first-time first-year students		
+6	College	www.noodle.org/college/[name]#applying	Applying	Provides deadlines and contact information for the application process		
+7	College	www.noodle.org/college/[name]#rankings	Rankings	Collection of rankings and reports from various sources		
+8	Study Abroad		Header	Header for each tab for each program in the study abroad vertical		
+9	Study Abroad	www.noodle.org/study-abroad/[id]#Overview	Overview	Overview for the host universities offering study abroad programs through each provider		
+10	Study Abroad	www.noodle.org/study-abroad/[id]#Eligibility_and_Cost	Eligibility & Cost	Eligibilty and cost requirements for each host university offering study abroad programs through each provider		

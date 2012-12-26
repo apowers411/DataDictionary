@@ -1,4 +1,6 @@
 DataDictionary::Application.routes.draw do
+  resources :datasources_products
+
   resources :products
 
   root :to => 'cases#index'

@@ -1,0 +1,25 @@
+<%= form_for(@datasources_product) do |f| %>
+  <% if @datasources_product.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@datasources_product.errors.count, "error") %> prohibited this datasources_product from being saved:</h2>
+
+      <ul>
+      <% @datasources_product.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :datasource_id %><br />
+    <%= f.number_field :datasource_id %>
+  </div>
+  <div class="field">
+    <%= f.label :product_id %><br />
+    <%= f.number_field :product_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

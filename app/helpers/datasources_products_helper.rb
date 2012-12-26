@@ -1,0 +1,2 @@
+module DatasourcesProductsHelper
+end

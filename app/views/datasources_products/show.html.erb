@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Datasource:</b>
+  <%= @datasources_product.datasource_id %>
+</p>
+
+<p>
+  <b>Product:</b>
+  <%= @datasources_product.product_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_datasources_product_path(@datasources_product) %> |
+<%= link_to 'Back', datasources_products_path %>

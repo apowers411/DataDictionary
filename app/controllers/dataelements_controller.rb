@@ -4,7 +4,7 @@ class DataelementsController < ApplicationController
   def index
     @search = Dataelement.search do
       fulltext params[:search]
-      paginate :page=>1, :per_page=>20
+      paginate :page=> params[:page], :per_page=>20
     end
     @dataelements = @search.results
     #@search_total = @dataelements.total

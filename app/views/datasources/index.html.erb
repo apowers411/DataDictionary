@@ -7,7 +7,7 @@
     <%= text_field_tag :search, params[:search] %>
     <%= submit_tag "Search", :name => nil %>
 <% end %>
-<%= will_paginate @datasource %>
+
 
 <table class="table table-striped">
   <thead>
@@ -41,7 +41,6 @@
     <% end %>
   </tbody>
 </table>
-
 <%= link_to t('.new', :default => t("helpers.links.new")),
             new_datasource_path,
             :class => 'btn btn-primary' %>

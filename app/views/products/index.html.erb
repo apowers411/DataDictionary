@@ -1,14 +1,14 @@
 <%- model_class = Product -%>
 <div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
+  <h1>Categories</h1>
 </div>
 <table class="table table-striped">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th>ID</th>
       <th><%= model_class.human_attribute_name(:name) %></th>
-      <th><%= model_class.human_attribute_name(:vertical) %></th>
-      <th><%= model_class.human_attribute_name(:inhcontact) %></th>
+      <th>Number of Sources</th>
+      <th>Contact</th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -16,8 +16,8 @@
     <% @products.each do |product| %>
       <tr>
         <td><%= link_to product.id, product_path(product) %></td>
-        <td><%= product.name %></td>
-        <td><%= product.vertical %></td>
+        <td><%=link_to product.name, product_path(product) %></td>
+        <td><%= product.datasources_products.count(:datasource_id) %></td>
         <td><%= product.inhcontact %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),

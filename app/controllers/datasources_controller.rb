@@ -4,7 +4,7 @@ class DatasourcesController < ApplicationController
   def index
     @search = Datasource.search do
       fulltext params[:search]
-      paginate :page=>1, :per_page=>20
+      paginate :page=>params[:page], :per_page=>50
     end
     @datasources = @search.results
     respond_to do |format|

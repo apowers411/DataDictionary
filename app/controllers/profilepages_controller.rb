@@ -5,7 +5,7 @@ class ProfilepagesController < ApplicationController
     #@profilepages = Profilepage.all
     @search=Profilepage.search do
       fulltext params[:search]
-      paginate :page=>1, :per_page=>20
+      paginate :page=> params[:search], :per_page=>20
     end
     @profilepages = @search.results
     #respond_to do |format|

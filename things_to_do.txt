@@ -1,0 +1,7 @@
+make first page pretty
+rename all columns
+get source on all pages
+put facet on datatable by source
+
+add list of sources for product
+

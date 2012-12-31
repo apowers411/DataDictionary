@@ -1,6 +1,12 @@
+<style>
+  .title {
+     margin-top: 30px;
+	margin-bottom:30px;
+  }
+</style>
+<h2 class=title>Current Cases</h2>
 
-
-<table border="1" cellpadding="5">
+<table class="table table-striped" border="1" cellpadding="5">
   <thead>
     <tr>
       <th><%= "Created      " %></th>
@@ -9,7 +15,7 @@
     </tr>
   </thead>
   <tbody>
-    <% @chores.each do |chore| %>
+    <% @chores.each  do |chore| %>
       <tr>
         <td><%= "#{chore.created_at.to_date()}       " %></td>
         <td><%= "#{chore.name}        " %></td>

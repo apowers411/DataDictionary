@@ -9,7 +9,8 @@ class CasesController < ApplicationController
   def index
     @tasks = Highrise::Task.find(:all)
     @people = Highrise::Person.find(:all)
-    @chores = Highrise::Kase.find(:all, :order => "created_at")
+    @chores = Highrise::Kase.find(:all, :order => :created_at)
+    @chores.sort!{|a,b| a.created_at <=> b.created_at}
   end
 end
 

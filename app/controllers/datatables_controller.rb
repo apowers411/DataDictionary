@@ -3,7 +3,6 @@ class DatatablesController < ApplicationController
   # GET /datatables.json
   def index
     @datatables = Datatable.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @datatables }

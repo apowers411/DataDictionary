@@ -3,7 +3,7 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.all
-   # @sources = @products.datasource.all
+   # @sources = @products.datasources_products.all
 
     respond_to do |format|
       format.html # index.html.erb

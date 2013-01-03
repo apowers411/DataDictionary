@@ -2,7 +2,12 @@ class DatatablesController < ApplicationController
   # GET /datatables
   # GET /datatables.json
   def index
-    @datatables = Datatable.all
+    @search= Datatable.search do
+      fulltext params[:search]
+      paginate :page=>params[:page], :per_page=>50
+    end
+    @datatables = @search.results
+    #@datatables = Datatable.all
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @datatables }

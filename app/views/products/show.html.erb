@@ -30,8 +30,9 @@
       <th><%= model_class.human_attribute_name(:id) %></th>
       <th><%= model_class.human_attribute_name(:name) %></th>
       <th><%= model_class.human_attribute_name(:website) %></th>
+      <th><%= model_class.human_attribute_name(:lastupdate) %></th>
+      <th><%= model_class.human_attribute_name(:method) %></th>
       <th><%= model_class.human_attribute_name(:description) %></th>
-      <th><%= model_class.human_attribute_name(:comments) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -39,12 +40,12 @@
     <% @product.datasources.each do |datasource| %>
       <tr>
         <td><%= link_to datasource.id, datasource_path(datasource) %></td>
-        <td><%= datasource.name %></td>
+        <td><%= link_to datasource.name, datasource_path(datasource)  %></td>
         <td><%= link_to datasource.website, datasource.website %></td>
+        <td><%= datasource.lastupdate %></td>
+        <td><%= datasource.method %></td>
         <td><%= datasource.description %></td>
-        <td><%= datasource.comments %></td>
-        <td>
-          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+        <td><%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_datasource_path(datasource), :class => 'btn btn-mini' %>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                       datasource_path(datasource),

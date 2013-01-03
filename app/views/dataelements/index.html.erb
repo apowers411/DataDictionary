@@ -1,6 +1,6 @@
 <%- model_class = Dataelement -%>
 <div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
+  <h1>Data Elements</h1>
 </div>
 <%= form_tag dataelements_path, :method => :get do %>
   <p>
@@ -9,16 +9,16 @@
 <% end %>
 
 <h4><%="# of results:  #{@dataelements.total_entries}"%></h4>
+<%= will_paginate @dataelements %>
 <table class="table table-striped">
   <thead>
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
+      <th>Source</th>
       <th><%= model_class.human_attribute_name(:devname) %></th>
       <th><%= model_class.human_attribute_name(:originalname) %></th>
       <th><%= model_class.human_attribute_name(:description) %></th>
-      <th><%= model_class.human_attribute_name(:devtable) %></th>
       <th><%= model_class.human_attribute_name(:analysistype) %></th>
-      <th><%= model_class.human_attribute_name(:in_house_formula) %></th>
       <th><%= model_class.human_attribute_name(:comments) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
@@ -27,12 +27,11 @@
     <% @dataelements.each do |dataelement| %>
       <tr>
         <td><%= link_to dataelement.id, dataelement_path(dataelement) %></td>
+		<td><%= dataelement.datatable_dataelements.first.datatable.datasource.name %></td>
         <td><%= link_to dataelement.devname, dataelement_path(dataelement) %></td>
         <td><%= dataelement.originalname %></td>
         <td><%= dataelement.description %></td>
-        <td><%= dataelement.devtable %></td>
         <td><%= dataelement.analysistype %></td>
-        <td><%= dataelement.in_house_formula %></td>
         <td><%= dataelement.comments %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),

@@ -8,13 +8,15 @@
     <%= submit_tag "Search", :name => nil %>
 <% end %>
 <h4><%="# of results:  #{@datasources.total_entries}"%></h4>
-
+<%= will_paginate @datasources %>
 <table class="table table-striped">
   <thead>
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
       <th><%= model_class.human_attribute_name(:name) %></th>
       <th><%= model_class.human_attribute_name(:website) %></th>
+      <th>Last Update</th>
+      <th><%= model_class.human_attribute_name(:method) %></th>
       <th><%= model_class.human_attribute_name(:description) %></th>
       <th><%= model_class.human_attribute_name(:comments) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
@@ -26,6 +28,8 @@
         <td><%= link_to datasource.id, datasource_path(datasource) %></td>
         <td><%= datasource.name %></td>
         <td><%= link_to datasource.website, datasource.website %></td>
+        <td><%= datasource.lastupdate %></td>
+        <td><%= datasource.method %></td>
         <td><%= datasource.description %></td>
         <td><%= datasource.comments %></td>
         <td>

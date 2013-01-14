@@ -4,9 +4,13 @@ class DataelementsController < ApplicationController
   def index
     @search = Dataelement.search do
       fulltext params[:search]
+      facet(:ds)
+      with(:ds, params[:ds_check]) if params[:ds_check].present?
       paginate :page=> params[:page], :per_page=>20
     end
     @dataelements = @search.results
+    
+    
     #@search_total = @dataelements.total
    # @dataelements = Dataelement.all
 
@@ -16,8 +20,6 @@ class DataelementsController < ApplicationController
     #end
   end
 
-  # GET /dataelements/1
-  # GET /dataelements/1.json
   def show
     @dataelement = Dataelement.find(params[:id])
     @profilepages = @dataelement.profilepages.all

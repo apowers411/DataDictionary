@@ -8,8 +8,28 @@
     <%= submit_tag "Search", :name => nil %>
 <% end %>
 
+
+
 <h4><%="# of results:  #{@dataelements.total_entries}"%></h4>
 <%= will_paginate @dataelements %>
+
+<div class="container" id="facets">
+	<div class="row">
+		<div class="span3">
+			<h5>Sources</h5>
+			<ul>
+			<% for row in @search.facet(:ds).rows %>
+				<li>
+					<% if params[:ds_check].blank? %>
+					<%= link_to row.value, params.merge(:ds_check => row.value).except(:page) %> (<%= row.count %>)
+					<% else %>
+					<strong><%= row.value %></strong>(<%= link_to "remove", :ds_check => nil %>)
+					<% end %>
+				</li>	
+			<% end %>
+			</ul>
+			</div>
+<div class="span7">
 <table class="table table-striped">
   <thead>
     <tr>
@@ -50,3 +70,7 @@
 <%= link_to t('.new', :default => t("helpers.links.new")),
             new_dataelement_path,
             :class => 'btn btn-primary' %>
+</div>
+
+			</div>
+</div>

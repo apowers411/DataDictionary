@@ -1,7 +1,11 @@
-\
-rename all columns
-get source on all pages
-put facet on datatable by source
+
+make sure all elements have sources
+
+put facet on datatable by source/category
+
 add year to update and facet
-add search and paginate datatables
+
+redo all forms
+
+fix index on production
 

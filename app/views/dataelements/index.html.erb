@@ -23,12 +23,14 @@
 					<% if params[:ds_check].blank? %>
 					<%= link_to row.value, params.merge(:ds_check => row.value).except(:page) %> (<%= row.count %>)
 					<% else %>
-					<strong><%= row.value %></strong>(<%= link_to "remove", :ds_check => nil %>)
+					<strong><%= row.value %></strong>(<%= link_to "remove", params.merge(:ds_check => nil) %>)
 					<% end %>
 				</li>	
 			<% end %>
 			</ul>
 			</div>
+
+	
 <div class="span7">
 <table class="table table-striped">
   <thead>
@@ -71,6 +73,5 @@
             new_dataelement_path,
             :class => 'btn btn-primary' %>
 </div>
-
-			</div>
+				</div>
 </div>
